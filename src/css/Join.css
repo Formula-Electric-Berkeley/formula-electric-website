@@ -1,0 +1,27 @@
+.join h3 {
+	color: #ffffff;
+	font-size: 72px;
+	margin: 0 10% 0 4%;
+	font-weight: 300;
+	top: 50%;
+}
+
+.join .team-photo {
+	height: 90vh;
+	background-image: url('../img/applybackground.png');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	display: flex;
+	align-items: center;
+}
+
+@media (max-width: 500px) {
+	.join h3 {
+		font-size: 32px;
+		text-align: center;
+		margin: 0 7% 50% 7%;
+	}
+	.join .team-photo {
+		height: 80vh;
+	}
+}

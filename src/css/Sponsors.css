@@ -1,0 +1,101 @@
+/* css for the top banner declaring the page subject */
+.sponsors .header {
+	max-width: 100%;
+}
+
+.sponsors h2 {
+	color: #ffffff;
+	font-size: 34px;
+	text-transform: uppercase;
+	margin-bottom: 1.3rem;
+	font-family: Titillium Web;
+}
+.sponsors h3 {
+	color: #fdb515;
+	font-size: 32px;
+	text-transform: uppercase;
+	margin-top: 2rem;
+	font-family: Titillium Web;
+}
+.sponsors h4 {
+	color: #fdb515;
+	font-size: 26px;
+	text-transform: uppercase;
+	font-family: Titillium Web;
+}
+.sponsors hr {
+	border-top: 4px solid #0d6dc9;
+	width: 30%;
+	margin-left: 35%;
+}
+.sponsors p {
+	font-size: 20px;
+	margin-bottom: 3.4rem;
+}
+.sponsors .blue {
+	color: #4592db;
+}
+.sponsors .yellow {
+	color: #fdb515;
+}
+
+.sponsors .benefit-box {
+	background: #2e2e2e;
+	border-radius: 5px;
+	padding: 2rem 10%;
+	min-height: 70vh;
+}
+.sponsors .benefit-you-box {
+	box-shadow: 10px 10px #fdb515;
+	margin: 0 3% 3rem 10%;
+}
+.sponsors .benefit-us-box {
+	box-shadow: 10px 10px #4592db;
+	margin: 0 10% 3rem 3%;
+}
+.sponsors .benefit-box p {
+	text-align: left;
+	margin-top: 1rem;
+	margin-bottom: 0;
+}
+
+@media (max-width: 1000px) {
+	.sponsors h2 {
+		font-size: 28px;
+		margin-bottom: 1.3rem;
+	}
+	.sponsors h3 {
+		font-size: 26px;
+		text-transform: uppercase;
+		margin-top: 2rem;
+	}
+	.sponsors h4 {
+		font-size: 18px;
+		text-transform: uppercase;
+	}
+	.sponsors hr {
+		width: 80%;
+		margin-left: 10%;
+	}
+	.sponsors p {
+		font-size: 16px;
+		margin-bottom: 1.8rem;
+	}
+	.sponsors .benefit-box {
+		padding: 2rem 4%;
+		min-height: auto;
+	}
+	.sponsors .benefit-you-box {
+		box-shadow: 6px 6px #fdb515;
+		margin: 0 6% 2.6rem 6%;
+	}
+	.sponsors .benefit-us-box {
+		box-shadow: 6px 6px #4592db;
+		margin: 0 6% 3rem 6%;
+	}
+	.sponsors .benefit-box p {
+		text-align: left;
+		margin-top: 1rem;
+		margin-bottom: 0;
+	}
+}
