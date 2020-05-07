@@ -8,7 +8,6 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
-import LandingPhoto from '../img/landingheader.png';
 import LandingLogo from '../img/landingLogo.png';
 import LandingDescriptionPhoto from '../img/landingDescriptionPhoto.png';
 
@@ -43,11 +42,9 @@ const Landing = () => {
 	return (
 		<div className="landing">
 			<SiteNavbar sticky="false" bg="transparent" />
-			<div style={style.LandingDiv}>
-				<img src={LandingLogo} alt="landing logo" />
-				<h2 style={style.LandingSubtitle}>
-					Berkeley's Premiere Formula SAE Electric Vehicle Team
-				</h2>
+			<div className="header">
+				<img src={LandingLogo} alt="landing logo" className="landing-logo" />
+				<h2>Berkeley's Premiere Formula SAE Electric Vehicle Team</h2>
 				<a href="/about">
 					<Button className="landing-button">
 						<p>Learn More</p>
@@ -95,29 +92,6 @@ const Landing = () => {
 			</Container>
 		</div>
 	);
-};
-
-const style = {
-	LandingDiv: {
-		width: '100%',
-		//border: '1px solid blue',
-		height: '0',
-		paddingTop: '35%',
-		display: 'flex',
-		flexDirection: 'column',
-		alignItems: 'center',
-		justifyContent: 'flex-end',
-		backgroundImage: `url(${LandingPhoto})`,
-		// backgroundPosition: '0 10vh',
-		backgroundRepeat: 'no-repeat',
-		// backgroundAttachment: 'fixed',
-		backgroundSize: '100%',
-	},
-	LandingSubtitle: {
-		margin: '3% 0',
-		color: '#ffffff',
-		fontFamily: 'Titillium Web',
-	},
 };
 
 export default Landing;

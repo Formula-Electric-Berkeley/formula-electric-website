@@ -8,10 +8,16 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
 import HeaderAboutUs from '../img/HEADERaboutus.png';
+import HeaderAboutUsMobile from '../img/mobile/HEADERaboutus.png';
 
 import '../css/About.css';
 
 const About = () => {
+	const media = window.matchMedia('(max-width: 1000px)');
+	let headerPhoto = HeaderAboutUs;
+	if (media.matches) {
+		headerPhoto = HeaderAboutUsMobile;
+	}
 	$(document).ready(async function () {
 		/* Check the location of each desired element */
 		$('.fade-in').each(async function (i) {
@@ -59,7 +65,7 @@ const About = () => {
 		<div className="about">
 			<SiteNavbar bg="#1c1c1c" />
 			<img
-				src={HeaderAboutUs}
+				src={headerPhoto}
 				alt="header about us"
 				style={{ display: 'visible' }}
 				className="header"

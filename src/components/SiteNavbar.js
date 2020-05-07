@@ -4,12 +4,7 @@ import { Link } from '@reach/router';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 
-import Linkedin from '../img/social-media-icons/linkedin-icon.png';
-import Facebook from '../img/social-media-icons/facebook-icon.png';
-import Insta from '../img/social-media-icons/insta-icon.png';
 import NavbarLogo from '../img/navbarLogo.png';
-
-import '../css/Navbar.css';
 
 const SiteNavbar = (props) => {
 	return (
@@ -35,22 +30,11 @@ const SiteNavbar = (props) => {
 					/>
 				</Link>
 			</Navbar.Brand>
-			<Nav className="ml-auto social-nav">
-				<Link to="/about" className="social-container">
-					<img src={Linkedin} alt="linkedin icon" className="social-icon" />
-					<div className="icon-overlay"></div>
-				</Link>
-				<Link to="/team" className="social-container">
-					<img src={Facebook} alt="facebook icon" className="social-icon" />
-					<div className="icon-overlay"></div>
-				</Link>
-				<Link to="/team" className="social-container">
-					<img src={Insta} alt="instagram icon" className="social-icon" />
-					<div className="icon-overlay"></div>
-				</Link>
-			</Nav>
-			<Navbar.Toggle aria-controls="basic-navbar-nav" />
-			<Navbar.Collapse id="basic-navbar-nav" style={{ flexGrow: '0' }}>
+			<Navbar.Toggle
+				aria-controls="basic-navbar-nav"
+				style={{ borderColor: 'rgba(255, 255, 255, 0.3)' }}
+			/>
+			<Navbar.Collapse id="basic-navbar-nav">
 				<Nav className="ml-auto">
 					<Link to="/about">
 						<p style={style.NavText}>About</p>

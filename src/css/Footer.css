@@ -1,0 +1,76 @@
+.footer {
+	padding: 2rem 0;
+	background: #2a2a2a;
+}
+
+.footer .logo {
+	max-width: 60%;
+}
+
+/* Disclaimer/legal text styling */
+.footer .disclaimer-text {
+	padding: 1rem 0;
+	font-size: 16px;
+}
+
+/* Web at Berkeley Logo styling */
+.footer .web-at-berkeley {
+	margin: 0;
+	padding: 0.7rem;
+	font-size: 18px;
+}
+
+/* Row containing all the social icons */
+.footer .social-row {
+	display: flex;
+	justify-content: center;
+}
+
+/* Styling for the social icons */
+.footer .fa {
+	padding: 20px;
+	font-size: 20px;
+	width: 40px;
+	height: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-decoration: none;
+	margin: 1rem 10px 0 10px;
+	border-radius: 50%;
+	color: white;
+	transition: 0.2s ease; /* Amount of time for hover effect to take place */
+}
+
+/* social icon hover effect */
+.footer .fa:hover {
+	opacity: 0.7;
+}
+
+.footer .fa-facebook {
+	background: #3b5998;
+}
+
+.footer .fa-twitter {
+	background: #55acee;
+}
+
+.footer .fa-instagram {
+	background: #125688;
+}
+
+.footer .fa-linkedin {
+	background: #007bb5;
+}
+.footer .fa-youtube {
+	background: #bb0000;
+}
+
+.footer .fa-envelope-o {
+	background: #dd4b39;
+}
+
+/* makes sure no underline when hovered over */
+.footer .social-row a:hover {
+	text-decoration: none;
+}

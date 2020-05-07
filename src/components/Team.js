@@ -9,6 +9,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
 import HeaderTeam from '../img/HEADERmeettheteam.png';
+import HeaderTeamMobile from '../img/mobile/HEADERmeettheteam.png';
 import Member1 from '../img/team-members/1.jpg';
 import Member2 from '../img/team-members/2.jpg';
 import Member3 from '../img/team-members/3.jpg';
@@ -20,6 +21,11 @@ import Member7 from '../img/team-members/7.jpg';
 import '../css/Team.css';
 
 const Team = () => {
+	const media = window.matchMedia('(max-width: 1000px)');
+	let headerPhoto = HeaderTeam;
+	if (media.matches) {
+		headerPhoto = HeaderTeamMobile;
+	}
 	$(document).ready(function () {
 		$('.fade-in-image').each(async function (i) {
 			var top_of_object = $(this).offset().top;
@@ -66,7 +72,7 @@ const Team = () => {
 	return (
 		<div className="team">
 			<SiteNavbar sticky="top" bg="#1c1c1c" />
-			<img src={HeaderTeam} alt="header team" className="header" />
+			<img src={headerPhoto} alt="header team" className="header" />
 			<Container fluid className="member-container">
 				<Row className="justify-content-around member-row">
 					<Col xs={12} sm={4} className="text-center">

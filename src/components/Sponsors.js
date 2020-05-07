@@ -7,14 +7,24 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
 import HeaderSponsors from '../img/headersponsors.png';
+import HeaderSponsorsMobile from '../img/mobile/headersponsors.png';
+import SponsorPhotos from '../img/sponsors.png';
+import SponsorPhotosMobile from '../img/mobile/sponsors.png';
 
 import '../css/Sponsors.css';
 
 const Sponsors = () => {
+	const media = window.matchMedia('(max-width: 1000px)');
+	let sponsorPhoto = SponsorPhotos;
+	let headerPhoto = HeaderSponsors;
+	if (media.matches) {
+		sponsorPhoto = SponsorPhotosMobile;
+		headerPhoto = HeaderSponsorsMobile;
+	}
 	return (
 		<div className="sponsors">
 			<SiteNavbar sticky="top" bg="#1c1c1c" />
-			<img src={HeaderSponsors} alt="header sponsors" className="header" />
+			<img src={headerPhoto} alt="header sponsors" className="header" />
 			<Container fluid>
 				<Row className="justify-content-center">
 					<Col xs={12} className="text-center">
@@ -81,6 +91,9 @@ const Sponsors = () => {
 							</p>
 						</div>
 					</Col>
+				</Row>
+				<Row className="justify-content-center">
+					<img src={sponsorPhoto} alt="sponsors" className="sponsor-photos" />
 				</Row>
 			</Container>
 		</div>

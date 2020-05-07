@@ -58,6 +58,10 @@
 	margin-top: 1rem;
 	margin-bottom: 0;
 }
+.sponsors .sponsor-photos {
+	max-width: 85%;
+	margin: 4.5rem 0 7rem 0;
+}
 
 @media (max-width: 1000px) {
 	.sponsors h2 {
@@ -97,5 +101,9 @@
 		text-align: left;
 		margin-top: 1rem;
 		margin-bottom: 0;
+	}
+	.sponsors .sponsor-photos {
+		max-width: 85%;
+		margin: 0.5rem 0 4rem 0;
 	}
 }
