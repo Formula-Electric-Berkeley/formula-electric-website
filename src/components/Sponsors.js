@@ -6,10 +6,10 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
-import HeaderSponsors from '../img/headersponsors.png';
-import HeaderSponsorsMobile from '../img/mobile/headersponsors.png';
-import SponsorPhotos from '../img/sponsors.png';
-import SponsorPhotosMobile from '../img/mobile/sponsors.png';
+import HeaderSponsors from '../img/header-sponsors.webp';
+import HeaderSponsorsMobile from '../img/mobile/header-sponsors-mobile.webp';
+import SponsorPhotos from '../img/sponsors.webp';
+import SponsorPhotosMobile from '../img/mobile/sponsors-mobile.webp';
 
 import '../css/Sponsors.css';
 

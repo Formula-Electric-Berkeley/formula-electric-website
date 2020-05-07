@@ -8,8 +8,8 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
-import LandingLogo from '../img/landingLogo.png';
-import LandingDescriptionPhoto from '../img/landingDescriptionPhoto.png';
+import LandingLogo from '../img/logo.webp';
+import LandingDescriptionPhoto from '../img/landing-description-photo.webp';
 
 import '../css/Landing.css';
 

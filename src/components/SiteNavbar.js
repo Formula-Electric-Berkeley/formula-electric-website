@@ -4,7 +4,7 @@ import { Link } from '@reach/router';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 
-import NavbarLogo from '../img/navbarLogo.png';
+import NavbarLogo from '../img/navbar-logo.webp';
 
 const SiteNavbar = (props) => {
 	return (

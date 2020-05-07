@@ -7,8 +7,8 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
-import HeaderAboutUs from '../img/HEADERaboutus.png';
-import HeaderAboutUsMobile from '../img/mobile/HEADERaboutus.png';
+import HeaderAboutUs from '../img/header-about.webp';
+import HeaderAboutUsMobile from '../img/mobile/header-about-mobile.webp';
 
 import '../css/About.css';
 

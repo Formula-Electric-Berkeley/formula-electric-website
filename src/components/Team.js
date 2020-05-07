@@ -8,15 +8,15 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
-import HeaderTeam from '../img/HEADERmeettheteam.png';
-import HeaderTeamMobile from '../img/mobile/HEADERmeettheteam.png';
-import Member1 from '../img/team-members/1.jpg';
-import Member2 from '../img/team-members/2.jpg';
-import Member3 from '../img/team-members/3.jpg';
-import Member4 from '../img/team-members/4.jpg';
-import Member5 from '../img/team-members/5.jpg';
-import Member6 from '../img/team-members/6.jpg';
-import Member7 from '../img/team-members/7.jpg';
+import HeaderTeam from '../img/header-team.webp';
+import HeaderTeamMobile from '../img/mobile/header-team-mobile.webp';
+import Member1 from '../img/team-members/1.webp';
+import Member2 from '../img/team-members/2.webp';
+import Member3 from '../img/team-members/3.webp';
+import Member4 from '../img/team-members/4.webp';
+import Member5 from '../img/team-members/5.webp';
+import Member6 from '../img/team-members/6.webp';
+import Member7 from '../img/team-members/7.webp';
 
 import '../css/Team.css';
 
