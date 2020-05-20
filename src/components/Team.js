@@ -21,7 +21,9 @@ import Member7 from '../img/team-members/7.webp';
 import '../css/Team.css';
 
 const Team = () => {
-	const media = window.matchMedia('(max-width: 1000px)');
+	const media = window.matchMedia(
+		'(max-width: 500px) and (orientation: portrait)'
+	);
 	let headerPhoto = HeaderTeam;
 	if (media.matches) {
 		headerPhoto = HeaderTeamMobile;
@@ -75,73 +77,73 @@ const Team = () => {
 			<img src={headerPhoto} alt="header team" className="header" />
 			<Container fluid className="member-container">
 				<Row className="justify-content-around member-row">
-					<Col xs={12} sm={4} className="text-center">
+					<Col xs={12} md={4} className="text-center">
 						<TeamMember
 							image={Member4}
 							name="Brad"
 							role="President and Business & Operations"
-							major="placeholder"
+							major="Mechanical Engineering"
 							bio="Hi! I'm Brad!"
 						/>
 					</Col>
-					<Col xs={12} sm={4} className="text-center">
+					<Col xs={12} md={4} className="text-center">
 						<TeamMember
 							image={Member7}
 							name="Prakhar"
 							role="Chief ME"
-							major="placeholder"
+							major="Mechanical Engineering"
 							bio="Hi! I'm Prakhar!"
 						/>
 					</Col>
-					<Col xs={12} sm={4} className="text-center">
+					<Col xs={12} md={4} className="text-center">
 						<TeamMember
 							image={Member3}
 							name="Suhas"
 							role="Grad Advisor"
-							major="placeholder"
+							major="Mechanical Engineering"
 							bio="Hi! I'm Suhas!"
 						/>
 					</Col>
 				</Row>
 
 				<Row className="justify-content-around member-row">
-					<Col xs={12} sm={4} className="text-center">
+					<Col xs={12} md={4} className="text-center">
 						<TeamMember
 							image={Member2}
 							name="Mayank"
 							role="Chassis"
-							major="placeholder"
-							bio="Hi! I'm Mayank!"
+							major="Mechanical Engineering"
+							bio="G’day, I’m Mayank, a mechanical engineer at UC Berkeley. I’m an F1 fanatic who loves the challenge of designing high speed and high performance vehicles!"
 						/>
 					</Col>
-					<Col xs={12} sm={4} className="text-center">
+					<Col xs={12} md={4} className="text-center">
 						<TeamMember
 							image={Member5}
 							name="Zach"
 							role="Dynamics"
-							major="placeholder"
-							bio="Hi! I'm Zach!"
+							major="Mechanical Engineering"
+							bio="Hey, I’m Zach, a 4th year MechE. I grew up tuning and working on cars with my dad and love applying what I’ve learned as an ME to our car and contributing to the development of EV racing."
 						/>
 					</Col>
-					<Col xs={12} sm={4} className="text-center">
+					<Col xs={12} md={4} className="text-center">
 						<TeamMember
 							image={Member6}
 							name="Nimit"
 							role="Powertrain"
-							major="placeholder"
-							bio="Hi! I'm Nimit!"
+							major="Mechanical Engineering"
+							bio="Hi, I’m Nimit! I’m passionate about innovative mechanical design and entrepreneurship. I believe in building a sustainable future faster."
 						/>
 					</Col>
 				</Row>
 
 				<Row className="justify-content-around member-row">
-					<Col xs={12} sm={4} className="text-center">
+					<Col xs={12} md={4} className="text-center">
 						<TeamMember
 							image={Member1}
 							name="Avinash"
-							role="EECS"
-							major="placeholder"
-							bio="Hi! I'm Avinash!"
+							role="EECS Lead"
+							major="Electrical Engineering and Computer Science"
+							bio="Hi, I’m Avinash, an EECS major at UC Berkeley. I love the variety of challenges that come with designing high power vehicle systems."
 						/>
 					</Col>
 				</Row>

@@ -1,6 +1,6 @@
 /* css for the top banner declaring the page subject */
 .team .header {
-	max-width: 100%;
+	width: 100%;
 }
 
 /* Fixes margin for the entire member container */
@@ -36,6 +36,9 @@
 	width: 100%;
 	height: 0;
 	transition: 0.3s; /* length of time to cover image */
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 .team .individual-container:hover .overlay {
 	bottom: 0;
@@ -44,14 +47,15 @@
 /* centers text on image */
 .team .overlay-text {
 	position: absolute;
-	top: 50%;
-	left: 50%;
+	/* top: 50%; */
+	/* left: 50%;
 	-webkit-transform: translate(-50%, -50%);
 	-ms-transform: translate(-50%, -50%);
-	transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%); */
 	text-align: center;
 	color: whitesmoke;
 	font-size: 20px;
+	padding: 10% 5%;
 }
 
 /* set sizes and specifics for the member image and associated non-overlayed text */
@@ -84,7 +88,19 @@
 	opacity: 0;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 1100px) {
+	.team .overlay-text {
+		font-size: 14px;
+	}
+}
+
+@media (max-width: 768px) {
+	.team .overlay-text {
+		font-size: 24px;
+	}
+}
+
+@media (max-width: 768px) {
 	.team .member-major {
 		margin-bottom: 2.3rem;
 	}

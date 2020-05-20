@@ -13,11 +13,9 @@
 	font-size: 16px;
 }
 
-/* Web at Berkeley Logo styling */
-.footer .web-at-berkeley {
-	margin: 0;
-	padding: 0.7rem;
-	font-size: 18px;
+.footer .badge-container {
+	display: flex;
+	justify-content: flex-end;
 }
 
 /* Row containing all the social icons */
@@ -73,4 +71,39 @@
 /* makes sure no underline when hovered over */
 .footer .social-row a:hover {
 	text-decoration: none;
+}
+
+@media (max-width: 990px) {
+	.footer .logo {
+		max-width: 100%;
+	}
+}
+
+@media (max-width: 767px) {
+	.footer .logo {
+		max-width: 60%;
+		margin-left: 15%;
+	}
+	.footer .badge-container {
+		display: flex;
+		justify-content: center;
+		margin: 2vh 0;
+	}
+	.footer .disclaimer-text {
+		padding: 1vh 5%;
+		font-size: 22px;
+		text-align: center;
+	}
+}
+
+@media (max-width: 350px) {
+	.footer .fa {
+		padding: 10px;
+		font-size: 15px;
+		width: 30px;
+		height: 30px;
+	}
+	.footer .disclaimer-text {
+		font-size: 18px;
+	}
 }

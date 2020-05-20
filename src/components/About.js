@@ -13,7 +13,9 @@ import HeaderAboutUsMobile from '../img/mobile/header-about-mobile.webp';
 import '../css/About.css';
 
 const About = () => {
-	const media = window.matchMedia('(max-width: 1000px)');
+	const media = window.matchMedia(
+		'(max-width: 500px) and (orientation: portrait)'
+	);
 	let headerPhoto = HeaderAboutUs;
 	if (media.matches) {
 		headerPhoto = HeaderAboutUsMobile;

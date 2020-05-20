@@ -46,8 +46,8 @@ const Landing = () => {
 				<img src={LandingLogo} alt="landing logo" className="landing-logo" />
 				<h2>Berkeley's Premiere Formula SAE Electric Vehicle Team</h2>
 				<a href="/about">
-					<Button className="landing-button">
-						<p>Learn More</p>
+					<Button className="button landing-button">
+						<p className="button-text">Learn More</p>
 					</Button>
 				</a>
 			</div>
@@ -76,8 +76,8 @@ const Landing = () => {
 							</p>
 						</div>
 						<a href="/join">
-							<Button className="join-button fade-in">
-								<p>Join The Team</p>
+							<Button className="button join-button fade-in">
+								<p className="button-text">Join The Team</p>
 							</Button>
 						</a>
 					</Col>

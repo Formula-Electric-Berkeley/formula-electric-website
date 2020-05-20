@@ -43,10 +43,7 @@
 	font-size: 22px;
 	border-radius: 9px;
 	padding: 0.3rem 3rem;
-	margin-bottom: 5%;
-}
-.landing .landing-button:hover {
-	background: #003262;
+	/* margin-bottom: 5%; */
 }
 .landing .join-button {
 	min-width: 50%;
@@ -57,8 +54,28 @@
 	padding: 0.3rem 3rem;
 	border-radius: 9px;
 }
-.landing .join-button:hover {
+.landing .button:hover {
 	background: #003262;
+}
+.landing .button-text {
+	display: inline-block;
+	position: relative;
+	transition: 0.5s;
+}
+.landing .button-text:after {
+	content: '\00bb';
+	position: absolute;
+	opacity: 0;
+	top: 0;
+	right: -20px;
+	transition: 0.5s;
+}
+.landing .button:hover .button-text {
+	padding-right: 25px;
+}
+.landing .button:hover .button-text:after {
+	opacity: 1;
+	right: 0;
 }
 
 .landing .body {

@@ -14,7 +14,9 @@ import SponsorPhotosMobile from '../img/mobile/sponsors-mobile.webp';
 import '../css/Sponsors.css';
 
 const Sponsors = () => {
-	const media = window.matchMedia('(max-width: 1000px)');
+	const media = window.matchMedia(
+		'(max-width: 500px) and (orientation: portrait)'
+	);
 	let sponsorPhoto = SponsorPhotos;
 	let headerPhoto = HeaderSponsors;
 	if (media.matches) {
