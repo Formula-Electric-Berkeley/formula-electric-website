@@ -4,32 +4,38 @@
 }
 
 .footer .logo {
-	max-width: 60%;
+	max-width: 5%;
 }
 
 /* Disclaimer/legal text styling */
 .footer .disclaimer-text {
 	padding: 1rem 0;
 	font-size: 16px;
+	text-align: center;
 }
 
-.footer .badge-container {
+.footer .footer-container {
 	display: flex;
-	justify-content: flex-end;
+	justify-content: center;
 }
 
 /* Row containing all the social icons */
 .footer .social-row {
 	display: flex;
 	justify-content: center;
+	align-items: center;
+}
+
+.social-div {
+	display: flex;
 }
 
 /* Styling for the social icons */
 .footer .fa {
-	padding: 20px;
-	font-size: 20px;
-	width: 40px;
-	height: 40px;
+	padding: 25px;
+	font-size: 25px;
+	width: 50px;
+	height: 50px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -73,37 +79,22 @@
 	text-decoration: none;
 }
 
-@media (max-width: 990px) {
-	.footer .logo {
-		max-width: 100%;
-	}
-}
-
 @media (max-width: 767px) {
-	.footer .logo {
-		max-width: 60%;
-		margin-left: 15%;
+	.footer .fa {
+		padding: 30px;
+		font-size: 30px;
+		width: 60px;
+		height: 60px;
 	}
-	.footer .badge-container {
-		display: flex;
-		justify-content: center;
-		margin: 2vh 0;
+	.footer .logo {
+		max-width: 30%;
 	}
 	.footer .disclaimer-text {
-		padding: 1vh 5%;
-		font-size: 22px;
+		padding: 1.5vh 4%;
+		font-size: 18px;
 		text-align: center;
 	}
-}
-
-@media (max-width: 350px) {
-	.footer .fa {
-		padding: 10px;
-		font-size: 15px;
-		width: 30px;
-		height: 30px;
-	}
-	.footer .disclaimer-text {
-		font-size: 18px;
+	.social-div {
+		flex-direction: column;
 	}
 }
