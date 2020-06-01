@@ -7,8 +7,8 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
-import HeaderAboutUs from '../img/header-about.webp';
-import HeaderAboutUsMobile from '../img/mobile/header-about-mobile.webp';
+import HeaderAboutUs from '../img/header-about.png';
+import HeaderAboutUsMobile from '../img/mobile/header-about-mobile.png';
 
 import '../css/About.css';
 
@@ -43,23 +43,6 @@ const About = () => {
 					$(this).animate({ opacity: '1' }, 350);
 				}
 			});
-
-			// $('.header').each(function (i) {
-			// 	var bottom_of_header =
-			// 		$(this).offset().top + $(this).outerHeight() - $(window).scrollTop();
-			// 	var bottom_of_navbar = $('.siteNavbar').outerHeight();
-			// 	/* If the object is completely visible in the window, fade it it */
-			// 	if (
-			// 		bottom_of_navbar > bottom_of_header ||
-			// 		document.getElementById('header').style.display === 'none'
-			// 	) {
-			// 		document.getElementById('header').style.display = 'none';
-			// 		document.getElementById('siteNavbar').style.position = 'static';
-			// 	} else {
-			// 		document.getElementById('header').style.display = 'visible';
-			// 		document.getElementById('siteNavbar').style.position = 'sticky';
-			// 	}
-			// });
 		});
 	});
 
@@ -70,7 +53,7 @@ const About = () => {
 				src={headerPhoto}
 				alt="header about us"
 				style={{ display: 'visible' }}
-				className="header"
+				className="header selectDisable"
 				id="header"
 			/>
 			<Container fluid className="body">
@@ -136,7 +119,7 @@ const About = () => {
 						<hr />
 					</Col>
 				</Row>
-				<Row className="justify-content-center fade-in">
+				<Row className="justify-content-center fade-in mb-5">
 					<Col xs={12} sm={10} md={7} className="text-center">
 						<p>
 							Our team of engineers designs and builds a space-frame steel
@@ -146,7 +129,7 @@ const About = () => {
 					</Col>
 				</Row>
 
-				<Row className="justify-content-center fade-in">
+				{/* <Row className="justify-content-center fade-in">
 					<Col xs={12} className="text-center">
 						<h3>The budget</h3>
 						<hr />
@@ -200,7 +183,7 @@ const About = () => {
 							<p className="fade-in">Motor Controller</p>
 						</div>
 					</Col>
-				</Row>
+				</Row> */}
 			</Container>
 		</div>
 	);

@@ -8,15 +8,14 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
-import HeaderTeam from '../img/header-team.webp';
-import HeaderTeamMobile from '../img/mobile/header-team-mobile.webp';
-import Member1 from '../img/team-members/1.webp';
-import Member2 from '../img/team-members/2.webp';
-import Member3 from '../img/team-members/3.webp';
-import Member4 from '../img/team-members/4.webp';
-import Member5 from '../img/team-members/5.webp';
-import Member6 from '../img/team-members/6.webp';
-import Member7 from '../img/team-members/7.webp';
+import HeaderTeam from '../img/header-team.png';
+import HeaderTeamMobile from '../img/mobile/header-team-mobile.png';
+import Member2 from '../img/team-members/2.jpg';
+import Member3 from '../img/team-members/3.jpg';
+import Member4 from '../img/team-members/4.jpg';
+import Member5 from '../img/team-members/5.jpg';
+import Member6 from '../img/team-members/6.jpg';
+import Member7 from '../img/team-members/7.jpg';
 
 import '../css/Team.css';
 
@@ -74,7 +73,11 @@ const Team = () => {
 	return (
 		<div className="team">
 			<SiteNavbar sticky="top" bg="#1c1c1c" />
-			<img src={headerPhoto} alt="header team" className="header" />
+			<img
+				src={headerPhoto}
+				alt="header team"
+				className="header selectDisable"
+			/>
 			<Container fluid className="member-container">
 				<Row className="justify-content-around member-row">
 					<Col xs={12} md={4} className="text-center">
@@ -89,19 +92,19 @@ const Team = () => {
 					<Col xs={12} md={4} className="text-center">
 						<TeamMember
 							image={Member7}
-							name="Prakhar"
-							role="Chief ME"
+							name="Ted Zhang"
+							role="EECS Lead"
 							major="Mechanical Engineering"
-							bio="Hi! I'm Prakhar!"
+							bio="Hi! I'm Ted!"
 						/>
 					</Col>
 					<Col xs={12} md={4} className="text-center">
 						<TeamMember
 							image={Member3}
-							name="Suhas"
-							role="Grad Advisor"
+							name="Srikar Gattepalli"
+							role="Powertrain Lead"
 							major="Mechanical Engineering"
-							bio="Hi! I'm Suhas!"
+							bio="Hi! I'm Srikar!"
 						/>
 					</Col>
 				</Row>
@@ -128,22 +131,10 @@ const Team = () => {
 					<Col xs={12} md={4} className="text-center">
 						<TeamMember
 							image={Member6}
-							name="Nimit"
-							role="Powertrain"
+							name="Nimit Baid"
+							role="Chief ME"
 							major="Mechanical Engineering"
 							bio="Hi, I’m Nimit! I’m passionate about innovative mechanical design and entrepreneurship. I believe in building a sustainable future faster."
-						/>
-					</Col>
-				</Row>
-
-				<Row className="justify-content-around member-row">
-					<Col xs={12} md={4} className="text-center">
-						<TeamMember
-							image={Member1}
-							name="Avinash"
-							role="EECS Lead"
-							major="Electrical Engineering and Computer Science"
-							bio="Hi, I’m Avinash, an EECS major at UC Berkeley. I love the variety of challenges that come with designing high power vehicle systems."
 						/>
 					</Col>
 				</Row>

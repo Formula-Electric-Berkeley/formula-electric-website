@@ -8,8 +8,8 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
-import LandingLogo from '../img/logo.webp';
-import LandingDescriptionPhoto from '../img/landing-description-photo.webp';
+import LandingLogo from '../img/logo.png';
+import LandingDescriptionPhoto from '../img/landing-description-photo.png';
 
 import '../css/Landing.css';
 
@@ -43,7 +43,11 @@ const Landing = () => {
 		<div className="landing">
 			<SiteNavbar sticky="false" bg="transparent" />
 			<div className="header">
-				<img src={LandingLogo} alt="landing logo" className="landing-logo" />
+				<img
+					src={LandingLogo}
+					alt="landing logo"
+					className="landing-logo selectDisable"
+				/>
 				<h2>Berkeley's Premiere Formula SAE Electric Vehicle Team</h2>
 				<a href="/about">
 					<Button className="button landing-button">
@@ -85,7 +89,7 @@ const Landing = () => {
 						<img
 							src={LandingDescriptionPhoto}
 							alt="landing description"
-							className="text-image"
+							className="text-image selectDisable"
 						/>
 					</Col>
 				</Row>

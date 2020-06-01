@@ -9,7 +9,7 @@
 
 .join .team-photo {
 	height: 90vh;
-	background-image: url('../img/apply-background.webp');
+	background-image: url('../img/apply-background.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	display: flex;
@@ -26,6 +26,6 @@
 	}
 	.join .team-photo {
 		height: 80vh;
-		background-image: url('../img/mobile/apply-background-mobile.webp');
+		background-image: url('../img/mobile/apply-background-mobile.jpg');
 	}
 }

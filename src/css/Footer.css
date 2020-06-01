@@ -26,8 +26,12 @@
 	align-items: center;
 }
 
-.social-div {
+.footer .social-div {
 	display: flex;
+}
+
+.footer .social-link {
+	border-radius: 50%;
 }
 
 /* Styling for the social icons */

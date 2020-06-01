@@ -6,10 +6,10 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
-import HeaderSponsors from '../img/header-sponsors.webp';
-import HeaderSponsorsMobile from '../img/mobile/header-sponsors-mobile.webp';
-import SponsorPhotos from '../img/sponsors.webp';
-import SponsorPhotosMobile from '../img/mobile/sponsors-mobile.webp';
+import HeaderSponsors from '../img/header-sponsors.png';
+import HeaderSponsorsMobile from '../img/mobile/header-sponsors-mobile.png';
+import SponsorPhotos from '../img/sponsors.png';
+import SponsorPhotosMobile from '../img/mobile/sponsors-mobile.png';
 
 import '../css/Sponsors.css';
 
@@ -26,7 +26,11 @@ const Sponsors = () => {
 	return (
 		<div className="sponsors">
 			<SiteNavbar sticky="top" bg="#1c1c1c" />
-			<img src={headerPhoto} alt="header sponsors" className="header" />
+			<img
+				src={headerPhoto}
+				alt="header sponsors"
+				className="header selectDisable"
+			/>
 			<Container fluid>
 				<Row className="justify-content-center">
 					<Col xs={12} className="text-center">
@@ -37,13 +41,6 @@ const Sponsors = () => {
 							​YOUR MONETARY AND IN-KIND DONATIONS WILL BE 100% TAX DEDUCTIBLE.
 						</h4>
 						<hr />
-					</Col>
-					<Col xs={11} sm={10} md={8} className="text-center">
-						<p>
-							Our team of engineers designs and builds a space-frame steel
-							chassis to contain lithium-ion batteries, AC motors, and
-							high-performance suspension systems.
-						</p>
 					</Col>
 				</Row>
 				<Row className="justify-content-center">
@@ -95,7 +92,11 @@ const Sponsors = () => {
 					</Col>
 				</Row>
 				<Row className="justify-content-center">
-					<img src={sponsorPhoto} alt="sponsors" className="sponsor-photos" />
+					<img
+						src={sponsorPhoto}
+						alt="sponsors"
+						className="sponsor-photos selectDisable"
+					/>
 				</Row>
 			</Container>
 		</div>

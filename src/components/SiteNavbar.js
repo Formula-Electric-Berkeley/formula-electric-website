@@ -1,10 +1,9 @@
 import React from 'react';
-import { Link } from '@reach/router';
 
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 
-import NavbarLogo from '../img/navbar-logo.webp';
+import NavbarLogo from '../img/navbar-logo.png';
 
 const SiteNavbar = (props) => {
 	return (
@@ -20,15 +19,16 @@ const SiteNavbar = (props) => {
 			id="siteNavbar"
 		>
 			<Navbar.Brand>
-				<Link to="/">
+				<a href="/">
 					<img
 						src={NavbarLogo}
 						alt="navbar logo"
+						className="selectDisable"
 						style={{
 							width: '4rem',
 						}}
 					/>
-				</Link>
+				</a>
 			</Navbar.Brand>
 			<Navbar.Toggle
 				aria-controls="basic-navbar-nav"
@@ -36,21 +36,28 @@ const SiteNavbar = (props) => {
 			/>
 			<Navbar.Collapse id="basic-navbar-nav">
 				<Nav className="ml-auto">
-					<Link to="/about">
+					<a href="/about">
 						<p style={style.NavText}>About</p>
-					</Link>
-					<Link to="/team">
+					</a>
+					<a href="/team">
 						<p style={style.NavText}>Team</p>
-					</Link>
-					<Link to="/">
+					</a>
+					<a
+						href="https://evberkeleyblog.weebly.com/"
+						target="_blank"
+						rel="noopener noreferrer"
+					>
 						<p style={style.NavText}>Blog</p>
-					</Link>
-					<Link to="/sponsors">
+					</a>
+					<a href="/sponsors">
 						<p style={style.NavText}>Sponsors</p>
-					</Link>
-					<Link to="/join">
+					</a>
+					<a href="/join">
 						<p style={style.NavText}>Join Us</p>
-					</Link>
+					</a>
+					<a href="mailto: berkeleyformulae@gmail.com">
+						<p style={style.NavText}>Contact</p>
+					</a>
 				</Nav>
 			</Navbar.Collapse>
 		</Navbar>

@@ -27,7 +27,7 @@
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	background-image: url('../img/header-landing.webp');
+	background-image: url('../img/header-landing.jpg');
 	background-repeat: no-repeat;
 	background-size: 100%;
 }
@@ -120,7 +120,7 @@
 		margin-right: 10%;
 	}
 	.landing .header {
-		background-image: url('../img/mobile/header-landing-mobile.webp');
+		background-image: url('../img/mobile/header-landing-mobile.jpg');
 		padding: 4vh 5%;
 		min-height: auto;
 	}

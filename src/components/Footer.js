@@ -4,8 +4,8 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
-import LandingLogo from '../img/navbar-logo.webp';
-import Badge from '../img/badge.webp';
+import LandingLogo from '../img/navbar-logo.png';
+import Badge from '../img/badge.png';
 
 import '../css/Footer.css';
 
@@ -15,9 +15,13 @@ const Landing = () => {
 			<Container fluid>
 				<Row className="justify-content-center align-items-center mt-3">
 					<Col xs={12} md={4} className="footer-container">
-						<a href="https://www.ocf.berkeley.edu">
+						<a
+							href="https://www.ocf.berkeley.edu"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
 							<img
-								className="aligncenter size-full"
+								className="aligncenter size-full selectDisable"
 								src="https://www.ocf.berkeley.edu/hosting-logos/ocf-hosted-penguin-dark.svg"
 								alt="hosted by the ocf"
 								height="70"
@@ -32,34 +36,80 @@ const Landing = () => {
 						</p>
 					</Col>
 					<Col xs={12} md={4} className="footer-container">
-						<a href="http://webatberkeley.org/">
-							<img src={Badge} alt="WDB Badge" height="70" />
+						<a
+							href="http://webatberkeley.org/"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							<img
+								src={Badge}
+								alt="WDB Badge"
+								height="70"
+								className="selectDisable"
+							/>
 						</a>
 					</Col>
 				</Row>
 				<Row>
 					<Col xs={12} className="social-row">
 						<div className="social-div">
-							<a href="https://www.facebook.com/formulaelectricberkeley/">
+							<a
+								href="https://www.facebook.com/formulaelectricberkeley/"
+								target="_blank"
+								rel="noopener noreferrer"
+								className="social-link"
+							>
 								<i className="fa fa-facebook"></i>
 							</a>
 
-							<a href="https://twitter.com/cal_electric">
+							<a
+								href="https://twitter.com/cal_electric"
+								target="_blank"
+								rel="noopener noreferrer"
+								className="social-link"
+							>
 								<i className="fa fa-twitter"></i>
 							</a>
-							<a href="https://www.instagram.com/berkeleyformulaelectric/">
+							<a
+								href="https://www.instagram.com/berkeleyformulaelectric/"
+								target="_blank"
+								rel="noopener noreferrer"
+								className="social-link"
+							>
 								<i className="fa fa-instagram"></i>
 							</a>
 						</div>
-						<img src={LandingLogo} alt="landing logo" className="logo" />
+						<a href="/" className="logo">
+							<img
+								src={LandingLogo}
+								alt="landing logo"
+								className="selectDisable"
+								style={{ maxWidth: '100%' }}
+							/>
+						</a>
 						<div className="social-div">
-							<a href="https://www.linkedin.com/company/formulaelectricberkeley/">
+							<a
+								href="https://www.linkedin.com/company/formulaelectricberkeley/"
+								target="_blank"
+								rel="noopener noreferrer"
+								className="social-link"
+							>
 								<i className="fa fa-linkedin"></i>
 							</a>
-							<a href="https://www.youtube.com/channel/UCvDIeMEXHI4r0uX0OfNizZw">
+							<a
+								href="https://www.youtube.com/channel/UCvDIeMEXHI4r0uX0OfNizZw"
+								target="_blank"
+								rel="noopener noreferrer"
+								className="social-link"
+							>
 								<i className="fa fa-youtube"></i>
 							</a>
-							<a href="mailto:berkeleyformulae@gmail.com">
+							<a
+								href="mailto: berkeleyformulae@gmail.com"
+								target="_blank"
+								rel="noopener noreferrer"
+								className="social-link"
+							>
 								<i className="fa fa-envelope-o"></i>
 							</a>
 						</div>

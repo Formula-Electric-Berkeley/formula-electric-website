@@ -9,7 +9,7 @@ const TeamMember = (props) => {
 				<img
 					src={props.image}
 					alt={props.name}
-					className="member-photo fade-in-image"
+					className="member-photo fade-in-image selectDisable"
 				/>
 				<div className="overlay">
 					<div className="overlay-text">{props.bio}</div>
