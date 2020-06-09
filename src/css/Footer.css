@@ -83,7 +83,17 @@
 	text-decoration: none;
 }
 
+.large-footer {
+	display: flex;
+}
+.small-footer {
+	display: none;
+}
+
 @media (max-width: 767px) {
+	.footer {
+		padding: 0.5rem 0 1rem 0;
+	}
 	.footer .fa {
 		padding: 30px;
 		font-size: 30px;
@@ -92,13 +102,20 @@
 	}
 	.footer .logo {
 		max-width: 30%;
+		margin: 0 2rem;
 	}
 	.footer .disclaimer-text {
-		padding: 1.5vh 4%;
-		font-size: 18px;
+		padding: 0.8rem 0 0 0;
+		font-size: 12px;
 		text-align: center;
 	}
 	.social-div {
 		flex-direction: column;
+	}
+	.large-footer {
+		display: none;
+	}
+	.small-footer {
+		display: flex;
 	}
 }

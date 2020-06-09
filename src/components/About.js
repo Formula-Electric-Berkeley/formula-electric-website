@@ -13,13 +13,6 @@ import HeaderAboutUsMobile from '../img/mobile/header-about-mobile.png';
 import '../css/About.css';
 
 const About = () => {
-	const media = window.matchMedia(
-		'(max-width: 500px) and (orientation: portrait)'
-	);
-	let headerPhoto = HeaderAboutUs;
-	if (media.matches) {
-		headerPhoto = HeaderAboutUsMobile;
-	}
 	$(document).ready(async function () {
 		/* Check the location of each desired element */
 		$('.fade-in').each(async function (i) {
@@ -50,10 +43,15 @@ const About = () => {
 		<div className="about">
 			<SiteNavbar bg="#1c1c1c" />
 			<img
-				src={headerPhoto}
+				src={HeaderAboutUs}
 				alt="header about us"
-				style={{ display: 'visible' }}
-				className="header selectDisable"
+				className="header selectDisable large-screen"
+				id="header"
+			/>
+			<img
+				src={HeaderAboutUsMobile}
+				alt="header about us"
+				className="header selectDisable small-screen"
 				id="header"
 			/>
 			<Container fluid className="body">

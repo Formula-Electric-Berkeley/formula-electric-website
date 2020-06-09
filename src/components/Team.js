@@ -20,13 +20,6 @@ import Member7 from '../img/team-members/7.jpg';
 import '../css/Team.css';
 
 const Team = () => {
-	const media = window.matchMedia(
-		'(max-width: 500px) and (orientation: portrait)'
-	);
-	let headerPhoto = HeaderTeam;
-	if (media.matches) {
-		headerPhoto = HeaderTeamMobile;
-	}
 	$(document).ready(function () {
 		$('.fade-in-image').each(async function (i) {
 			var top_of_object = $(this).offset().top;
@@ -74,9 +67,14 @@ const Team = () => {
 		<div className="team">
 			<SiteNavbar sticky="top" bg="#1c1c1c" />
 			<img
-				src={headerPhoto}
+				src={HeaderTeam}
 				alt="header team"
-				className="header selectDisable"
+				className="header selectDisable large-screen"
+			/>
+			<img
+				src={HeaderTeamMobile}
+				alt="header team"
+				className="header selectDisable small-screen"
 			/>
 			<Container fluid className="member-container">
 				<Row className="justify-content-around member-row">

@@ -13,7 +13,7 @@ const Landing = () => {
 	return (
 		<footer className="text-center footer">
 			<Container fluid>
-				<Row className="justify-content-center align-items-center mt-3">
+				<Row className="justify-content-center align-items-center mt-3 large-footer">
 					<Col xs={12} md={4} className="footer-container">
 						<a
 							href="https://www.ocf.berkeley.edu"
@@ -25,7 +25,7 @@ const Landing = () => {
 								src="https://www.ocf.berkeley.edu/hosting-logos/ocf-hosted-penguin-dark.svg"
 								alt="hosted by the ocf"
 								height="70"
-							></img>
+							/>
 						</a>
 					</Col>
 					<Col xs={12} md={4} className="footer-container">
@@ -113,6 +113,54 @@ const Landing = () => {
 								<i className="fa fa-envelope-o"></i>
 							</a>
 						</div>
+					</Col>
+				</Row>
+
+				<Row className="justify-content-center align-items-center mt-3 small-footer">
+					<Col
+						xs={5}
+						md={4}
+						className="footer-container"
+						// style={{ padding: '0' }}
+					>
+						<a
+							href="https://www.ocf.berkeley.edu"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							<img
+								className="aligncenter size-full selectDisable"
+								src="https://www.ocf.berkeley.edu/hosting-logos/ocf-hosted-penguin-dark.svg"
+								alt="hosted by the ocf"
+								height="50"
+							/>
+						</a>
+					</Col>
+					<Col xs={6} md={4} className="footer-container">
+						<a
+							href="http://webatberkeley.org/"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							<img
+								src={Badge}
+								alt="WDB Badge"
+								height="48"
+								className="selectDisable"
+							/>
+						</a>
+					</Col>
+					<Col
+						xs={8}
+						md={4}
+						className="footer-container"
+						style={{ padding: '0' }}
+					>
+						<p className="disclaimer-text">
+							We are a student group acting independently of the University of
+							California. We take full responsibility for our organization and
+							this web site.
+						</p>
 					</Col>
 				</Row>
 			</Container>

@@ -10,6 +10,7 @@ import Col from 'react-bootstrap/Col';
 
 import LandingLogo from '../img/logo.png';
 import LandingDescriptionPhoto from '../img/landing-description-photo.png';
+import MetaImage from '../img/meta-image.png';
 
 import '../css/Landing.css';
 
@@ -42,6 +43,13 @@ const Landing = () => {
 	return (
 		<div className="landing">
 			<SiteNavbar sticky="false" bg="transparent" />
+			{/* Keep This image here for site preview */}
+			<img
+				src={MetaImage}
+				alt="meta"
+				className="selectDisable"
+				style={{ display: 'none' }}
+			/>
 			<div className="header">
 				<img
 					src={LandingLogo}

@@ -14,22 +14,18 @@ import SponsorPhotosMobile from '../img/mobile/sponsors-mobile.png';
 import '../css/Sponsors.css';
 
 const Sponsors = () => {
-	const media = window.matchMedia(
-		'(max-width: 500px) and (orientation: portrait)'
-	);
-	let sponsorPhoto = SponsorPhotos;
-	let headerPhoto = HeaderSponsors;
-	if (media.matches) {
-		sponsorPhoto = SponsorPhotosMobile;
-		headerPhoto = HeaderSponsorsMobile;
-	}
 	return (
 		<div className="sponsors">
 			<SiteNavbar sticky="top" bg="#1c1c1c" />
 			<img
-				src={headerPhoto}
+				src={HeaderSponsors}
 				alt="header sponsors"
-				className="header selectDisable"
+				className="header selectDisable large-screen"
+			/>
+			<img
+				src={HeaderSponsorsMobile}
+				alt="header sponsors"
+				className="header selectDisable small-screen"
 			/>
 			<Container fluid>
 				<Row className="justify-content-center">
@@ -93,7 +89,12 @@ const Sponsors = () => {
 				</Row>
 				<Row className="justify-content-center">
 					<img
-						src={sponsorPhoto}
+						src={SponsorPhotos}
+						alt="sponsors"
+						className="sponsor-photos selectDisable"
+					/>
+					<img
+						src={SponsorPhotosMobile}
 						alt="sponsors"
 						className="sponsor-photos selectDisable"
 					/>

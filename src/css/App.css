@@ -20,3 +20,19 @@ p {
 	-o-user-select: none;
 	user-select: none;
 }
+
+.large-screen {
+	display: block;
+}
+.small-screen {
+	display: none;
+}
+
+@media only screen and (max-width: 500px) and (orientation: portrait) {
+	.large-screen {
+		display: none;
+	}
+	.small-screen {
+		display: block;
+	}
+}
