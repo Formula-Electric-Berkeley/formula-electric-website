@@ -59,6 +59,9 @@ const SiteNavbar = (props) => {
 					<a href="mailto: berkeleyformulae@gmail.com">
 						<p style={style.NavText}>Contact</p>
 					</a>
+					<a href="https://give.berkeley.edu/egiving/index.cfm?fund=FU1349000">
+						<p style={style.NavText}>Donate</p>
+					</a>
 				</Nav>
 			</Navbar.Collapse>
 		</Navbar>
