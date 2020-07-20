@@ -81,10 +81,10 @@ const Team = () => {
 					<Col xs={12} md={4} className="text-center">
 						<TeamMember
 							image={Member4}
-							name="Brad"
+							name="Brad Ling"
 							role="President and Business & Operations"
 							major="Mechanical Engineering"
-							bio="Hi! I'm Brad!"
+							bio="Hi, I’m Brad, a MechE junior with an EECS minor who’s obsessed with speed - cars and computers alike. I can’t wait to see our own creation come into motion."
 						/>
 					</Col>
 					<Col xs={12} md={4} className="text-center">
@@ -92,8 +92,8 @@ const Team = () => {
 							image={Member7}
 							name="Ted Zhang"
 							role="EECS Lead"
-							major="Mechanical Engineering"
-							bio="Hi! I'm Ted!"
+							major="Computer Science and Physics"
+							bio="Good morning, I’m Ted, a CS & Physics major. I like tech, cars, rocket science and basically anything that comes with power."
 						/>
 					</Col>
 					<Col xs={12} md={4} className="text-center">
@@ -102,7 +102,7 @@ const Team = () => {
 							name="Srikar Gattepalli"
 							role="Powertrain Lead"
 							major="Mechanical Engineering"
-							bio="Hi! I'm Srikar!"
+							bio="Hey I’m Srikar, and I love using engineering to build go-karts, motorcycles, and now a formula-style, electric race car."
 						/>
 					</Col>
 				</Row>
@@ -111,7 +111,7 @@ const Team = () => {
 					<Col xs={12} md={4} className="text-center">
 						<TeamMember
 							image={Member2}
-							name="Mayank"
+							name="Mayank Gupta"
 							role="Chassis"
 							major="Mechanical Engineering"
 							bio="G’day, I’m Mayank, a mechanical engineer at UC Berkeley. I’m an F1 fanatic who loves the challenge of designing high speed and high performance vehicles!"
@@ -120,7 +120,7 @@ const Team = () => {
 					<Col xs={12} md={4} className="text-center">
 						<TeamMember
 							image={Member5}
-							name="Zach"
+							name="Zach ElShaer"
 							role="Dynamics"
 							major="Mechanical Engineering"
 							bio="Hey, I’m Zach, a 4th year MechE. I grew up tuning and working on cars with my dad and love applying what I’ve learned as an ME to our car and contributing to the development of EV racing."

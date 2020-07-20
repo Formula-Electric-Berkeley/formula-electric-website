@@ -6,6 +6,7 @@ import Nav from 'react-bootstrap/Nav';
 import NavbarLogo from '../img/navbar-logo.png';
 
 const SiteNavbar = (props) => {
+
 	return (
 		<Navbar
 			expand="lg"
