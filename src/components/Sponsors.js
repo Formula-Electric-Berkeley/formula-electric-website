@@ -96,7 +96,7 @@ const Sponsors = () => {
 					<img
 						src={SponsorPhotosMobile}
 						alt="sponsors"
-						className="sponsor-photos selectDisable"
+						className="sponsor-photos-mobile selectDisable"
 					/>
 				</Row>
 			</Container>
