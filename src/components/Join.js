@@ -10,8 +10,14 @@ const Join = () => {
 			<SiteNavbar sticky="false" bg="#1c1c1c" />
 			<div className="team-photo">
 				<h3>
-					We are not currently accepting applications. Check back in Fall 2020!
+				<br/>
+					FEB Fall 2020 recruitment is starting!<br/>
 				</h3>
+				<h4>
+				<br/>
+				We are looking for mechanical, electrical, and business teammates.<br/><br/>
+				Join our infosession to learn about FEB and the recruitment process and chat with our team.<br/>
+				</h4>
 			</div>
 		</div>
 	);

@@ -1,18 +1,26 @@
 .join h3 {
 	color: #ffffff;
-	font-size: 72px;
-	margin: 0 10% 0 4%;
+	font-size: 70px;
+	margin: 0 0% 0 4%;
 	font-weight: 300;
 	top: 50%;
 	font-family: Titillium Web;
 }
+.join h4 {
+	color: #ffffff;
+	font-size: 30px;
+	margin: 0 10% 0 15%;
+	font-weight: 300;
+	font-family: Titillium Web;
+}
 
 .join .team-photo {
-	height: 90vh;
+	height: 120vh;
 	background-image: url('../img/apply-background.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	display: flex;
+	flex-direction: column;
 	align-items: center;
 }
 
