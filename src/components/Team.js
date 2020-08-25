@@ -82,18 +82,47 @@ const Team = () => {
 						<TeamMember
 							image={Member4}
 							name="Brad Ling"
-							role="President and Business & Operations"
+							role="President"
 							major="Mechanical Engineering"
 							bio="Hi, I’m Brad, a MechE junior with an EECS minor who’s obsessed with speed - cars and computers alike. I can’t wait to see our own creation come into motion."
 						/>
 					</Col>
 					<Col xs={12} md={4} className="text-center">
 						<TeamMember
-							image={Member7}
-							name="Ted Zhang"
-							role="EECS Lead"
-							major="Computer Science and Physics"
-							bio="Good morning, I’m Ted, a CS & Physics major. I like tech, cars, rocket science and basically anything that comes with power."
+					  	image={Member6}
+							name="Nimit Baid"
+							role="Chief ME"
+							major="Mechanical Engineering"
+							bio="Hi, I’m Nimit! I’m passionate about innovative mechanical design and entrepreneurship. I believe in building a sustainable future faster."
+						/>
+					</Col>
+					<Col xs={12} md={4} className="text-center">
+						<TeamMember
+								image={Member7}
+								name="Ted Zhang"
+								role="EECS Lead"
+								major="Computer Science and Physics"
+								bio="Good morning, I’m Ted, a CS & Physics major. I like tech, cars, rocket science and basically anything that comes with power."
+						/>
+					</Col>
+				</Row>
+				<Row className="justify-content-around member-row">
+					<Col xs={12} md={4} className="text-center">
+						<TeamMember
+							image={Member2}
+							name="Mayank Gupta"
+							role="Chassis Lead"
+							major="Mechanical Engineering"
+							bio="G’day, I’m Mayank, a mechanical engineer at UC Berkeley. I’m an F1 fanatic who loves the challenge of designing high speed and high performance vehicles!"
+						/>
+					</Col>
+					<Col xs={12} md={4} className="text-center">
+						<TeamMember
+							image={Member5}
+							name="Zach ElShaer"
+							role="Dynamics Lead"
+							major="Mechanical Engineering"
+							bio="Hey, I’m Zach, a 4th year MechE. I grew up tuning and working on cars with my dad and love applying what I’ve learned as an ME to our car and contributing to the development of EV racing."
 						/>
 					</Col>
 					<Col xs={12} md={4} className="text-center">
@@ -103,36 +132,6 @@ const Team = () => {
 							role="Powertrain Lead"
 							major="Mechanical Engineering"
 							bio="Hey I’m Srikar, and I love using engineering to build go-karts, motorcycles, and now a formula-style, electric race car."
-						/>
-					</Col>
-				</Row>
-
-				<Row className="justify-content-around member-row">
-					<Col xs={12} md={4} className="text-center">
-						<TeamMember
-							image={Member2}
-							name="Mayank Gupta"
-							role="Chassis"
-							major="Mechanical Engineering"
-							bio="G’day, I’m Mayank, a mechanical engineer at UC Berkeley. I’m an F1 fanatic who loves the challenge of designing high speed and high performance vehicles!"
-						/>
-					</Col>
-					<Col xs={12} md={4} className="text-center">
-						<TeamMember
-							image={Member5}
-							name="Zach ElShaer"
-							role="Dynamics"
-							major="Mechanical Engineering"
-							bio="Hey, I’m Zach, a 4th year MechE. I grew up tuning and working on cars with my dad and love applying what I’ve learned as an ME to our car and contributing to the development of EV racing."
-						/>
-					</Col>
-					<Col xs={12} md={4} className="text-center">
-						<TeamMember
-							image={Member6}
-							name="Nimit Baid"
-							role="Chief ME"
-							major="Mechanical Engineering"
-							bio="Hi, I’m Nimit! I’m passionate about innovative mechanical design and entrepreneurship. I believe in building a sustainable future faster."
 						/>
 					</Col>
 				</Row>
