@@ -63,6 +63,20 @@ const Landing = () => {
 					</Button>
 				</a>
 			</div>
+			<div className= "recruitvideo">
+			<h4> Fall Recruitment  </h4>
+			<hr2/>
+			<Row noGutters="true">
+			<iframe
+				height="380"
+				width="660"
+				src="https://www.youtube.com/embed/pl0zajFT3-w"
+				frameborder="0"
+				allow="accelerometer; autoplay; encrypted-media;
+				gyroscope; picture-in-picture" allowfullscreen>
+			</iframe>
+			</Row>
+			</div>
 			<Container fluid className="body">
 				<Row noGutters="true">
 					<Col xs={12} sm={6} className="text-col">
