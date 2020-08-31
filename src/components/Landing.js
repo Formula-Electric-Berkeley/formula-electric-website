@@ -67,7 +67,9 @@ const Landing = () => {
 			<h4> Fall Recruitment  </h4>
 			<hr2/>
 			<Row noGutters="true">
+			<div className= "video">
 			<iframe
+				class="responsive-iframe"
 				height="380"
 				width="660"
 				src="https://www.youtube.com/embed/pl0zajFT3-w"
@@ -75,6 +77,7 @@ const Landing = () => {
 				allow="accelerometer; autoplay; encrypted-media;
 				gyroscope; picture-in-picture" allowfullscreen>
 			</iframe>
+			</div>
 			</Row>
 			</div>
 			<Container fluid className="body">
