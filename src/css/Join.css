@@ -24,6 +24,41 @@
 	align-items: center;
 }
 
+.join .join-button {
+	min-width: 50%;
+	text-transform: uppercase;
+	background: #fdb515;
+	border: none;
+	font-size: 22px;
+	padding: 0.3rem 3rem;
+	border-radius: 9px;
+}
+.join .button:hover {
+	background: #003262;
+}
+.join .button-text {
+	display: inline-block;
+	position: relative;
+	transition: 0.5s;
+}
+.join .button-text:after {
+	content: '\00bb';
+	position: absolute;
+	opacity: 0;
+	top: 0;
+	right: -20px;
+	transition: 0.5s;
+}
+.join .button:hover .button-text {
+	padding-right: 25px;
+}
+.join .button:hover .button-text:after {
+	opacity: 1;
+	right: 0;
+}
+.landing .body {
+	padding: 10vh 9%;
+}
 @media (max-width: 500px) {
 	.join h3 {
 		font-size: 32px;

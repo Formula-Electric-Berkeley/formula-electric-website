@@ -1,6 +1,12 @@
 import React from 'react';
+import $ from 'jquery';
 
 import SiteNavbar from './SiteNavbar';
+
+import Button from 'react-bootstrap/Button';
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 
 import '../css/Join.css';
 
@@ -23,6 +29,11 @@ const Join = () => {
 				Zoom link: https://berkeley.zoom.us/j/93585932979<br/>
 				"Note: you must be logged in with your UC Berkeley Zoom account to enter this meeting."
 				</h4>
+				<a href= "https://forms.gle/ToCNUxLYJNs5yPqu7">
+				<Button className="button join-button fade-in">
+					<p className="button-text">Apply Here!</p>
+				</Button>
+				</a>
 			</div>
 		</div>
 	);
