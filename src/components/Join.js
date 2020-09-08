@@ -22,13 +22,30 @@ const Join = () => {
 				<h4>
 				<br/>
 				We are looking for mechanical, electrical, and business teammates.<br/><br/>
-				Join our infosession to learn about FEB and the recruitment process and chat with our team.<br/><br/>
-				Two sessions:<br/>
-				1. Mon 8/31 8PM-9PM<br/>
-				2. Thu 9/3 8PM-9PM<br/><br/>
-				Zoom link: https://berkeley.zoom.us/j/93585932979<br/>
-				"Note: you must be logged in with your UC Berkeley Zoom account to enter this meeting."
+				<a href="https://berkeley.zoom.us/rec/share/Dq00Zk-ObOCNcPWkZ9bVsSTNOKJpIM8VwTOnvirTefiAmqrGZdoyqzq-UFH8oKjY.0pY3YfoD0h8Smi1T?startTime=1599188499000">Infosession Recording</a>
+				<br/><br/>
+				<a href="https://docs.google.com/presentation/d/131F8HJUAxsQalvTcHe5P7p4uLgUq5NXLogXWpzgZ-24/edit?usp=sharing">Infosession Slides</a>
+				<br/>
+				<br/>
 				</h4>
+				<div className= "recruitvideo">
+				<hr2/>
+				<Row noGutters="true">
+				<div className= "video">
+				<iframe
+					class="responsive-iframe"
+					height="380"
+					width="660"
+					src="https://www.youtube.com/embed/pl0zajFT3-w"
+					frameborder="0"
+					allow="accelerometer; autoplay; encrypted-media;
+					gyroscope; picture-in-picture" allowfullscreen>
+				</iframe>
+				</div>
+				</Row>
+				</div>
+				<br/>
+				<br/><br/>
 				<a href= "https://forms.gle/ToCNUxLYJNs5yPqu7">
 				<Button className="button join-button fade-in">
 					<p className="button-text">Apply Here!</p>

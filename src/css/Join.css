@@ -15,7 +15,7 @@
 }
 
 .join .team-photo {
-	height: 120vh;
+	height: 150vh;
 	background-image: url('../img/apply-background.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -56,9 +56,7 @@
 	opacity: 1;
 	right: 0;
 }
-.landing .body {
-	padding: 10vh 9%;
-}
+
 @media (max-width: 500px) {
 	.join h3 {
 		font-size: 32px;
@@ -69,13 +67,48 @@
 	}
 	.join h4 {
 		color: #ffffff;
-		font-size: 15px;
+		font-size: 16px;
 		margin: 0 0% 0 15%;
 		font-weight: 300;
 		font-family: Titillium Web;
 	}
 	.join .team-photo {
-		height: 80vh;
+		height: 110vh;
 		background-image: url('../img/mobile/apply-background-mobile.jpg');
+	}
+	.join .recruitvideo {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		/*flex-wrap: wrap;*/
+		align-content: space-between;
+		padding-top: 40px;
+		/*padding-left: 120px;*/
+		/*height: "252";
+		width:"448";*/
+		width: 100%;
+		height: auto;
+	}
+	.join .video {
+		display:flex;
+		left: 0%;
+		width: 100%;
+		height: 100%;
+	}
+	.join .responsive-iframe {
+		width: 100%;
+		height: 100%;
+	}
+	.join .text-container {
+		padding: 0 3% 2vh 3%;
+	}
+	.join .text {
+		font-size: 18px;
+		text-align: center;
+	}
+	.join .text-image {
+		max-height: 100%;
+		max-width: 90%;
+		margin-top: 3rem;
 	}
 }
