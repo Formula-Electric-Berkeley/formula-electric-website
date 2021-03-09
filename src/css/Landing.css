@@ -20,7 +20,7 @@
 }
 .landing hr2 {
 	border-bottom: 2px solid #ffffff;
-	width: 40%;
+	width: 30%;
 	/*margin-left: 20%;*/
 	/*margin-right: 30%;*/
 	margin-bottom: 4%;
@@ -33,12 +33,12 @@
 .landing .header {
 	width: 100%;
 	padding: 10vh 0;
-	min-height: 70vh;
+	min-height: 76vh;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	background-image: url('../img/header-landing.jpg');
+	background-image: url('../img/Landing_Car_3.png');
 	background-repeat: no-repeat;
 	background-size: 100%;
 }
@@ -156,13 +156,13 @@
 	}
 	.landing hr2 {
 		border-bottom: 2px solid #ffffff;
-		width: 70%;
+		width: 55%;
 		/*margin-left: 20%;*/
 		/*margin-right: 30%;*/
 		margin-bottom: 4%;
 	}
 	.landing .header {
-		background-image: url('../img/mobile/header-landing-mobile.jpg');
+		background-image: url('../img/mobile/header-landing-mobile.png');
 		padding: 4vh 5%;
 		min-height: auto;
 	}

@@ -1,10 +1,11 @@
 .join h3 {
 	color: #ffffff;
-	font-size: 70px;
+	font-size: 50px;
 	margin: 0 0% 0 4%;
 	font-weight: 300;
-	top: 50%;
+	top: 60%;
 	font-family: Titillium Web;
+	padding-top: 100px;
 }
 .join h4 {
 	color: #ffffff;
@@ -15,7 +16,7 @@
 }
 
 .join .team-photo {
-	height: 150vh;
+	height: 100vh;
 	background-image: url('../img/apply-background.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;

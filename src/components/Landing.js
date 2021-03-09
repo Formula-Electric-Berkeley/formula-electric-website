@@ -11,6 +11,7 @@ import Col from 'react-bootstrap/Col';
 import LandingLogo from '../img/logo.png';
 import LandingDescriptionPhoto from '../img/landing-description-photo.png';
 import MetaImage from '../img/meta-image.png';
+import LandingCar from '../img/Landing_Car.png';
 
 import '../css/Landing.css';
 
@@ -64,7 +65,7 @@ const Landing = () => {
 				</a>
 			</div>
 			<div className= "recruitvideo">
-			<h4> Fall Recruitment  </h4>
+			<h4>Crowdfunding</h4>
 			<hr2/>
 			<Row noGutters="true">
 			<div className= "video">
@@ -72,13 +73,22 @@ const Landing = () => {
 				class="responsive-iframe"
 				height="380"
 				width="660"
-				src="https://www.youtube.com/embed/pl0zajFT3-w"
+				src="https://www.youtube.com/embed/TouP6oxgqZQ"
 				frameborder="0"
 				allow="accelerometer; autoplay; encrypted-media;
 				gyroscope; picture-in-picture" allowfullscreen>
 			</iframe>
 			</div>
 			</Row>
+			<div>
+			<br/>
+			<br/>
+			<a href= "https://give.berkeley.edu/giftdetails?fund1=FU1349000">
+			<Button className="button join-button fade-in">
+				<p className="button-text">Donate Here!</p>
+			</Button>
+			</a>
+			</div>
 			</div>
 			<Container fluid className="body">
 				<Row noGutters="true">
