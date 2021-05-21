@@ -70,6 +70,7 @@ const Landing = () => {
 			<Row noGutters="true">
 			<div className= "video">
 			<iframe
+				title="sponsorship"
 				class="responsive-iframe"
 				height="380"
 				width="660"
