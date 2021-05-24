@@ -59,6 +59,26 @@
 	margin-top: 1rem;
 	margin-bottom: 0;
 }
+.sponsors .image-link {
+	display: flex;
+}
+.sponsors .sanyo {
+	position: relative;
+	margin:auto;
+	background-color: red;
+	width: 200px;
+	height: 40px;
+}
+.sponsors .layer1 {
+	width: 100%;
+	background-color: rgba(255,0,0,0.5);
+}
+
+.sponsors .layer2{
+	width: 100%;
+	margin-left: -100%;
+	background-color: rgba(0,0,255,0.5);
+}
 .sponsors .sponsor-photos {
 	max-width: 85%;
 	margin: 4.5rem 0 7rem 0;

@@ -5,6 +5,7 @@ import SiteNavbar from './SiteNavbar';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import { Link } from 'react-router-dom';
 
 import HeaderSponsors from '../img/header-sponsors.png';
 import HeaderSponsorsMobile from '../img/mobile/header-sponsors-mobile.png';
@@ -87,18 +88,27 @@ const Sponsors = () => {
 						</div>
 					</Col>
 				</Row>
-				<Row className="justify-content-center">
-					<img
-						src={SponsorPhotos}
-						alt="sponsors"
-						className="sponsor-photos selectDisable"
-					/>
-					<img
-						src={SponsorPhotosMobile}
-						alt="sponsors"
-						className="sponsor-photos-mobile selectDisable"
-					/>
-				</Row>
+				<div class="image-link">
+						<Row className="justify-content-center">
+							<img
+								src={SponsorPhotos}
+								alt="sponsors"
+								className="sponsor-photos selectDisable"
+								useMap="#image-map"
+							/>
+							<map name="image-map">
+								<area target="_self" alt="Sanyo" title="Sanyo"
+									  href="https://www.sanyodenki.com/taiwan/index.html" coords="580,250,820,3910"
+									  shape="rect">
+								</area>
+							</map>
+							<img
+								src={SponsorPhotosMobile}
+								alt="sponsors"
+								className="sponsor-photos-mobile selectDisable"
+							/>
+						</Row>
+				</div>
 			</Container>
 		</div>
 	);
