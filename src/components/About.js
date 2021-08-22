@@ -73,6 +73,20 @@ const About = () => {
 							acumen needed to{' '}
 							<b>help the world transition to sustainable transportation</b>.
 						</p>
+						<p>
+							We are a tight-knit group of students who participate in the yearly {' '}
+							<b><a href="https://www.sae.org/attend/student-events/formula-sae-california/about" >FSAE EV Competition</a></b> 
+							{' '}which takes place in Southern California. 
+							The competition involves building, testing, and racing a formula-style 
+							electric vehicle as well as completing a consulting-style analysis 
+							on the costs associated with producing the vehicle.
+						</p>
+						<p>
+							Members of our team specialize in engineering, business, marketing, 
+							and more! Our focus is on providing an opportunity for students to 
+							apply their knowledge in a <b>hands-on collaborative environment</b>, providing 
+							them valuable career skills.
+						</p>
 					</Col>
 				</Row>
 				<Row className="justify-content-center">

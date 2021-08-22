@@ -70,7 +70,7 @@ const SiteNavbar = (props) => {
 
 const style = {
 	NavText: {
-		fontFamily: 'Titillium Web',
+		fontFamily: 'Overpass',
 		margin: '0 1rem',
 		fontSize: '22px',
 	},

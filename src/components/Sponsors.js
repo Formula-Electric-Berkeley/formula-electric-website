@@ -97,7 +97,7 @@ const Sponsors = () => {
 								useMap="#image-map"
 							/>
 							<map name="image-map">
-								<area target="_self" alt="Sanyo" title="Sanyo"
+								<area target="_self" alt="Sanyo Denki" title="Sanyo Denki"
 									  href="https://www.sanyodenki.com/taiwan/index.html" coords="580,250,820,3910"
 									  shape="rect">
 								</area>

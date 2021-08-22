@@ -1,10 +1,14 @@
+.join a {
+	color: white;
+	font-family: Overpass;
+}
 .join h3 {
 	color: #ffffff;
 	font-size: 50px;
 	margin: 0 0% 0 4%;
 	font-weight: 300;
 	top: 60%;
-	font-family: Titillium Web;
+	font-family: Overpass;
 	padding-top: 100px;
 }
 .join h4 {
@@ -12,7 +16,7 @@
 	font-size: 30px;
 	margin: 0 10% 0 15%;
 	font-weight: 300;
-	font-family: Titillium Web;
+	font-family: Overpass;
 }
 
 .join .team-photo {
@@ -71,7 +75,7 @@
 		font-size: 16px;
 		margin: 0 0% 0 15%;
 		font-weight: 300;
-		font-family: Titillium Web;
+		font-family: Overpass;
 	}
 	.join .team-photo {
 		height: 110vh;

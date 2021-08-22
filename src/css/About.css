@@ -1,3 +1,7 @@
+.about a {
+	font-weight: 400;
+	color:#4592db;
+}
 .about h3 {
 	font-size: 36px;
 	color: #fdb515;

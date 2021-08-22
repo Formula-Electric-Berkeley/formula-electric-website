@@ -65,7 +65,7 @@ const Landing = () => {
 				</a>
 			</div>
 			<div className= "recruitvideo">
-			<h4>Crowdfunding</h4>
+			<h4>Recruitment</h4>
 			<hr2/>
 			<Row noGutters="true">
 			<div className= "video">
