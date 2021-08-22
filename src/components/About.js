@@ -63,16 +63,7 @@ const About = () => {
 				</Row>
 				<Row className="justify-content-center fade-in">
 					<Col xs={12} sm={11} md={10} className="text-center">
-						<p>
-							FEB emerged in January 2020 from <b>Berkeley Hyperloop (bLoop)</b>{' '}
-							after the SpaceX Hyperloop Pod Competition became inactive. bLoop
-							had previously competed in the 2016, 2017, 2018, and 2019
-							Hyperloop competitions. Carried through to the new team are nearly
-							all of the former’s team’s members and external relations, as well
-							as the goal of equipping Berkeley students with the technical
-							acumen needed to{' '}
-							<b>help the world transition to sustainable transportation</b>.
-						</p>
+
 						<p>
 							We are a tight-knit group of students who participate in the yearly {' '}
 							<b><a href="https://www.sae.org/attend/student-events/formula-sae-california/about" >FSAE EV Competition</a></b> 
@@ -81,6 +72,7 @@ const About = () => {
 							electric vehicle as well as completing a consulting-style analysis 
 							on the costs associated with producing the vehicle.
 						</p>
+						<br/>
 						<p>
 							Members of our team specialize in engineering, business, marketing, 
 							and more! Our focus is on providing an opportunity for students to 
