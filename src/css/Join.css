@@ -18,9 +18,15 @@
 	font-weight: 300;
 	font-family: Overpass;
 }
-
+.join h5 {
+	color: #ffffff;
+	font-size: 24px;
+	margin: 0 10% 0 15%;
+	font-weight: 300;
+	font-family: Titillium Web;
+}
 .join .team-photo {
-	height: 100vh;
+	height: 130vh;
 	background-image: url('../img/apply-background.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
