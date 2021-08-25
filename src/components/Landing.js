@@ -11,6 +11,7 @@ import Col from 'react-bootstrap/Col';
 import LandingLogo from '../img/logo.png';
 import LandingDescriptionPhoto from '../img/landing-description-photo.png';
 import MetaImage from '../img/meta-image.png';
+import RecruitmentGraphic from '../img/RecruitmentTimeline.png';
 
 
 import '../css/Landing.css';
@@ -64,11 +65,19 @@ const Landing = () => {
 					</Button>
 				</a>
 			</div>
-			<div className= "recruitvideo">
+			<div className= "landingmiddle">
 			<h4>Recruitment</h4>
 			<hr2/>
 			<Row noGutters="true">
-			<div className= "video">
+				<div className="midsection">
+					<img
+						src={RecruitmentGraphic}
+						alt="meta"
+						className="selectDisable"
+						style={{ height: 500 }}
+					/>
+				</div>
+			{/* <div className= "video">
 			<iframe
 				title="sponsorship"
 				class="responsive-iframe"
@@ -79,16 +88,16 @@ const Landing = () => {
 				allow="accelerometer; autoplay; encrypted-media;
 				gyroscope; picture-in-picture" allowfullscreen>
 			</iframe>
-			</div>
+			</div> */}
 			</Row>
 			<div>
 			<br/>
 			<br/>
-			<a href= "https://give.berkeley.edu/giftdetails?fund1=FU1349000">
+			 <a href= "/join">
 			<Button className="button join-button fade-in">
-				<p className="button-text">Donate Here!</p>
+				<p className="button-text">Join the Team</p>
 			</Button>
-			</a>
+			</a> 
 			</div>
 			</div>
 			<Container fluid className="body">
@@ -115,9 +124,9 @@ const Landing = () => {
 								demonstrate our technology at a global scale.
 							</p>
 						</div>
-						<a href="/join">
+						<a href="https://give.berkeley.edu/giftdetails?fund1=FU1349000">
 							<Button className="button join-button fade-in">
-								<p className="button-text">Join The Team</p>
+								<p className="button-text">Support Us</p>
 							</Button>
 						</a>
 					</Col>
