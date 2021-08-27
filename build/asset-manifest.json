@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.14b1e2bc.chunk.css",
-    "main.js": "/static/js/main.b147e80d.chunk.js",
-    "main.js.map": "/static/js/main.b147e80d.chunk.js.map",
+    "main.css": "/static/css/main.c6f3f411.chunk.css",
+    "main.js": "/static/js/main.5fdacf7a.chunk.js",
+    "main.js.map": "/static/js/main.5fdacf7a.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.7542c5c0.js",
     "runtime-main.js.map": "/static/js/runtime-main.7542c5c0.js.map",
-    "static/js/2.74bb727b.chunk.js": "/static/js/2.74bb727b.chunk.js",
-    "static/js/2.74bb727b.chunk.js.map": "/static/js/2.74bb727b.chunk.js.map",
+    "static/js/2.88c4a2bd.chunk.js": "/static/js/2.88c4a2bd.chunk.js",
+    "static/js/2.88c4a2bd.chunk.js.map": "/static/js/2.88c4a2bd.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.742096478b15e8bdcce0ee03580cb5db.js": "/precache-manifest.742096478b15e8bdcce0ee03580cb5db.js",
+    "precache-manifest.5d4790caf3a93bb81d18fd110788090d.js": "/precache-manifest.5d4790caf3a93bb81d18fd110788090d.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.14b1e2bc.chunk.css.map": "/static/css/main.14b1e2bc.chunk.css.map",
-    "static/js/2.74bb727b.chunk.js.LICENSE.txt": "/static/js/2.74bb727b.chunk.js.LICENSE.txt",
+    "static/css/main.c6f3f411.chunk.css.map": "/static/css/main.c6f3f411.chunk.css.map",
+    "static/js/2.88c4a2bd.chunk.js.LICENSE.txt": "/static/js/2.88c4a2bd.chunk.js.LICENSE.txt",
     "static/media/2.jpg": "/static/media/2.4705a3b9.jpg",
     "static/media/3.jpg": "/static/media/3.f9cd989d.jpg",
     "static/media/4.jpg": "/static/media/4.d824af49.jpg",
@@ -19,6 +19,7 @@
     "static/media/6.jpg": "/static/media/6.8f9e1abc.jpg",
     "static/media/7.jpg": "/static/media/7.76cb73f6.jpg",
     "static/media/Landing.css": "/static/media/header-landing-mobile.a0611957.png",
+    "static/media/RecruitmentTimeline.png": "/static/media/RecruitmentTimeline.ba4ef011.png",
     "static/media/Join.css": "/static/media/apply-background.062f96fe.jpg",
     "static/media/badge.png": "/static/media/badge.fbadd6cb.png",
     "static/media/header-about-mobile.png": "/static/media/header-about-mobile.8652612d.png",
@@ -28,16 +29,14 @@
     "static/media/header-team-mobile.png": "/static/media/header-team-mobile.223c6c02.png",
     "static/media/header-team.png": "/static/media/header-team.e522a86f.png",
     "static/media/landing-description-photo.png": "/static/media/landing-description-photo.64f8b367.png",
-    "static/media/logo.png": "/static/media/logo.c99fff59.png",
     "static/media/meta-image.png": "/static/media/meta-image.651d2f16.png",
-    "static/media/navbar-logo.png": "/static/media/navbar-logo.f28eb674.png",
     "static/media/sponsors-mobile.png": "/static/media/sponsors-mobile.aeb0f70c.png",
     "static/media/sponsors.png": "/static/media/sponsors.12bf859f.png"
   },
   "entrypoints": [
     "static/js/runtime-main.7542c5c0.js",
-    "static/js/2.74bb727b.chunk.js",
-    "static/css/main.14b1e2bc.chunk.css",
-    "static/js/main.b147e80d.chunk.js"
+    "static/js/2.88c4a2bd.chunk.js",
+    "static/css/main.c6f3f411.chunk.css",
+    "static/js/main.5fdacf7a.chunk.js"
   ]
 }
