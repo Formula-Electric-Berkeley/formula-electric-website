@@ -19,6 +19,7 @@ const Join = () => {
 				Come join us on our journey to design and build awesome electric, autonomous racecars! 
 				</h5>
 				<h5>All majors and backgrounds are welcome.</h5>
+				<h5>Join our <a href="https://www.facebook.com/groups/1475230892869726">Facebook recruiting group</a> for all our recruiting updates!</h5>
 				<br/>
 				<a href="http://linktr.ee/feberkeley">
 				<img
