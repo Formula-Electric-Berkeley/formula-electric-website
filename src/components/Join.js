@@ -20,6 +20,7 @@ const Join = () => {
 				</h5>
 				<h5>All majors and backgrounds are welcome.</h5>
 				<h5>Join our <a href="https://www.facebook.com/groups/1475230892869726">Facebook recruiting group</a> for all our recruiting updates!</h5>
+				<h5>*Both info sessions are the same</h5>
 				<br/>
 				<a href="http://linktr.ee/feberkeley">
 				<img
