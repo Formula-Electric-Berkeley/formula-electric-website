@@ -94,7 +94,7 @@ const Team = () => {
 							name="David Kurniawan"
 							role="Chief ME"
 							major="Mechanical Engineering"
-							bio="Hi, I’m David! I have a love for making things and a strong curiosity to understand how things work. I’m super passionate about designing and building high-performance autonomous, electric vehicles to show the world that sustainable, autonomous transportation is the future. As I continue to develop as a multi-faceted engineer, I aspire to play an active role in electric and autonomous vehicle technology development."
+							bio="Hi, I’m David! I’m super passionate about and aspire to play an active role in designing and building high-performance, autonomous, electric vehicles to show the world that sustainable, autonomous transportation is both the present and the future."
 						/>
 					</Col>
 					<Col xs={12} md={4} className="text-center">
