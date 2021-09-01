@@ -83,7 +83,7 @@ const Team = () => {
 						<TeamMember
 							image={Member4}
 							name="Tijmen Sep"
-							role="President"
+							role="Program Manager"
 							major="Mechanical Engineering"
 							bio="Hey, I’m Tijmen, a third year studying mechanical engineering. I’m passionate about advancing sustainable technology. In my free time you’ll find me graphic designing, cooking, and playing the alto saxophone."
 						/>
