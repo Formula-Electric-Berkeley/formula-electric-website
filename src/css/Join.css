@@ -1,5 +1,5 @@
 .join a {
-	color: white;
+	color: #4592db;
 	font-family: Overpass;
 }
 .join h3 {
@@ -24,6 +24,12 @@
 	margin: 0 10% 0 15%;
 	font-weight: 300;
 	font-family: Titillium Web;
+}
+.join .blue {
+	color: #4592db;
+}
+.join .blue1 {
+	color: #1e478b;
 }
 .join .team-photo {
 	height: 150vh;
