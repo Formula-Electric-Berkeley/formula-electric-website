@@ -71,7 +71,7 @@ const Landing = () => {
 								<i className="fa fa-twitter"></i>
 							</a>
 							<a
-								href="https://www.instagram.com/berkeleyformulaelectric/"
+								href="https://www.instagram.com/formulaelectricberkeley/"
 								target="_blank"
 								rel="noopener noreferrer"
 								className="social-link"
