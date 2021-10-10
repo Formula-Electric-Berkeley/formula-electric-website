@@ -9,7 +9,7 @@
 	font-weight: 300;
 	top: 60%;
 	font-family: Overpass;
-	padding-top: 100px;
+	padding-top: 50px;
 }
 .join h4 {
 	color: #ffffff;
@@ -21,7 +21,8 @@
 .join h5 {
 	color: #ffffff;
 	font-size: 24px;
-	margin: 0 10% 0 15%;
+	text-align: center;
+	margin: 0 10% 5% 15%;
 	font-weight: 300;
 	font-family: Titillium Web;
 }
@@ -32,7 +33,7 @@
 	color: #1e478b;
 }
 .join .team-photo {
-	height: 150vh;
+	height: 60vh;
 	background-image: url('../img/apply-background.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
