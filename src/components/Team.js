@@ -146,7 +146,6 @@ const Team = () => {
 							bio="Hi! I’m Siraj, a second year business and data science major who enjoys driving and playing basketball and football with friends in my free time. I’m very passionate about utilizing business skills to help building a formula style racecar"
 						/>
 					</Col>
-					
 				</Row>
 			</Container>
 		</div>
