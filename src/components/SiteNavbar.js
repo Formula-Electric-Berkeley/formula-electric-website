@@ -27,10 +27,10 @@ const SiteNavbar = (props) => {
 						className="selectDisable"
 						style={{
 							width: '4rem',
-						}}
-					/>
-				</a>
-			</Navbar.Brand>
+						}}					
+					/>					
+				</a>				
+			</Navbar.Brand>			
 			<Navbar.Toggle
 				aria-controls="basic-navbar-nav"
 				style={{ borderColor: 'rgba(255, 255, 255, 0.3)' }}
@@ -43,13 +43,13 @@ const SiteNavbar = (props) => {
 					<a href="/team">
 						<p style={style.NavText}>Team</p>
 					</a>
-					<a
+					{/*<a
 						href="https://evberkeleyblog.weebly.com/"
 						target="_blank"
 						rel="noopener noreferrer"
 					>
 						<p style={style.NavText}>Blog</p>
-					</a>
+					</a>*/}
 					<a href="/sponsors">
 						<p style={style.NavText}>Sponsors</p>
 					</a>
@@ -71,7 +71,7 @@ const SiteNavbar = (props) => {
 const style = {
 	NavText: {
 		fontFamily: 'Overpass',
-		margin: '0 1rem',
+		margin: '0 2rem',
 		fontSize: '22px',
 	},
 };
