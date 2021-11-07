@@ -3,7 +3,7 @@ import React from 'react';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 
-import NavbarLogo from '../img/navbar-logo.png';
+import NavbarLogo from '../img/logo.png';
 
 const SiteNavbar = (props) => {
 
@@ -26,7 +26,7 @@ const SiteNavbar = (props) => {
 						alt="navbar logo"
 						className="selectDisable"
 						style={{
-							width: '4rem',
+							width: '14rem',
 						}}					
 					/>					
 				</a>				

@@ -53,11 +53,11 @@ const Landing = () => {
 				style={{ display: 'none' }}
 			/>
 			<div className="header">
-				<img
+				{/*<img
 					src={LandingLogo}
 					alt="landing logo"
 					className="landing-logo selectDisable"
-				/>
+				/>*/}
 				<h2>UC Berkeley's Formula SAE Electric Vehicle Team</h2>
 				<a href="/about">
 					<Button className="button landing-button">
