@@ -58,7 +58,7 @@ const Landing = () => {
 					alt="landing logo"
 					className="landing-logo selectDisable"
 				/>*/}
-				<h2>UC Berkeley's Formula SA Electric Vehicle Team</h2>
+				<h2>UC Berkeley's Formula SAE Electric Vehicle Team</h2>
 				<a href="/about">		
 					<Button className="button landing-button">
 						<p className="button-text">Learn More</p>
