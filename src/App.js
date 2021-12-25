@@ -8,6 +8,7 @@ import Sponsors from './components/Sponsors';
 import Join from './components/Join';
 import Footer from './components/Footer';
 import Error from './components/404';
+import Subteam from './components/Subteam';
 
 import './css/App.css';
 
@@ -33,6 +34,9 @@ function App() {
 					</Route>
 					<Route default>
 						<Error />
+					</Route>
+					<Route path="/subteam">
+						<Subteam />
 					</Route>
 				</Switch>
 			</Router>
