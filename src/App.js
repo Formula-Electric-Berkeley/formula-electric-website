@@ -29,14 +29,14 @@ function App() {
 					<Route path="/join">
 						<Join />
 					</Route>
+					<Route path="/subteam">
+						<Subteam />
+					</Route>
 					<Route path="/">
 						<Landing />
 					</Route>
 					<Route default>
 						<Error />
-					</Route>
-					<Route path="/subteam">
-						<Subteam />
 					</Route>
 				</Switch>
 			</Router>

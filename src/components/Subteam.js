@@ -18,7 +18,7 @@ const subteamPage = () => {
 		>
 			<h1 style={{ color: '#fdb515', fontSize: '164px', zIndex: '3' }}>404</h1>
 			<p style={{ color: '#4592db', fontSize: '24px', zIndex: '3' }}>
-				This Page Doesn't Exist
+				Hi this is the subteam page template!
 			</p>
 		</div>
 	);
