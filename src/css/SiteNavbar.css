@@ -32,3 +32,16 @@ div.dropdown-menu.show {
   text-decoration: underline;
   text-decoration-color: #0056b3;
 }
+
+.dropdown-item {
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .dropdown-menu {
+      width: 15rem; /* JUST FOR STYLING PURPOSE OF DROPDOWN */
+      position: absolute;
+      left: 50% !important;
+      transform: translateX(-50%) !important;
+  }
+}
