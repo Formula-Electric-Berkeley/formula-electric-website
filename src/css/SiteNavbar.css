@@ -17,16 +17,18 @@
 }
 
 .dropdown-toggle:hover {
-  
   text-decoration: underline;
   text-decoration-color: #0056b3;
 }
 
-#nav-dropdown {
-
-  color: red;
-}
 
 div.dropdown-menu.show {
   background-color: #1C1C1C; 
+  border: none;
+}
+
+.dropdown-item:hover {
+  background-color:#1C1C1C;
+  text-decoration: underline;
+  text-decoration-color: #0056b3;
 }

@@ -46,15 +46,15 @@ const SiteNavbar = (props) => {
 				
 					<NavDropdown
 						id="nav-dropdown"
-						title={<p style={style.NavDropdownText}>Team</p>}
+						title={<p style={style.NavText}>Team</p>}
 						variant="primary"
 						menuVariant="dark"
 						>
 						<NavDropdown.Item href="/team"><h13 style={style.NavDropdownText}>Team Leads</h13></NavDropdown.Item>
-						<NavDropdown.Item href="/subteam"><h13 style={style.NavDropdownText}>Subteam</h13></NavDropdown.Item>
-						<NavDropdown.Item href="/"><h13 style={style.NavDropdownText}>Something</h13></NavDropdown.Item>
+						<NavDropdown.Item href="/subteam"><h13 style={style.NavDropdownText}>Subteam 1</h13></NavDropdown.Item>
+						<NavDropdown.Item href="/"><h13 style={style.NavDropdownText}>Subteam 2</h13></NavDropdown.Item>
 						<NavDropdown.Divider />
-						<NavDropdown.Item href="/"><h13 style={style.NavDropdownText}>Other</h13></NavDropdown.Item>
+						<NavDropdown.Item href="/"><h13 style={style.NavDropdownText}>Subteam 3</h13></NavDropdown.Item>
 					</NavDropdown>
 					{/*<a
 						href="https://evberkeleyblog.weebly.com/"
@@ -90,7 +90,7 @@ const style = {
 	NavDropdownText: {
 		fontFamily: 'Overpass',
 		margin: '0 2rem',
-		fontSize: '22px',
+		fontSize: '20px',
 		
 	}
 };
