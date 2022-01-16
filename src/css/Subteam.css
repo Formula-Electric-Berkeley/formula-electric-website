@@ -1,0 +1,95 @@
+.subteam a {
+	font-weight: 400;
+	color:#4592db;
+}
+.subteam h3 {
+	font-size: 36px;
+	color: #fdb515;
+	text-transform: uppercase;
+	margin-top: 5rem;
+}
+.subteam h4 {
+	font-size: 24px;
+	color: #fdb515;
+	text-transform: uppercase;
+	margin-top: 3.5rem;
+}
+.subteam h5 {
+	font-size: 28px;
+	color: #ffffff;
+	text-transform: uppercase;
+	margin-top: 0.6rem;
+}
+.subteam hr {
+	border-top: 2px solid #ffffff;
+	width: 45%;
+	margin-top: 0.2rem;
+	margin-bottom: 1.5rem;
+}
+.subteam p {
+	font-size: 20px;
+}
+.subteam b {
+	font-weight: 400;
+	color: #4592db;
+}
+
+.subteam .header {
+	width: 100%;
+}
+
+.subteam .credential-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 100%;
+}
+
+.subteam .team-text {
+	display: flex;
+	flex-direction: column;
+	margin-top: 1.2rem;
+}
+
+.subteam .team-text p {
+	display: flex;
+	flex-direction: column;
+	margin: 0.35rem 0;
+	height: 100%;
+}
+
+.subteam .fade-in {
+	opacity: 0;
+}
+
+@media (max-width: 500px) {
+	.subteam h3 {
+		font-size: 24px;
+		margin-top: 2.8rem;
+	}
+	.subteam h4 {
+		font-size: 20px;
+		margin-top: 2.3rem;
+	}
+	.subteam h5 {
+		font-size: 21px;
+		margin-top: 1rem;
+	}
+	.subteam hr {
+		width: 80%;
+		margin-top: 0.2rem;
+		margin-bottom: 1rem;
+	}
+	.subteam p {
+		font-size: 17px;
+	}
+	.body {
+		padding: 0 7%;
+	}
+	.subteam .credential-container p {
+		margin-bottom: 0.5rem;
+	}
+	.subteam .team-text {
+		margin-top: 0.2rem;
+	}
+}

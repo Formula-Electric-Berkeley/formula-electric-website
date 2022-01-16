@@ -2,10 +2,17 @@ import React from 'react';
 import $ from 'jquery';
 
 import SiteNavbar from './SiteNavbar';
-import '../css/Subteam.css';
-import HeaderAboutUs from '../img/header-about.png';
-import HeaderAboutUsMobile from '../img/mobile/header-about-mobile.png';
 
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+
+import HeaderSubteam from '../img/header-subteam-sample.png';
+import HeaderSubteamMobile from '../img/mobile/header-about-mobile.png';
+import GalleryRectangle from '../img/gallary-rectangles.png';
+import SubteamGroup from '../img/subteam-group.png';
+
+import '../css/Subteam.css';
 
 const subteamPage = () => {
 	$(document).ready(function () {
@@ -34,24 +41,71 @@ const subteamPage = () => {
 		});
 	});
 	return (
-		<div className="error-page">
+		<div className="about">
 			<SiteNavbar bg="#1c1c1c" />
 			<img
-				src={HeaderAboutUs}
-				alt="header about us"
+				src={HeaderSubteam}
+				alt="header subteam"
 				className="header selectDisable large-screen"
 				id="header"
 			/>
 			<img
-				src={HeaderAboutUsMobile}
-				alt="header about us"
+				src={HeaderSubteamMobile}
+				alt="header subteam"
 				className="header selectDisable small-screen"
 				id="header"
 			/>
-			<h1 style={{ color: '#fdb515', fontSize: '164px', zIndex: '3' }}>404</h1>
-			<p style={{ color: '#4592db', fontSize: '24px', zIndex: '3' }}>
-				Hi this is the subteam page template!
-			</p>
+			<Container fluid className="body">
+				<Row className="justify-content-center fade-in">
+					<Col xs={12} className="text-center">
+						<h3>Chassis Subteam Info</h3>
+						<hr />
+					</Col>
+				</Row>
+				<Row className="justify-content-center">
+					<Col xs={12} sm={6} className="text-center">
+					<img
+						src={SubteamGroup}
+						alt="subteam photo"
+						className="header selectDisable large-screen"
+						id="subteam"
+					/>
+					</Col>
+					<Col xs-={12} sm={6} className="text-center">
+						<div className="benefit-box benefit-us-box">
+							
+						<p>
+							We are a tight-knit group of students who participate in the yearly {' '}
+							<b><a href="https://www.sae.org/attend/student-events/formula-sae-california/about" >FSAE EV Competition</a></b> 
+							{' '}which takes place in Michigan. 
+							The competition involves building, testing, and racing a formula-style 
+							electric vehicle as well as completing a consulting-style analysis 
+							on the costs associated with producing the vehicle.
+						</p>
+							
+						</div>
+					</Col>
+				</Row>
+				<Row className="justify-content-center">
+					
+				</Row>
+				<Row className="justify-content-center fade-in">
+					<Col xs={12} className="text-center">
+						<h3>More Photos</h3>
+						<hr />
+					</Col>
+				</Row>
+				<Row className="justify-content-center fade-in mb-5">
+					<Col xs={12} sm={10} md={7} className="text-center">
+					<img
+						src={GalleryRectangle}
+						alt="gallery"
+						className="header selectDisable large-screen"
+						id="gallery"
+					/>
+					</Col>
+				</Row>
+			</Container>
 		</div>
 	);
 };
