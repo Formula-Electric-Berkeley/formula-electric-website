@@ -6,7 +6,7 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 
 import NavbarLogo from '../img/logo.png';
 
-import '../css/Landing.css';
+import '../css/SiteNavbar.css';
 
 const SiteNavbar = (props) => {
 
@@ -44,20 +44,17 @@ const SiteNavbar = (props) => {
 						<p style={style.NavText}>About</p>
 					</a>
 				
-					<a href="/team">
-						<p style={style.NavText}>Team</p>
-					</a>
 					<NavDropdown
 						id="nav-dropdown"
 						title={<p style={style.NavDropdownText}>Team</p>}
 						variant="primary"
 						menuVariant="dark"
 						>
-						<NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-						<NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
-						<NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
+						<NavDropdown.Item href="/team"><h13 style={style.NavDropdownText}>Team Leads</h13></NavDropdown.Item>
+						<NavDropdown.Item href="/subteam"><h13 style={style.NavDropdownText}>Subteam</h13></NavDropdown.Item>
+						<NavDropdown.Item href="/"><h13 style={style.NavDropdownText}>Something</h13></NavDropdown.Item>
 						<NavDropdown.Divider />
-						<NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
+						<NavDropdown.Item href="/"><h13 style={style.NavDropdownText}>Other</h13></NavDropdown.Item>
 					</NavDropdown>
 					{/*<a
 						href="https://evberkeleyblog.weebly.com/"
@@ -94,6 +91,7 @@ const style = {
 		fontFamily: 'Overpass',
 		margin: '0 2rem',
 		fontSize: '22px',
+		
 	}
 };
 
