@@ -7,7 +7,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
-import HeaderSubteam from '../img/header-subteam-sample.png';
+import HeaderSubteam from '../img/subteam-headers/header-subteam-sample.png';
 import HeaderSubteamMobile from '../img/mobile/header-about-mobile.png';
 import GalleryRectangle from '../img/gallary-rectangles.png';
 import SubteamGroup from '../img/subteam-group.png';
@@ -71,7 +71,7 @@ const subteamPage = () => {
 						id="subteam"
 					/>
 					</Col>
-					<Col xs-={12} sm={6} className="text-center">
+					<Col xs-={12} sm={5} className="text-center">
 						<div className="benefit-box benefit-us-box">
 							
 						<p>
