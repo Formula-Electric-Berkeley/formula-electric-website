@@ -16,6 +16,15 @@ const Join = () => {
 				</h3>
 				<h4>Recruitment Timeline </h4>
 				
+				<div className="midsection">
+					<img
+						src={RecruitmentGraphic}
+						alt="meta"
+						className="selectDisable"
+						style={{ height: 500 }}
+					/>
+				</div>
+				
 				//<br/>
 				<h5>
 				Come join us on our journey to design and build awesome electric, autonomous racecars! 
