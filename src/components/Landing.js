@@ -65,7 +65,7 @@ const Landing = () => {
 					</Button>
 				</a>
 			</div>
-			{/*<div className= "landingmiddle">
+			{<div className= "landingmiddle">
 			<h4>Recruitment</h4>
 			<hr2/>
 			<Row noGutters="true">
@@ -77,7 +77,7 @@ const Landing = () => {
 						style={{ height: 500 }}
 					/>
 				</div>
-			{ <div className= "video">
+			{/* <div className= "video">
 			<iframe
 				title="sponsorship"
 				class="responsive-iframe"
@@ -88,7 +88,7 @@ const Landing = () => {
 				allow="accelerometer; autoplay; encrypted-media;
 				gyroscope; picture-in-picture" allowfullscreen>
 			</iframe>
-			</div> }
+			</div> */}
 			</Row>
 			<div>
 			<br/>
@@ -99,7 +99,7 @@ const Landing = () => {
 			</Button>
 			</a> 
 			</div>
-			</div>*/}
+			</div>}
 			<Container fluid className="body">
 				<Row noGutters="true">
 					<Col xs={12} sm={6} className="text-col">
