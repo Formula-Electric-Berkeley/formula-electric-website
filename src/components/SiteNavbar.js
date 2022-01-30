@@ -43,8 +43,8 @@ const SiteNavbar = (props) => {
 					<a href="/about">
 						<p style={style.NavText}>About</p>
 					</a>
-				
-					<NavDropdown
+	
+				<NavDropdown
 						id="nav-dropdown"
 						title={<p style={style.NavText}>Team</p>}
 						variant="primary"
@@ -52,11 +52,13 @@ const SiteNavbar = (props) => {
 						className="justify-content-center"
 						>
 						<NavDropdown.Item href="/team"><h13 style={style.NavDropdownText}>Team Leads</h13></NavDropdown.Item>
-						<NavDropdown.Item href="/subteam"><h13 style={style.NavDropdownText}>Subteam 1</h13></NavDropdown.Item>
+						{/*<NavDropdown.Item href="/subteam"><h13 style={style.NavDropdownText}>Subteam 1</h13></NavDropdown.Item>
 						<NavDropdown.Item href="/"><h13 style={style.NavDropdownText}>Subteam 2</h13></NavDropdown.Item>
 						
-						<NavDropdown.Item href="/"><h13 style={style.NavDropdownText}>Subteam 3</h13></NavDropdown.Item>
-					</NavDropdown>
+					<NavDropdown.Item href="/"><h13 style={style.NavDropdownText}>Subteam 3</h13></NavDropdown.Item>*/}
+				</NavDropdown> 
+				
+
 					{/*<a
 						href="https://evberkeleyblog.weebly.com/"
 						target="_blank"
