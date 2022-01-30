@@ -2,9 +2,10 @@ import React from 'react';
 
 
 import SiteNavbar from './SiteNavbar';
-import RecruitmentGraphic from '../img/RecruitmentTimeline.png';
+import RecruitmentGraphic from '../img/RecruitmentTimelineSpring2022.png';
 
 import '../css/Join.css';
+import Button from 'react-bootstrap/Button';
 
 const Join = () => {
 	return (
@@ -24,8 +25,14 @@ const Join = () => {
 						style={{ height: 500 }}
 					/>
 				</div>
-				
+
 				//<br/>
+
+					<a href="https://forms.gle/7tX7KAipHSqSLrye9">
+							<Button className="button join-button fade-in">
+								<p className="button-text">Interest Form</p>
+							</Button>
+						</a>
 				<h5>
 				Come join us on our journey to design and build awesome electric, autonomous racecars! 
 				</h5>

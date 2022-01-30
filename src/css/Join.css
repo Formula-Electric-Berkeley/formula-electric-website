@@ -14,8 +14,8 @@
 .join h4 {
 	color: #ffffff;
 	justify-content: center;
-	font-size: 30px;
-	margin: 3% 15% 3% 15%;
+	font-size: 28px;
+	margin: 3% 15% 3% 16%;
 	font-weight: 300;
 	font-family: Overpass;
 }
@@ -23,7 +23,7 @@
 	color: #ffffff;
 	font-size: 24px;
 	text-align: center;
-	margin: 1% 10% 3% 10%;
+	margin: 3% 10% 1% 10%;
 	font-weight: 300;
 	font-family: Titillium Web;
 }
@@ -34,7 +34,7 @@
 	color: #1e478b;
 }
 .join .team-photo {
-	height: 120vh;
+	height: 140vh;
 	background-image: url('../img/apply-background.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
