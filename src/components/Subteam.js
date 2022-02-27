@@ -72,8 +72,8 @@ const subteamPage = () => {
 					/>
 					</Col>
 					<Col xs-={12} sm={5} className="text-center">
-						<div className="benefit-box benefit-us-box">
-							
+						<div className="benefit-box benefit-us-box blue">
+						
 						<p>
 							We are a tight-knit group of students who participate in the yearly {' '}
 							<b><a href="https://www.sae.org/attend/student-events/formula-sae-california/about" >FSAE EV Competition</a></b> 

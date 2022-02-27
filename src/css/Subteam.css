@@ -38,6 +38,11 @@
 	width: 100%;
 }
 
+.subteam .blue {
+	text-align: center;
+	color: white;
+}
+
 .subteam .credential-container {
 	display: flex;
 	flex-direction: column;

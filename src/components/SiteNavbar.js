@@ -52,10 +52,10 @@ const SiteNavbar = (props) => {
 						className="justify-content-center"
 						>
 						<NavDropdown.Item href="/team"><h13 style={style.NavDropdownText}>Team Leads</h13></NavDropdown.Item>
-						{/*<NavDropdown.Item href="/subteam"><h13 style={style.NavDropdownText}>Subteam 1</h13></NavDropdown.Item>
+						<NavDropdown.Item href="/subteam"><h13 style={style.NavDropdownText}>Subteam 1</h13></NavDropdown.Item>
 						<NavDropdown.Item href="/"><h13 style={style.NavDropdownText}>Subteam 2</h13></NavDropdown.Item>
 						
-					<NavDropdown.Item href="/"><h13 style={style.NavDropdownText}>Subteam 3</h13></NavDropdown.Item>*/}
+					<NavDropdown.Item href="/"><h13 style={style.NavDropdownText}>Subteam 3</h13></NavDropdown.Item>
 				</NavDropdown> 
 				
 
