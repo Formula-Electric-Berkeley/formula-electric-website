@@ -38,9 +38,18 @@
 	width: 100%;
 }
 
-.subteam .blue {
-	text-align: center;
-	color: white;
+.subteam .benefit-box {
+	background: #2e2e2e;
+	border-radius: 5px;
+	padding: 2rem 10%;
+	min-height: 70vh;
+	vertical-align: middle;
+}
+
+.subteam .benefit-us-box {
+	box-shadow: 10px 10px #4592db;
+	margin: 0 10% 3rem 3%;
+	vertical-align: middle;
 }
 
 .subteam .credential-container {

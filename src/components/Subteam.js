@@ -62,7 +62,7 @@ const subteamPage = () => {
 						<hr />
 					</Col>
 				</Row>
-				<Row className="justify-content-center">
+				<Row className="justify-content-center text-center">
 					<Col xs={12} sm={6} className="text-center">
 					<img
 						src={SubteamGroup}
@@ -72,7 +72,7 @@ const subteamPage = () => {
 					/>
 					</Col>
 					<Col xs-={12} sm={5} className="text-center">
-						<div className="benefit-box benefit-us-box blue">
+						<div className=" blue benefit-box benefit-us-box">
 						
 						<p>
 							We are a tight-knit group of students who participate in the yearly {' '}
