@@ -71,8 +71,8 @@ const subteamPage = () => {
 						id="subteam"
 					/>
 					</Col>
-					<Col xs-={12} sm={5} className="text-center">
-						<div className=" blue benefit-box benefit-us-box">
+					<Col xs-={12} sm={5} className="text-center blue">
+						
 						
 						<p>
 							We are a tight-knit group of students who participate in the yearly {' '}
@@ -83,7 +83,7 @@ const subteamPage = () => {
 							on the costs associated with producing the vehicle.
 						</p>
 							
-						</div>
+						
 					</Col>
 				</Row>
 				<Row className="justify-content-center">

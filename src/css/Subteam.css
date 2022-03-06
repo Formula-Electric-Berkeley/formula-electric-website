@@ -38,11 +38,15 @@
 	width: 100%;
 }
 
+.subteam .blue {
+	margin: 0%;
+	position: absolute;
+	top: 50%;
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+
 .subteam .benefit-box {
-	background: #2e2e2e;
-	border-radius: 5px;
-	padding: 2rem 10%;
-	min-height: 70vh;
 	vertical-align: middle;
 }
 
