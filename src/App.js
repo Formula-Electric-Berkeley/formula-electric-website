@@ -9,6 +9,12 @@ import Join from './components/Join';
 import Footer from './components/Footer';
 import Error from './components/404';
 import Subteam from './components/Subteam';
+import Autonomous from './components/Autonomous';
+import Bizops from './components/Bizops';
+import Chassis from './components/Chassis';
+import Dynamics from './components/Dynamics';
+import EECS from './components/EECS';
+import Powertrain from './components/Powertrain';
 
 import './css/App.css';
 
@@ -31,6 +37,24 @@ function App() {
 					</Route>
 					<Route path="/subteam">
 						<Subteam />
+					</Route>
+					<Route path="/autonomous">
+						<Autonomous />
+					</Route>
+					<Route path="/business">
+						<Bizops />
+					</Route>
+					<Route path="/chassis">
+						<Chassis />
+					</Route>
+					<Route path="/dynamics">
+						<Dynamics />
+					</Route>
+					<Route path="/eecs">
+						<EECS />
+					</Route>
+					<Route path="/powertrain">
+						<Powertrain />
 					</Route>
 					<Route path="/">
 						<Landing />

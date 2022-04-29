@@ -71,8 +71,16 @@ const subteamPage = () => {
 						id="subteam"
 					/>
 					</Col>
-					<Col xs-={12} sm={5} className="text-center blue">
+					<Col xs={12} sm={5} className="text-center blue">
 						
+						<br/>
+						<br/>
+						<br/>
+						<br/>
+						<br/>
+						<br/>
+						<br/>
+						<br/>
 						
 						<p>
 							We are a tight-knit group of students who participate in the yearly {' '}
