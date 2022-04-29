@@ -13,9 +13,20 @@ const Join = () => {
 			<SiteNavbar sticky="false" bg="#1c1c1c" />
 			<div className="team-photo">
 				<h3>
-					WE ARE CURRENTLY RECRUITING!
+					WE CURRENTLY AREN'T RECRUITING
 				</h3>
-				<h4>Recruitment Timeline </h4>
+				<h3>
+					PLEASE CHECK BACK FALL 2022
+				</h3>
+				<br/>
+				<br/>
+				<br/>
+				<a href="http://linktr.ee/feberkeley">
+					<Button className="button join-button fade-in">
+								<p className="button-text">Linktree</p>
+							</Button>
+					</a>
+				{/*<h4>Recruitment Timeline </h4>
 				
 				<div className="midsection">
 					<img
@@ -38,10 +49,8 @@ const Join = () => {
 				</h5>
 				<h5>All majors and backgrounds are welcome.</h5>									
 				<br/>
-				<a href="http://linktr.ee/feberkeley">
 				
-					</a>
-				<br/>
+				<br/>*/}
 
 			</div>
 		</div>

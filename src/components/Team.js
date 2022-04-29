@@ -17,6 +17,7 @@ import Member5 from '../img/team-members/5.jpg';
 import Member6 from '../img/team-members/6.jpg';
 import Member7 from '../img/team-members/7.jpg';
 import Member8 from '../img/team-members/8.jpg';
+import Member9 from '../img/team-members/9.jpg';
 
 import '../css/Team.css';
 
@@ -120,19 +121,19 @@ const Team = () => {
 					<Col xs={12} md={4} className="text-center">
 						<TeamMember
 							image={Member5}
-							name="Shane Lee"
+							name="Will Li"
 							role="Dynamics Lead"
 							major="Mechanical Engineering"
-							bio="Hi, I’m Shane! I’m a MechE with an EECS minor passionate about tech, space and electric mobility. I’m excited to see our hard work come to life."
+							bio="Hi! My name is Will Li and I am a Junior at UC Berkeley pursuing a degree in Mechanical Engineering with a minor in EECS. I am currently leading efforts to manufacture our car's suspension and steering systems while developing simulations to model our vehicle dynamics."
 						/>
 					</Col>
 					<Col xs={12} md={4} className="text-center">
 						<TeamMember
 							image={Member3}
-							name="Srikar Gattepalli"
+							name="Candace Wong"
 							role="Powertrain Lead"
-							major="Mechanical Engineering"
-							bio="Hey I’m Srikar, and I love using engineering to build go-karts, motorcycles, and now a formula-style, electric race car."
+							major="Energy Engineering"
+							bio="Hey, I’m Candace, an energy engineer that loves clean energy, marine science, and anything sustainable technology— especially electric cars."
 						/>
 					</Col>
 				</Row>
@@ -140,13 +141,23 @@ const Team = () => {
 					<Col xs={12} md={4} className="text-center">
 						<TeamMember
 							image={Member8}
+							name="Chris Li"
+							role="Autonomous Lead"
+							major="Master's in Mechanical Engineering"
+							bio="Hey I am Chris, a Master of Engineering student studying Robotics. I like driving cars but I also like autonomous cars. In my free time I like playing basketball and riding electric skateboard/Onewheel."
+						/>
+					</Col>
+					<Col xs={12} md={4} className="text-center">
+						<TeamMember
+							image={Member9}
 							name="Siraj Patel"
 							role="Business Lead"
 							major="Business and Data Science"
-							bio="Hi! I’m Siraj, a second year business and data science major who enjoys driving and playing basketball and football with friends in my free time. I’m very passionate about utilizing business skills to help building a formula style racecar"
+							bio="Hi! I’m Siraj, a second year business and data science major who enjoys driving and playing basketball and football with friends in my free time. I’m very passionate about utilizing business skills to help building a formula style racecar."
 						/>
 					</Col>
 				</Row>
+				
 			</Container>
 		</div>
 	);

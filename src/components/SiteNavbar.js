@@ -45,17 +45,20 @@ const SiteNavbar = (props) => {
 					</a>
 	
 				<NavDropdown
-						id="nav-dropdown"
-						title={<p style={style.NavText}>Team</p>}
-						variant="primary"
-						menuVariant="dark"
-						className="justify-content-center"
-						>
-						<NavDropdown.Item href="/team"><h13 style={style.NavDropdownText}>Team Leads</h13></NavDropdown.Item>
-						<NavDropdown.Item href="/subteam"><h13 style={style.NavDropdownText}>Subteam 1</h13></NavDropdown.Item>
-						<NavDropdown.Item href="/"><h13 style={style.NavDropdownText}>Subteam 2</h13></NavDropdown.Item>
-						
+					id="nav-dropdown"
+					title={<p style={style.NavText}>Team</p>}
+					variant="primary"
+					menuVariant="dark"
+					className="justify-content-center"
+					>
+					<NavDropdown.Item href="/team"><h13 style={style.NavDropdownText}>Team Leads</h13></NavDropdown.Item>
+					{/*<NavDropdown.Item href="/subteam"><h13 style={style.NavDropdownText}>Subteam 1</h13></NavDropdown.Item>
+					<NavDropdown.Item href="/"><h13 style={style.NavDropdownText}>Subteam 2</h13></NavDropdown.Item>	
 					<NavDropdown.Item href="/"><h13 style={style.NavDropdownText}>Subteam 3</h13></NavDropdown.Item>
+					<NavDropdown.Item href="/"><h13 style={style.NavDropdownText}>Subteam 4</h13></NavDropdown.Item>
+					<NavDropdown.Item href="/"><h13 style={style.NavDropdownText}>Subteam 5</h13></NavDropdown.Item>
+					<NavDropdown.Item href="/"><h13 style={style.NavDropdownText}>Subteam 6</h13></NavDropdown.Item>
+					<NavDropdown.Item href="/"><h13 style={style.NavDropdownText}>Subteam 7</h13></NavDropdown.Item>*/}
 				</NavDropdown> 
 				
 
