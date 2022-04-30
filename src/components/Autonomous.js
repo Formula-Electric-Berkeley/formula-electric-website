@@ -7,7 +7,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
-import HeaderSubteam from '../img/subteam-headers/header-subteam-sample.png';
+import HeaderSubteam from '../img/subteam-headers/header-autonomous.png';
 import HeaderSubteamMobile from '../img/mobile/header-about-mobile.png';
 import GalleryRectangle from '../img/gallary-rectangles.png';
 import SubteamGroup from '../img/subteam-group.png';
@@ -75,20 +75,16 @@ const Autonomous = () => {
 						
 						<br/>
 						<br/>
-						<br/>
-						<br/>
-						<br/>
-						<br/>
-						<br/>
-						<br/>
 						
+				
 						<p>
-							We are a tight-knit group of students who participate in the yearly {' '}
-							<b><a href="https://www.sae.org/attend/student-events/formula-sae-california/about" >FSAE EV Competition</a></b> 
-							{' '}which takes place in Michigan. 
-							The competition involves building, testing, and racing a formula-style 
-							electric vehicle as well as completing a consulting-style analysis 
-							on the costs associated with producing the vehicle.
+						The Autonomous Driving R&D Team at FEB aims to develop advanced autonomous driving solutions 
+						that can be implemented on our first-generation electric formula race car for formula student driverless 
+						competitions. We will have a high-resolution, low-latency LiDAR+Camera sensor setup for our perception 
+						pipeline, fast and efficient SLAM algorithms for real-time vehicle localization and mapping, an offline 
+						lap-time optimization trajectory planner, and an online N-MPC path follower for accurate vehicle planning 
+						and control. Our goal is to prepare our engineers 
+						for a sustainable and autonomous future of transportation via hands-on projects in autonomous racing. 
 						</p>
 							
 						
