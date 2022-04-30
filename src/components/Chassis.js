@@ -78,17 +78,14 @@ const Chassis = () => {
 						<br/>
 						<br/>
 						<br/>
-						<br/>
-						<br/>
-						<br/>
+						
 						
 						<p>
-							We are a tight-knit group of students who participate in the yearly {' '}
-							<b><a href="https://www.sae.org/attend/student-events/formula-sae-california/about" >FSAE EV Competition</a></b> 
-							{' '}which takes place in Michigan. 
-							The competition involves building, testing, and racing a formula-style 
-							electric vehicle as well as completing a consulting-style analysis 
-							on the costs associated with producing the vehicle.
+						The Chassis Team works on a wide variety of components on the car, ranging from the design and 
+						development of our spaceframe to our braking system and bodywork. We are also responsible for battery 
+						packaging to ensure that our accumulator is safely secured in the event of a collision. Lastly, we work 
+						on optimizing cockpit ergonomics so our driver is as safe and comfortable as possible. 
+						We are also building towards deploying an aero package on our car for the 2023-24 competition season. 
 						</p>
 							
 						

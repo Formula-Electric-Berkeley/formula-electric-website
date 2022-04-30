@@ -78,17 +78,14 @@ const Dynamics = () => {
 						<br/>
 						<br/>
 						<br/>
-						<br/>
-						<br/>
-						<br/>
+						
 						
 						<p>
-							We are a tight-knit group of students who participate in the yearly {' '}
-							<b><a href="https://www.sae.org/attend/student-events/formula-sae-california/about" >FSAE EV Competition</a></b> 
-							{' '}which takes place in Michigan. 
-							The competition involves building, testing, and racing a formula-style 
-							electric vehicle as well as completing a consulting-style analysis 
-							on the costs associated with producing the vehicle.
+						The Dynamics Subteam is responsible for designing, manufacturing, and implementing data acquisition 
+						of the suspension and steering systems of FEB’s electric formula race car. We are also aiming to develop 
+						an in-house rigid body vehicle dynamics simulation model to better inform our design decisions and optimize 
+						member geometry through calculated member forces. 
+						This model should also be able to be used by the Autonomous and Chassis teams.
 						</p>
 							
 						

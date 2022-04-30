@@ -52,13 +52,12 @@ const SiteNavbar = (props) => {
 					className="justify-content-center"
 					>
 					<NavDropdown.Item href="/team"><h13 style={style.NavDropdownText}>Team Leads</h13></NavDropdown.Item>
-					{/*<NavDropdown.Item href="/subteam"><h13 style={style.NavDropdownText}>Subteam 1</h13></NavDropdown.Item>
-					<NavDropdown.Item href="/"><h13 style={style.NavDropdownText}>Subteam 2</h13></NavDropdown.Item>	
-					<NavDropdown.Item href="/"><h13 style={style.NavDropdownText}>Subteam 3</h13></NavDropdown.Item>
-					<NavDropdown.Item href="/"><h13 style={style.NavDropdownText}>Subteam 4</h13></NavDropdown.Item>
-					<NavDropdown.Item href="/"><h13 style={style.NavDropdownText}>Subteam 5</h13></NavDropdown.Item>
-					<NavDropdown.Item href="/"><h13 style={style.NavDropdownText}>Subteam 6</h13></NavDropdown.Item>
-					<NavDropdown.Item href="/"><h13 style={style.NavDropdownText}>Subteam 7</h13></NavDropdown.Item>*/}
+					<NavDropdown.Item href="/autonomous"><h13 style={style.NavDropdownText}>Autonomous</h13></NavDropdown.Item>
+					<NavDropdown.Item href="/business"><h13 style={style.NavDropdownText}>Business</h13></NavDropdown.Item>	
+					<NavDropdown.Item href="/chassis"><h13 style={style.NavDropdownText}>Chassis</h13></NavDropdown.Item>
+					<NavDropdown.Item href="/dynamics"><h13 style={style.NavDropdownText}>Dynamics</h13></NavDropdown.Item>
+					<NavDropdown.Item href="/eecs"><h13 style={style.NavDropdownText}>EECS</h13></NavDropdown.Item>
+					<NavDropdown.Item href="/powertrain"><h13 style={style.NavDropdownText}>Powertrain</h13></NavDropdown.Item>
 				</NavDropdown> 
 				
 

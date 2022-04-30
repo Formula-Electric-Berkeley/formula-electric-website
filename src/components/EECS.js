@@ -77,18 +77,14 @@ const EECS = () => {
 						<br/>
 						<br/>
 						<br/>
-						<br/>
-						<br/>
-						<br/>
-						<br/>
-						
 						<p>
-							We are a tight-knit group of students who participate in the yearly {' '}
-							<b><a href="https://www.sae.org/attend/student-events/formula-sae-california/about" >FSAE EV Competition</a></b> 
-							{' '}which takes place in Michigan. 
-							The competition involves building, testing, and racing a formula-style 
-							electric vehicle as well as completing a consulting-style analysis 
-							on the costs associated with producing the vehicle.
+						The EECS Subteam is responsible for designing High-voltage and Low-voltage electrical 
+						systems. The HV system consists of battery pack electrical systems and battery management 
+						systems. The LV system consists of CAN bus communication, sensor data acquisition,  
+						LV power distribution, driver interface, firmware, software, and much more. We aim to 
+						build a HV system with maximum efficiency and reliability, a LV electrical system embedded 
+						with microcontrollers and sensors that will help us control and monitor the car more 
+						effectively in a data-driven approach. 
 						</p>
 							
 						

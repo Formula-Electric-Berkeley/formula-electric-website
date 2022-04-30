@@ -83,12 +83,7 @@ const Bizops = () => {
 						<br/>
 						
 						<p>
-							We are a tight-knit group of students who participate in the yearly {' '}
-							<b><a href="https://www.sae.org/attend/student-events/formula-sae-california/about" >FSAE EV Competition</a></b> 
-							{' '}which takes place in Michigan. 
-							The competition involves building, testing, and racing a formula-style 
-							electric vehicle as well as completing a consulting-style analysis 
-							on the costs associated with producing the vehicle.
+							Business swag
 						</p>
 							
 						

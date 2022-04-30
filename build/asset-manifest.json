@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.7a020b4d.chunk.css",
-    "main.js": "/static/js/main.627feead.chunk.js",
-    "main.js.map": "/static/js/main.627feead.chunk.js.map",
+    "main.js": "/static/js/main.1283465d.chunk.js",
+    "main.js.map": "/static/js/main.1283465d.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.7542c5c0.js",
     "runtime-main.js.map": "/static/js/runtime-main.7542c5c0.js.map",
-    "static/js/2.846214e0.chunk.js": "/static/js/2.846214e0.chunk.js",
-    "static/js/2.846214e0.chunk.js.map": "/static/js/2.846214e0.chunk.js.map",
+    "static/js/2.746c72d6.chunk.js": "/static/js/2.746c72d6.chunk.js",
+    "static/js/2.746c72d6.chunk.js.map": "/static/js/2.746c72d6.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.589f600360371fb4b5b6e60dc53f356e.js": "/precache-manifest.589f600360371fb4b5b6e60dc53f356e.js",
+    "precache-manifest.e41827d2646d52a7cbf3a9509cf1ef97.js": "/precache-manifest.e41827d2646d52a7cbf3a9509cf1ef97.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.7a020b4d.chunk.css.map": "/static/css/main.7a020b4d.chunk.css.map",
-    "static/js/2.846214e0.chunk.js.LICENSE.txt": "/static/js/2.846214e0.chunk.js.LICENSE.txt",
+    "static/js/2.746c72d6.chunk.js.LICENSE.txt": "/static/js/2.746c72d6.chunk.js.LICENSE.txt",
     "static/media/2.jpg": "/static/media/2.1d9edd64.jpg",
     "static/media/3.jpg": "/static/media/3.5983a57f.jpg",
     "static/media/4.jpg": "/static/media/4.27e281c1.jpg",
@@ -27,6 +27,12 @@
     "static/media/gallary-rectangles.png": "/static/media/gallary-rectangles.214b5824.png",
     "static/media/header-about-mobile.png": "/static/media/header-about-mobile.8652612d.png",
     "static/media/header-about.png": "/static/media/header-about.e3c37f27.png",
+    "static/media/header-autonomous.png": "/static/media/header-autonomous.2f754ae6.png",
+    "static/media/header-b&o.png": "/static/media/header-b&o.92da6e42.png",
+    "static/media/header-chassis.png": "/static/media/header-chassis.2987839d.png",
+    "static/media/header-dynamics.png": "/static/media/header-dynamics.119c2651.png",
+    "static/media/header-eecs.png": "/static/media/header-eecs.fd4f033f.png",
+    "static/media/header-powertrain.png": "/static/media/header-powertrain.c927a910.png",
     "static/media/header-sponsors-mobile.png": "/static/media/header-sponsors-mobile.ae8261d1.png",
     "static/media/header-sponsors.png": "/static/media/header-sponsors.c20e8dc2.png",
     "static/media/header-subteam-sample.png": "/static/media/header-subteam-sample.2987839d.png",
@@ -40,8 +46,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.7542c5c0.js",
-    "static/js/2.846214e0.chunk.js",
+    "static/js/2.746c72d6.chunk.js",
     "static/css/main.7a020b4d.chunk.css",
-    "static/js/main.627feead.chunk.js"
+    "static/js/main.1283465d.chunk.js"
   ]
 }
