@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3e61443951d094bc2ef5d4af07bf6c61",
+    "revision": "be0d340696dfa643eee3be7c75e5dabe",
     "url": "/index.html"
   },
   {
-    "revision": "8d1d00c7a6364da075c4",
+    "revision": "44b0d372cd760f4b226e",
     "url": "/static/css/main.7a020b4d.chunk.css"
   },
   {
-    "revision": "7c1874988853aff52eae",
-    "url": "/static/js/2.746c72d6.chunk.js"
+    "revision": "3950c24dd53b542c742e",
+    "url": "/static/js/2.251ccce6.chunk.js"
   },
   {
     "revision": "d001b592baae1fe1a6ccd4eb5b4856b0",
-    "url": "/static/js/2.746c72d6.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.251ccce6.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "8d1d00c7a6364da075c4",
-    "url": "/static/js/main.1283465d.chunk.js"
+    "revision": "44b0d372cd760f4b226e",
+    "url": "/static/js/main.3980b1fd.chunk.js"
   },
   {
     "revision": "4206cc3e7e5116c13cd1",
@@ -72,8 +72,28 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/apply-background.062f96fe.jpg"
   },
   {
+    "revision": "24462b9097978582f2e6593f98439e7b",
+    "url": "/static/media/autonomous_crop.24462b90.png"
+  },
+  {
+    "revision": "46f2bad659bf805ea9b004e12a6e2428",
+    "url": "/static/media/b&o_crop.46f2bad6.png"
+  },
+  {
     "revision": "fbadd6cbb94458e69d936373f4ac059a",
     "url": "/static/media/badge.fbadd6cb.png"
+  },
+  {
+    "revision": "84d1abe46ea010feb1868f7cd32529a8",
+    "url": "/static/media/chassis_crop.84d1abe4.png"
+  },
+  {
+    "revision": "64af4389641a49604720cdbb65c615a5",
+    "url": "/static/media/dynamics_crop.64af4389.png"
+  },
+  {
+    "revision": "dc197a3f22012f7589389de84355e864",
+    "url": "/static/media/eecs_crop.dc197a3f.png"
   },
   {
     "revision": "214b58242188902df9ff44b853ac2e23",
@@ -142,6 +162,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "651d2f16cbe61b124ee2552f865c58f2",
     "url": "/static/media/meta-image.651d2f16.png"
+  },
+  {
+    "revision": "e6abac9035eb8ddcf413299cb9787d27",
+    "url": "/static/media/powertrain_crop.e6abac90.png"
   },
   {
     "revision": "56de209e89dd078d88c1bfc1c5edaafd",

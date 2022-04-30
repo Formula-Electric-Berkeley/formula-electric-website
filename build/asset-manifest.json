@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.7a020b4d.chunk.css",
-    "main.js": "/static/js/main.1283465d.chunk.js",
-    "main.js.map": "/static/js/main.1283465d.chunk.js.map",
+    "main.js": "/static/js/main.3980b1fd.chunk.js",
+    "main.js.map": "/static/js/main.3980b1fd.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.7542c5c0.js",
     "runtime-main.js.map": "/static/js/runtime-main.7542c5c0.js.map",
-    "static/js/2.746c72d6.chunk.js": "/static/js/2.746c72d6.chunk.js",
-    "static/js/2.746c72d6.chunk.js.map": "/static/js/2.746c72d6.chunk.js.map",
+    "static/js/2.251ccce6.chunk.js": "/static/js/2.251ccce6.chunk.js",
+    "static/js/2.251ccce6.chunk.js.map": "/static/js/2.251ccce6.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.e41827d2646d52a7cbf3a9509cf1ef97.js": "/precache-manifest.e41827d2646d52a7cbf3a9509cf1ef97.js",
+    "precache-manifest.c4a06d45dac45b4daf361e0bafb71e62.js": "/precache-manifest.c4a06d45dac45b4daf361e0bafb71e62.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.7a020b4d.chunk.css.map": "/static/css/main.7a020b4d.chunk.css.map",
-    "static/js/2.746c72d6.chunk.js.LICENSE.txt": "/static/js/2.746c72d6.chunk.js.LICENSE.txt",
+    "static/js/2.251ccce6.chunk.js.LICENSE.txt": "/static/js/2.251ccce6.chunk.js.LICENSE.txt",
     "static/media/2.jpg": "/static/media/2.1d9edd64.jpg",
     "static/media/3.jpg": "/static/media/3.5983a57f.jpg",
     "static/media/4.jpg": "/static/media/4.27e281c1.jpg",
@@ -23,7 +23,12 @@
     "static/media/Landing.css": "/static/media/header-landing-mobile.a0611957.png",
     "static/media/RecruitmentTimelineSpring2022.png": "/static/media/RecruitmentTimelineSpring2022.b482d08b.png",
     "static/media/Join.css": "/static/media/apply-background.062f96fe.jpg",
+    "static/media/autonomous_crop.png": "/static/media/autonomous_crop.24462b90.png",
+    "static/media/b&o_crop.png": "/static/media/b&o_crop.46f2bad6.png",
     "static/media/badge.png": "/static/media/badge.fbadd6cb.png",
+    "static/media/chassis_crop.png": "/static/media/chassis_crop.84d1abe4.png",
+    "static/media/dynamics_crop.png": "/static/media/dynamics_crop.64af4389.png",
+    "static/media/eecs_crop.png": "/static/media/eecs_crop.dc197a3f.png",
     "static/media/gallary-rectangles.png": "/static/media/gallary-rectangles.214b5824.png",
     "static/media/header-about-mobile.png": "/static/media/header-about-mobile.8652612d.png",
     "static/media/header-about.png": "/static/media/header-about.e3c37f27.png",
@@ -40,14 +45,15 @@
     "static/media/header-team.png": "/static/media/header-team.e522a86f.png",
     "static/media/landing-description-photo.png": "/static/media/landing-description-photo.64f8b367.png",
     "static/media/meta-image.png": "/static/media/meta-image.651d2f16.png",
+    "static/media/powertrain_crop.png": "/static/media/powertrain_crop.e6abac90.png",
     "static/media/sponsors-mobile.png": "/static/media/sponsors-mobile.56de209e.png",
     "static/media/sponsors.png": "/static/media/sponsors.1101903d.png",
     "static/media/subteam-group.png": "/static/media/subteam-group.288bec42.png"
   },
   "entrypoints": [
     "static/js/runtime-main.7542c5c0.js",
-    "static/js/2.746c72d6.chunk.js",
+    "static/js/2.251ccce6.chunk.js",
     "static/css/main.7a020b4d.chunk.css",
-    "static/js/main.1283465d.chunk.js"
+    "static/js/main.3980b1fd.chunk.js"
   ]
 }
