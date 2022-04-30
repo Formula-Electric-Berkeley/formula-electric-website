@@ -10,7 +10,7 @@ import Col from 'react-bootstrap/Col';
 import HeaderSubteam from '../img/subteam-headers/header-chassis.png';
 import HeaderSubteamMobile from '../img/mobile/header-about-mobile.png';
 import GalleryRectangle from '../img/gallary-rectangles.png';
-import SubteamGroup from '../img/subteam-group.png';
+import SubteamGroup from '../img/subteam-photos/chassis_crop.png';
 
 import '../css/Subteam.css';
 
@@ -75,11 +75,7 @@ const Chassis = () => {
 						
 						<br/>
 						<br/>
-						<br/>
-						<br/>
-						<br/>
-						
-						
+			
 						<p>
 						The Chassis Team works on a wide variety of components on the car, ranging from the design and 
 						development of our spaceframe to our braking system and bodywork. We are also responsible for battery 

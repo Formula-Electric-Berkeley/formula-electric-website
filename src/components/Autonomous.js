@@ -10,7 +10,7 @@ import Col from 'react-bootstrap/Col';
 import HeaderSubteam from '../img/subteam-headers/header-autonomous.png';
 import HeaderSubteamMobile from '../img/mobile/header-about-mobile.png';
 import GalleryRectangle from '../img/gallary-rectangles.png';
-import SubteamGroup from '../img/subteam-group.png';
+import SubteamGroup from '../img/subteam-photos/autonomous_crop.png';
 
 import '../css/Subteam.css';
 
@@ -74,7 +74,7 @@ const Autonomous = () => {
 					<Col xs={12} sm={5} className="text-center blue">
 						
 						<br/>
-						<br/>
+						
 						
 				
 						<p>

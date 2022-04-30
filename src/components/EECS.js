@@ -10,7 +10,7 @@ import Col from 'react-bootstrap/Col';
 import HeaderSubteam from '../img/subteam-headers/header-eecs.png';
 import HeaderSubteamMobile from '../img/mobile/header-about-mobile.png';
 import GalleryRectangle from '../img/gallary-rectangles.png';
-import SubteamGroup from '../img/subteam-group.png';
+import SubteamGroup from '../img/subteam-photos/eecs_crop.png';
 
 import '../css/Subteam.css';
 
@@ -75,8 +75,7 @@ const EECS = () => {
 						
 						<br/>
 						<br/>
-						<br/>
-						<br/>
+						
 						<p>
 						The EECS Subteam is responsible for designing High-voltage and Low-voltage electrical 
 						systems. The HV system consists of battery pack electrical systems and battery management 

@@ -10,7 +10,7 @@ import Col from 'react-bootstrap/Col';
 import HeaderSubteam from '../img/subteam-headers/header-b&o.png';
 import HeaderSubteamMobile from '../img/mobile/header-about-mobile.png';
 import GalleryRectangle from '../img/gallary-rectangles.png';
-import SubteamGroup from '../img/subteam-group.png';
+import SubteamGroup from '../img/subteam-photos/b&o_crop.png';
 
 
 

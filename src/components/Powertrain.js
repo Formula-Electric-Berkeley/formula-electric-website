@@ -10,7 +10,7 @@ import Col from 'react-bootstrap/Col';
 import HeaderSubteam from '../img/subteam-headers/header-powertrain.png';
 import HeaderSubteamMobile from '../img/mobile/header-about-mobile.png';
 import GalleryRectangle from '../img/gallary-rectangles.png';
-import SubteamGroup from '../img/subteam-group.png';
+import SubteamGroup from '../img/subteam-photos/powertrain_crop.png';
 
 import '../css/Subteam.css';
 
@@ -72,10 +72,7 @@ const Powertrain = () => {
 					/>
 					</Col>
 					<Col xs={12} sm={5} className="text-center blue">
-						
-						<br/>
-						
-						
+		
 						<p>
 						The Powertrain of the electric formula car transfers raw power, torque, and speed to the 
 						wheels. It all starts with the electric motors of the car, which convert the 
