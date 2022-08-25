@@ -87,9 +87,13 @@
 	.join h4 {
 		color: #ffffff;
 		font-size: 16px;
+		text-align: center;
 		margin: 0 0% 0 15%;
 		font-weight: 300;
 		font-family: Overpass;
+	}
+	.join h5 {
+
 	}
 	.join .team-photo {
 		height: 80vh;

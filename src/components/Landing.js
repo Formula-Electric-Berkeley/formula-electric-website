@@ -11,7 +11,7 @@ import Col from 'react-bootstrap/Col';
 import LandingLogo from '../img/logo.png';
 import LandingDescriptionPhoto from '../img/landing-description-photo.png';
 import MetaImage from '../img/meta-image.png';
-import RecruitmentGraphic from '../img/RecruitmentTimelineSpring2022.png';
+import RecruitmentGraphic from '../img/RecruitmentTimeline.png';
 
 
 import '../css/Landing.css';

@@ -13,17 +13,17 @@ const Join = () => {
 			<SiteNavbar sticky="false" bg="#1c1c1c" />
 			<div className="team-photo">
 				<h3>
-					WE CURRENTLY AREN'T RECRUITING
+					WE ARE ACTIVELY RECRUITING!
 				</h3>
-				<h3>
-					PLEASE CHECK BACK FALL 2022
-				</h3>
+				<h4>
+					Please fill out this form to join our email list for more information.
+				</h4>
 				<br/>
 				<br/>
 				<br/>
-				<a href="http://linktr.ee/feberkeley">
+				<a href="https://forms.gle/pbLrk9F9REE9GKGH6">
 					<Button className="button join-button fade-in">
-								<p className="button-text">Linktree</p>
+								<p className="button-text">Click Here</p>
 							</Button>
 					</a>
 				{/*<h4>Recruitment Timeline </h4>
