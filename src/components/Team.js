@@ -83,16 +83,16 @@ const Team = () => {
 					<Col xs={12} md={4} className="text-center">
 						<TeamMember
 							image={Member4}
-							name="Tijmen Sep"
+							name="Michael McCulloh"
 							role="Program Manager"
-							major="Mechanical Engineering"
-							bio="Hey, I’m Tijmen, a third year studying mechanical engineering. I’m passionate about advancing sustainable technology. In my free time you’ll find me graphic designing, cooking, and playing the alto saxophone."
+							major="Electrical Engineering and Computer Science"
+							bio="tax collection"
 						/>
 					</Col>
 					<Col xs={12} md={4} className="text-center">
 						<TeamMember
 					  	image={Member6}
-							name="David Kurniawan"
+							name="Chris Leafstrand"
 							role="Chief ME"
 							major="Mechanical Engineering"
 							bio="Hi, I’m David! I’m super passionate about and aspire to play an active role in designing and building high-performance, autonomous, electric vehicles to show the world that sustainable, autonomous transportation is both the present and the future."
@@ -101,50 +101,30 @@ const Team = () => {
 					<Col xs={12} md={4} className="text-center">
 						<TeamMember
 								image={Member7}
-								name="Ted Zhang"
+								name="Arya Bastani"
 								role="EECS Lead"
 								major="Computer Science and Physics"
-								bio="Good morning, I’m Ted, a CS & Physics major. I like tech, cars, rocket science and basically anything that comes with power."
+								bio=""
 						/>
 					</Col>
 				</Row>
 				<Row className="justify-content-around member-row">
 					<Col xs={12} md={4} className="text-center">
 						<TeamMember
-							image={Member2}
-							name="Aakash Ramachandran"
-							role="Chassis Lead"
-							major="Mechanical Engineering"
-							bio="Hi, I’m Aakash, a third year mechanical engineering major! I’m passionate about using what I’ve learned in my classes to build the best possible F1 - style electric vehicle here at FEB!"
+							image={Member9}
+							name="Nikhil Ograin"
+							role="Accumulator Lead"
+							major="Electrical Engineering and Computer Science"
+							bio=""
 						/>
 					</Col>
-					<Col xs={12} md={4} className="text-center">
-						<TeamMember
-							image={Member5}
-							name="Will Li"
-							role="Dynamics Lead"
-							major="Mechanical Engineering"
-							bio="Hi! My name is Will Li and I am a Junior at UC Berkeley pursuing a degree in Mechanical Engineering with a minor in EECS. I am currently leading efforts to manufacture our car's suspension and steering systems while developing simulations to model our vehicle dynamics."
-						/>
-					</Col>
-					<Col xs={12} md={4} className="text-center">
-						<TeamMember
-							image={Member3}
-							name="Candace Wong"
-							role="Powertrain Lead"
-							major="Energy Engineering"
-							bio="Hey, I’m Candace, an energy engineer that loves clean energy, marine science, and anything sustainable technology— especially electric cars."
-						/>
-					</Col>
-				</Row>
-				<Row className="justify-content-around member-row">
 					<Col xs={12} md={4} className="text-center">
 						<TeamMember
 							image={Member8}
-							name="Chris Li"
-							role="Autonomous Lead"
-							major="Master's in Mechanical Engineering"
-							bio="Hey I am Chris, a Master of Engineering student studying Robotics. I like driving cars but I also like autonomous cars. In my free time I like playing basketball and riding electric skateboard/Onewheel."
+							name="Anish Gollakota"
+							role="Autonomous Program Manager"
+							major="Computer Science"
+							bio=""
 						/>
 					</Col>
 					<Col xs={12} md={4} className="text-center">
@@ -154,6 +134,37 @@ const Team = () => {
 							role="Business Lead"
 							major="Business and Data Science"
 							bio="Hi! I’m Siraj, a second year business and data science major who enjoys driving and playing basketball and football with friends in my free time. I’m very passionate about utilizing business skills to help building a formula style racecar."
+						/>
+					</Col>
+
+
+				</Row>
+				<Row className="justify-content-around member-row">
+					<Col xs={12} md={4} className="text-center">
+						<TeamMember
+							image={Member5}
+							name="Toshko Andreev"
+							role="Dynamics Lead"
+							major="Mechanical Engineering"
+							bio="Hey, I'm Toshko! I love designing and building cars, robots, and a brighter future for all."
+						/>
+					</Col>
+					<Col xs={12} md={4} className="text-center">
+						<TeamMember
+							image={Member3}
+							name="Weston White"
+							role="Powertrain Lead"
+							major="Mechanical Engineering"
+							bio=""
+						/>
+					</Col>
+					<Col xs={12} md={4} className="text-center">
+						<TeamMember
+							image={Member2}
+							name="Simon Huang"
+							role="Chassis Lead"
+							major="Mechanical Engineering"
+							bio=""
 						/>
 					</Col>
 				</Row>
