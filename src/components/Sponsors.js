@@ -9,8 +9,8 @@ import { Link } from 'react-router-dom';
 
 import HeaderSponsors from '../img/header-sponsors.png';
 import HeaderSponsorsMobile from '../img/mobile/header-sponsors-mobile.png';
-import SponsorPhotos from '../img/sponsors.png';
-import SponsorPhotosMobile from '../img/mobile/sponsors-mobile.png';
+import SponsorPhotos from '../img/Group 35.png';
+import SponsorPhotosMobile from '../img/mobile/Group 36.png';
 
 import '../css/Sponsors.css';
 
