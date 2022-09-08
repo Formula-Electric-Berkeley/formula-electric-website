@@ -91,7 +91,7 @@ const Team = () => {
 					</Col>
 					<Col xs={12} md={4} className="text-center">
 						<TeamMember
-					  	image={Member6}
+					  		image={Member6}
 							name="Chris Leafstrand"
 							role="Chief ME"
 							major="Mechanical Engineering"
@@ -100,11 +100,11 @@ const Team = () => {
 					</Col>
 					<Col xs={12} md={4} className="text-center">
 						<TeamMember
-								image={Member7}
-								name="Arya Bastani"
-								role="EECS Lead"
-								major="Computer Science and Physics"
-								bio=""
+							image={Member7}
+							name="Arya Bastani"
+							role="EECS Lead"
+							major="Computer Science and Physics"
+							bio="“Good Morning” - Ted. I’m a fourth year Computer Science Major! I’m passionate about clean sustainable energy, technology, and building fast F1 cars. In my free time I like to play basketball, ultimate frisbee, and tennis with friends!"
 						/>
 					</Col>
 				</Row>
@@ -142,11 +142,42 @@ const Team = () => {
 				<Row className="justify-content-around member-row">
 					<Col xs={12} md={4} className="text-center">
 						<TeamMember
+							image={Member2}
+							name="Simon Huang"
+							role="Chassis Lead"
+							major="Mechanical Engineering"
+							bio="Hi! I’m Simon, a second year studying Mechanical Engineering. I love to apply the knowledge I learned in class to real life applications. During my free time, you will probably find me playing basketball with friends at RSF."
+						/>
+					</Col>
+					<Col xs={12} md={4} className="text-center">
+						<TeamMember
+							image={Member3}
+							name="Pranav Pomalapally"
+							role="Computer Science Lead"
+							major="Electrical Engineering and Computer Science"
+							bio=""
+						/>
+					</Col>
+					<Col xs={12} md={4} className="text-center">
+						<TeamMember
 							image={Member5}
 							name="Toshko Andreev"
 							role="Dynamics Lead"
 							major="Mechanical Engineering"
 							bio="Hey, I'm Toshko! I love designing and building cars, robots, and a brighter future for all."
+						/>
+					</Col>
+
+
+				</Row>
+				<Row className="justify-content-around member-row">
+					<Col xs={12} md={4} className="text-center">
+						<TeamMember
+							image={Member5}
+							name="Andrew Mussel"
+							role="Electrical Engineering Lead"
+							major="Electrical Engineering and Computer Science"
+							bio="Hello, my name is Andrew Mussell. I'm a second-year EECS Major interested in circuit design, wearable technology, and sustainability. In my free time, I watch movies, rock climb, and hang out with friends."
 						/>
 					</Col>
 					<Col xs={12} md={4} className="text-center">
@@ -158,17 +189,7 @@ const Team = () => {
 							bio=""
 						/>
 					</Col>
-					<Col xs={12} md={4} className="text-center">
-						<TeamMember
-							image={Member2}
-							name="Simon Huang"
-							role="Chassis Lead"
-							major="Mechanical Engineering"
-							bio=""
-						/>
-					</Col>
 				</Row>
-				
 			</Container>
 		</div>
 	);
