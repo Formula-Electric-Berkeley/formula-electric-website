@@ -95,7 +95,7 @@ const Team = () => {
 							name="Chris Leafstrand"
 							role="Chief ME"
 							major="Mechanical Engineering"
-							bio="Hi, I’m David! I’m super passionate about and aspire to play an active role in designing and building high-performance, autonomous, electric vehicles to show the world that sustainable, autonomous transportation is both the present and the future."
+							bio="Hey, my name is Chris and I am a mechanical engineering major. I am very excited to help lead the team this season and provide an excellent opportunity for team members to have hands-on experience designing, building, and testing an electric race car at UC Berkeley. In my spare time, I enjoy hiking, working on my personal car, and skiing."
 						/>
 					</Col>
 					<Col xs={12} md={4} className="text-center">
@@ -115,7 +115,7 @@ const Team = () => {
 							name="Nikhil Ograin"
 							role="Accumulator Lead"
 							major="Electrical Engineering and Computer Science"
-							bio=""
+							bio="Hi! I'm Nikhil, a second year Electrical Engineering and Computer Sciences major. While not developing electronic hardware and software for electric vehicles, I enjoy reading sci-fi and mystery, bicycling, and playing board/card games."
 						/>
 					</Col>
 					<Col xs={12} md={4} className="text-center">
@@ -136,8 +136,6 @@ const Team = () => {
 							bio="Hi! I’m Siraj, a second year business and data science major who enjoys driving and playing basketball and football with friends in my free time. I’m very passionate about utilizing business skills to help building a formula style racecar."
 						/>
 					</Col>
-
-
 				</Row>
 				<Row className="justify-content-around member-row">
 					<Col xs={12} md={4} className="text-center">
