@@ -13,20 +13,20 @@ const Join = () => {
 			<SiteNavbar sticky="false" bg="#1c1c1c" />
 			<div className="team-photo">
 				<h3>
-					WE ARE ACTIVELY RECRUITING!
+					WE ARE CURRENTLY NOT RECURITING FOR FALL 2022 ! 
 				</h3>
 				<h4>
-					Please fill out this form to join our email list for more information.
+					CHECK OUR SOCIALS FOR FUTURE UPDATES !
 				</h4>
 				<br/>
 				<br/>
 				<br/>
-				<a href="https://forms.gle/pbLrk9F9REE9GKGH6">
+				{/*<a href="https://forms.gle/pbLrk9F9REE9GKGH6">
 					<Button className="button join-button fade-in">
 								<p className="button-text">Click Here</p>
 							</Button>
 					</a>
-				{/*<h4>Recruitment Timeline </h4>
+				<h4>Recruitment Timeline </h4>
 				
 				<div className="midsection">
 					<img
