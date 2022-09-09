@@ -13,10 +13,10 @@ const Join = () => {
 			<SiteNavbar sticky="false" bg="#1c1c1c" />
 			<div className="team-photo">
 				<h3>
-					WE ARE CURRENTLY NOT RECURITING FOR FALL 2022 ! 
+					WE ARE CURRENTLY NOT RECURITING
 				</h3>
 				<h5>
-					Come join us on our journey to design and build awesome electric, autonomous racecars!
+					Check out our socials!
 				</h5>
 				<br/>
 				<br/>
