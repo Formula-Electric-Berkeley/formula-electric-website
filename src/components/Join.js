@@ -13,8 +13,9 @@ const Join = () => {
 			<SiteNavbar sticky="false" bg="#1c1c1c" />
 			<div className="team-photo">
 				<h3>
-					WE ARE ACTIVELY RECRUITING!
+					WE ARE CURRENTLY NOT RECURITING FOR FALL 2022 ! 
 				</h3>
+<<<<<<< HEAD
 				<h5>
 					Come join us on our journey to design and build awesome electric, autonomous racecars!
 				</h5>
@@ -27,6 +28,20 @@ const Join = () => {
 					</Button>
 				</a>
 				{/*<h4>Recruitment Timeline </h4>
+=======
+				<h4>
+					CHECK OUR SOCIALS FOR FUTURE UPDATES !
+				</h4>
+				<br/>
+				<br/>
+				<br/>
+				{/*<a href="https://forms.gle/pbLrk9F9REE9GKGH6">
+					<Button className="button join-button fade-in">
+								<p className="button-text">Click Here</p>
+							</Button>
+					</a>
+				<h4>Recruitment Timeline </h4>
+>>>>>>> 271241a5247cbf0e2a88247b2437bd000738960b
 				
 				<div className="midsection">
 					<img
