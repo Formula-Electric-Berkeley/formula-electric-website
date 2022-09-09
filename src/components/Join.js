@@ -15,17 +15,17 @@ const Join = () => {
 				<h3>
 					WE ARE ACTIVELY RECRUITING!
 				</h3>
-				<h4>
-					Please fill out this form to join our email list for more information.
-				</h4>
+				<h5>
+					Come join us on our journey to design and build awesome electric, autonomous racecars!
+				</h5>
 				<br/>
 				<br/>
 				<br/>
-				<a href="https://forms.gle/pbLrk9F9REE9GKGH6">
+				<a href="https://linktr.ee/feberkeley">
 					<Button className="button join-button fade-in">
-								<p className="button-text">Click Here</p>
-							</Button>
-					</a>
+						<p className="button-text">Linktree</p>
+					</Button>
+				</a>
 				{/*<h4>Recruitment Timeline </h4>
 				
 				<div className="midsection">
