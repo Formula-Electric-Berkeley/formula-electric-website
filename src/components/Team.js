@@ -127,7 +127,7 @@ const Team = () => {
 							name="Anish Gollakota"
 							role="Autonomous Program Manager"
 							major="Computer Science"
-							bio="Good Morning"
+							bio="Hi! I'm a senior studying Computer Science with a passion for autonomous vehicles. In my free time, I like to lift, play basketball, and kick it."
 						/>
 					</Col>
 					<Col xs={12} md={4} className="text-center">
