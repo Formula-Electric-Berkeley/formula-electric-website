@@ -15,7 +15,6 @@ const Join = () => {
 				<h3>
 					WE ARE CURRENTLY NOT RECURITING FOR FALL 2022 ! 
 				</h3>
-<<<<<<< HEAD
 				<h5>
 					Come join us on our journey to design and build awesome electric, autonomous racecars!
 				</h5>
