@@ -86,10 +86,10 @@ const Team = () => {
 					<Col xs={12} md={4} className="text-center">
 						<TeamMember
 							image={Member1}
-							name="Michael McCulloh"
+							name="Michael McCulloch"
 							role="Program Manager"
 							major="Electrical Engineering and Computer Science"
-							bio="tax collection"
+							bio="Hi my name is Michael!  I love cars, and have taken thousands of photos of everything from Fords to Koenigseggs. In my free time I tinker with RC cars and sail competitively. I am super excited to help lead the push to a fully electric automotive industry!"
 						/>
 					</Col>
 					<Col xs={12} md={4} className="text-center">
@@ -156,7 +156,7 @@ const Team = () => {
 							name="Pranav Pomalapally"
 							role="Computer Science Lead"
 							major="Electrical Engineering and Computer Science"
-							bio="Good Morning"
+							bio="Hey, I’m Pranav, a senior EECS major! I love music basketball, and making cars go fast. I’m excited to build sustainable high performing cars with FEB!"
 						/>
 					</Col>
 					<Col xs={12} md={4} className="text-center">
