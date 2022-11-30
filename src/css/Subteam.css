@@ -79,6 +79,92 @@
 .subteam .fade-in {
 	opacity: 0;
 }
+/* css for the top banner declaring the page subject */
+.team .header {
+	width: 100%;
+}
+
+/* Fixes margin for the entire member container */
+.team .member-container {
+	padding-top: 4rem;
+}
+/* Fixes margins and sizes for each row of members */
+.team .member-row {
+	margin: 2rem 4% 2rem 4%;
+	line-height: 1.24;
+}
+
+/* sets the size of each member card and displays the overlay */
+.team .individual-container {
+	position: relative;
+	max-width: 84%;
+	margin: 0 8%;
+	overflow: hidden; /* makes sure picture doesnt expand out of box when hovered over */
+}
+.team .individual-container img {
+	transition: transform 0.5s; /* length of size increase */
+}
+.team .individual-container:hover img {
+	transform: scale(1.2); /* factor of size increase */
+}
+.team .overlay {
+	position: absolute;
+	bottom: 50%; /* overlay starts from middle of photo */
+	left: 0;
+	right: 0;
+	background: rgba(0, 50, 98, 0.7); /* Color of overlay */
+	overflow: hidden;
+	width: 100%;
+	height: 0;
+	transition: 0.3s; /* length of time to cover image */
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.team .individual-container:hover .overlay {
+	bottom: 0;
+	height: 100%;
+}
+/* centers text on image */
+.team .overlay-text {
+	position: absolute;
+	/* top: 50%; */
+	/* left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%); */
+	text-align: center;
+	color: whitesmoke;
+	font-size: 20px;
+	padding: 10% 5%;
+}
+
+/* set sizes and specifics for the member image and associated non-overlayed text */
+.subteam .member-photo {
+	max-width: 100%;
+}
+.subteam .member-name {
+	margin: 0.45rem 0 0.1rem 0;
+	font-size: 36px;
+	color: #fdb515;
+	font-weight: 300;
+}
+.subteam .member-role {
+	margin: 0;
+	font-size: 18px;
+	font-weight: 400;
+}
+.subteam .member-major {
+	margin: 0;
+	margin-bottom: 1rem;
+	font-size: 18px;
+	font-weight: 300;
+}
+
+.subteam .text-small {
+	font-size: 15px;
+}
+
 
 @media (max-width: 500px) {
 	.subteam h3 {
@@ -109,5 +195,28 @@
 	}
 	.subteam .team-text {
 		margin-top: 0.2rem;
+	}
+}
+
+@media (max-width: 1100px) {
+	.team .overlay-text {
+		font-size: 14px;
+	}
+}
+
+@media (max-width: 768px) {
+	.team .overlay-text {
+		font-size: 24px;
+	}
+}
+
+@media (max-width: 768px) {
+	.team .member-major {
+		margin-bottom: 2.3rem;
+	}
+
+	.team .member-row {
+		margin-bottom: 0;
+		margin-top: 0;
 	}
 }

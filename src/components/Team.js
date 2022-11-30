@@ -21,6 +21,10 @@ import Member8 from '../img/team-members/8.jpg';
 import Member9 from '../img/team-members/9.jpg';
 import Member10 from '../img/team-members/10.jpg';
 import Member11 from '../img/team-members/11.jpg';
+import Member12 from '../img/team-members/12.jpg';
+import Member13 from '../img/team-members/13.jpg';
+import Member14 from '../img/team-members/14.jpg';
+import Member15 from '../img/team-members/15.jpg';
 
 import '../css/Team.css';
 
@@ -124,19 +128,19 @@ const Team = () => {
 					<Col xs={12} md={4} className="text-center">
 						<TeamMember
 							image={Member5}
-							name="Anish Gollakota"
-							role="Autonomous Program Manager"
-							major="Computer Science"
-							bio="Hi! I'm a senior studying Computer Science with a passion for autonomous vehicles. In my free time, I like to lift, play basketball, and kick it."
+							name="Josh Kavilaveettil"
+							role="Accumulator-Mechanical Lead"
+							major="Mechanical Engineering"
+							bio="Hey! I'm Josh and I'm a senior in Mechanical Engineering with a focus in robotics! When I'm not working on the battery and not injured (not often lol), I dance with my pro Bollywood Fusion dance team Zahanat, play acoustic guitar, soccer and go snowboarding."
 						/>
 					</Col>
 					<Col xs={12} md={4} className="text-center">
 						<TeamMember
 							image={Member6}
-							name="Siraj Patel"
-							role="Business Lead"
-							major="Business and Data Science"
-							bio="Hi! I’m Siraj, a second year business and data science major who enjoys driving and playing basketball and football with friends in my free time. I’m very passionate about utilizing business skills to help building a formula style racecar."
+							name="Anish Gollakota"
+							role="Autonomous Program Manager"
+							major="Computer Science"
+							bio="Hi! I'm a senior studying Computer Science with a passion for autonomous vehicles. In my free time, I like to lift, play basketball, and kick it."
 						/>
 					</Col>
 				</Row>
@@ -144,28 +148,28 @@ const Team = () => {
 					<Col xs={12} md={4} className="text-center">
 						<TeamMember
 							image={Member7}
-							name="Simon Huang"
-							role="Chassis Lead"
+							name="Simon Lu"
+							role="Business Lead"
 							major="Mechanical Engineering"
-							bio="Hi! I’m Simon, a second year studying Mechanical Engineering. I love to apply the knowledge I learned in class to real life applications. During my free time, you will probably find me playing basketball with friends at RSF."
+							bio="Hey, I'm Simon, a second year studying mechanical engineering. I want to take part in the future of ev automobile! I enjoy playing basketball with Simon Huang in my free time."
 						/>
 					</Col>
 					<Col xs={12} md={4} className="text-center">
 						<TeamMember
 							image={Member8}
-							name="Pranav Pomalapally"
-							role="Computer Science Lead"
-							major="Electrical Engineering and Computer Science"
-							bio="Hey, I’m Pranav, a senior EECS major! I love music basketball, and making cars go fast. I’m excited to build sustainable high performing cars with FEB!"
+							name="Simon Huang"
+							role="Chassis Lead"
+							major="Mechanical Engineering"
+							bio="Hi! I’m Simon, a second year studying Mechanical Engineering. I love to apply the knowledge I learned in class to real life applications. During my free time, you will probably find me playing basketball with Simon Lu at RSF."
 						/>
 					</Col>
 					<Col xs={12} md={4} className="text-center">
 						<TeamMember
 							image={Member9}
-							name="Toshko Andreev"
-							role="Dynamics Lead"
-							major="Mechanical Engineering"
-							bio="Hey, I'm Toshko! I love designing and building cars, robots, and a brighter future for all."
+							name="Pranav Pomalapally"
+							role="Computer Science Lead"
+							major="Electrical Engineering and Computer Science"
+							bio="Hey, I’m Pranav, a senior EECS major! I love music basketball, and making cars go fast. I’m excited to build sustainable high performing cars with FEB!"
 						/>
 					</Col>
 				</Row>
@@ -173,6 +177,15 @@ const Team = () => {
 					<Col xs={12} md={4} className="text-center">
 						<TeamMember
 							image={Member10}
+							name="Toshko Andreev"
+							role="Dynamics Lead"
+							major="Mechanical Engineering"
+							bio="Hey, I'm Toshko! I love designing and building cars, robots, and a brighter future for all."
+						/>
+					</Col>
+					<Col xs={12} md={4} className="text-center">
+						<TeamMember
+							image={Member11}
 							name="Andrew Mussel"
 							role="Electrical Engineering Lead"
 							major="Electrical Engineering and Computer Science"
@@ -181,7 +194,36 @@ const Team = () => {
 					</Col>
 					<Col xs={12} md={4} className="text-center">
 						<TeamMember
-							image={Member11}
+							image={Member12}
+							name="Abby Steffens"
+							role="Internal PM"
+							major="Rhetoric, Environmental Policy & Management, and Sustainable Design"
+							bio="Hi, I'm Abby!"
+						/>
+					</Col>
+				</Row>
+				<Row className="justify-content-around member-row">
+					<Col xs={12} md={4} className="text-center">
+						<TeamMember
+							image={Member13}
+							name="Daniel Pack"
+							role="Manufacturing PM"
+							major="Mechanical Engineering and Business"
+							bio="Hey! I'm Daniel, a third year studying Mechanical Engineering & Business and I'm super excited to build and test our car this year! Outside of FEB, I love ultimate frisbee, skiing, and hiking."
+						/>
+					</Col>
+					<Col xs={12} md={4} className="text-center">
+						<TeamMember
+							image={Member14}
+							name="Chloe Hu"
+							role="Marketing PM"
+							major="Data Science and Business"
+							bio="My name is Chloe and I am a senior studying Data Science + Business! I joined the FEBily for the experience and stayed for the community. In my free time, I like to play basketball, sing in the shower, and write poems!"
+						/>
+					</Col>
+					<Col xs={12} md={4} className="text-center">
+						<TeamMember
+							image={Member15}
 							name="Weston White"
 							role="Powertrain Lead"
 							major="Mechanical Engineering"

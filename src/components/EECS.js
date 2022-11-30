@@ -12,7 +12,12 @@ import HeaderSubteamMobile from '../img/mobile/header-about-mobile.png';
 import GalleryRectangle from '../img/gallary-rectangles.png';
 import SubteamGroup from '../img/subteam-photos/eecs_crop.png';
 
+import '../css/Team.css';
 import '../css/Subteam.css';
+
+import TeamMember from "./TeamMember";
+import Member1 from "../img/team-members/1.jpg";
+import Member2 from "../img/team-members/2.jpg";
 
 const EECS = () => {
 	$(document).ready(function () {
@@ -89,9 +94,7 @@ const EECS = () => {
 						
 					</Col>
 				</Row>
-				<Row className="justify-content-center">
-					
-				</Row>
+
 				<Row className="justify-content-center fade-in">
 					<Col xs={12} className="text-center">
 						<h3>More Photos</h3>
