@@ -25,6 +25,7 @@ import Member12 from '../img/team-members/12.jpg';
 import Member13 from '../img/team-members/13.jpg';
 import Member14 from '../img/team-members/14.jpg';
 import Member15 from '../img/team-members/15.jpg';
+import Member16 from '../img/team-members/16.jpg';
 
 import '../css/Team.css';
 
@@ -157,10 +158,10 @@ const Team = () => {
 					<Col xs={12} md={4} className="text-center">
 						<TeamMember
 							image={Member8}
-							name="Simon Huang"
+							name="Ming Chin"
 							role="Chassis Lead"
 							major="Mechanical Engineering"
-							bio="Hi! I’m Simon, a second year studying Mechanical Engineering. I love to apply the knowledge I learned in class to real life applications. During my free time, you will probably find me playing basketball with Simon Lu at RSF."
+							bio="Hi, I’m Ming! I am a car enthusiast and I am passionate about technological innovation happening in the automotive space. In my free time, I love playing basketball, mountain biking, and hanging out with friends!"
 						/>
 					</Col>
 					<Col xs={12} md={4} className="text-center">
@@ -224,6 +225,17 @@ const Team = () => {
 					<Col xs={12} md={4} className="text-center">
 						<TeamMember
 							image={Member15}
+							name="Adam Ousherovitch"
+							role="Planning and Controls Lead"
+							major="Math and Computer Science"
+							bio="Hi im Adam. I'm a sophomore in math and computer science. I'm interested in autonomous vehicles. In my free time, im playing basketball, going backpacking, or in the gym."
+						/>
+					</Col>
+				</Row>
+				<Row className="justify-content-around member-row">
+					<Col xs={12} md={4} className="text-center">
+						<TeamMember
+							image={Member16}
 							name="Weston White"
 							role="Powertrain Lead"
 							major="Mechanical Engineering"
