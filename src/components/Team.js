@@ -196,10 +196,10 @@ const Team = () => {
 					<Col xs={12} md={4} className="text-center">
 						<TeamMember
 							image={Member12}
-							name="Abby Steffens"
+							name="Sarah Cheng"
 							role="Internal PM"
-							major="Rhetoric, Environmental Policy & Management, and Sustainable Design"
-							bio="Hi, I'm Abby!"
+							major="Business"
+							bio="Hi, I'm Sarah!"
 						/>
 					</Col>
 				</Row>
