@@ -13,7 +13,6 @@ import LandingDescriptionPhoto from '../img/landing-description-photo.png';
 import MetaImage from '../img/meta-image.png';
 import RecruitmentGraphic from '../img/RecruitmentTimeline.png';
 
-
 import '../css/Landing.css';
 
 const Landing = () => {
@@ -65,41 +64,6 @@ const Landing = () => {
 					</Button>
 				</a>
 			</div>
-			{<div className= "landingmiddle">
-			<h4>Recruitment</h4>
-			<hr2/>
-			<Row noGutters="true">
-				<div className="midsection">
-					<img
-						src={RecruitmentGraphic}
-						alt="meta"
-						className="selectDisable"
-						style={{ height: 500 }}
-					/>
-				</div>
-			{/* <div className= "video">
-			<iframe
-				title="sponsorship"
-				class="responsive-iframe"
-				height="380"
-				width="660"
-				src="https://www.youtube.com/embed/TouP6oxgqZQ"
-				frameborder="0"
-				allow="accelerometer; autoplay; encrypted-media;
-				gyroscope; picture-in-picture" allowfullscreen>
-			</iframe>
-			</div> */}
-			</Row>
-			<div>
-			<br/>
-			<br/>
-			 <a href= "/join">
-			<Button className="button join-button fade-in">
-				<p className="button-text">Join the Team</p>
-			</Button>
-			</a> 
-			</div>
-			</div>}
 			<Container fluid className="body">
 				<Row noGutters="true">
 					<Col xs={12} sm={6} className="text-col">
@@ -139,6 +103,42 @@ const Landing = () => {
 					</Col>
 				</Row>
 			</Container>
+			{<div className= "landingmiddle">
+			<h4>Recruitment</h4>
+			<hr2/>
+			<Row noGutters="true">
+				<div className="midsection">
+					<img
+						src={RecruitmentGraphic}
+						alt="meta"
+						className="selectDisable"
+						style={{ height: 500 }}
+					/>
+				</div>
+			{/* <div className= "video">
+			<iframe
+				title="sponsorship"
+				class="responsive-iframe"
+				height="380"
+				width="660"
+				src="https://www.youtube.com/embed/TouP6oxgqZQ"
+				frameborder="0"
+				allow="accelerometer; autoplay; encrypted-media;
+				gyroscope; picture-in-picture" allowfullscreen>
+			</iframe>
+			</div> */}
+			</Row>
+			<div>
+			<br/>
+			<br/>
+			 <a href= "/join">
+			<Button className="button join-button fade-in">
+				<p className="button-text">Join the Team</p>
+			</Button>
+			</a> 
+			</div>
+			</div>}
+			
 		</div>
 	);
 };

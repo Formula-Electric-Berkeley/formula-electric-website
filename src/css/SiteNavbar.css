@@ -23,12 +23,12 @@
 
 
 div.dropdown-menu.show {
-  background-color: #1C1C1C; 
+  background-color: #000000;
   border: none;
 }
 
 .dropdown-item:hover {
-  background-color:#1C1C1C;
+  background-color:#000000;
   text-decoration: underline;
   text-decoration-color: #0056b3;
 }

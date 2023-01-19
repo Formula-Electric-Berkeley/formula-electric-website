@@ -16,7 +16,7 @@ const SiteNavbar = (props) => {
 			style={{
 				padding: '.8rem 2rem .8rem 2rem',
 				minHeight: '10vh',
-				background: '#1c1c1c',
+				background: '#000000',
 			}}
 			variant="dark"
 			className="siteNavbar text-center"
@@ -36,7 +36,7 @@ const SiteNavbar = (props) => {
 			</Navbar.Brand>			
 			<Navbar.Toggle
 				aria-controls="basic-navbar-nav"
-				style={{ borderColor: 'rgba(255, 255, 255, 0.3)' }}
+				style={{ borderColor: 'rgba(255, 255, 255, 0)' }}
 			/>
 			<Navbar.Collapse id="basic-navbar-nav">
 				<Nav className="ml-auto"> 

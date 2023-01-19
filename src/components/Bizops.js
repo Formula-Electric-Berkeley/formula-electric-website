@@ -42,7 +42,7 @@ const Bizops = () => {
 	});
 	return (
 		<div className="about">
-			<SiteNavbar bg="#1c1c1c" />
+			<SiteNavbar bg="#000000" />
 			<img
 				src={HeaderSubteam}
 				alt="header subteam"

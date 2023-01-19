@@ -34,15 +34,14 @@
 	color: #1e478b;
 }
 .join .team-photo {
-	height: 70vh;
-	background-image: url('../img/apply-background.jpg');
-	background-repeat: no-repeat;
-	background-size: cover;
+	height: 120vh;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 }
-
+.join .midsection {
+	padding-left: 10%;
+}
 .join .join-button {
 	min-width: 50%;
 	text-transform: uppercase;
@@ -76,6 +75,25 @@
 	right: 0;
 }
 
+.join .social-div {
+	display: flex;
+}
+
+.join .fa {
+	padding: 50px;
+	font-size: 50px;
+	width: 50px;
+	height: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-decoration: none;
+	margin: 1rem 10px 0 10px;
+	border-radius: 50%;
+	color: white;
+	transition: 0.2s ease; /* Amount of time for hover effect to take place */
+}
+
 @media (max-width: 500px) {
 	.join h3 {
 		font-size: 32px;
@@ -92,9 +110,7 @@
 		font-weight: 300;
 		font-family: Overpass;
 	}
-	.join h5 {
 
-	}
 	.join .team-photo {
 		height: 80vh;
 		background-image: url('../img/mobile/apply-background-mobile.jpg');

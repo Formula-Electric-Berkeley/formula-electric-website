@@ -1,8 +1,7 @@
 import React from 'react';
 
-
 import SiteNavbar from './SiteNavbar';
-import RecruitmentGraphic from '../img/RecruitmentTimelineSpring2022.png';
+import RecruitmentGraphic from '../img/RecruitmentTimeline.png';
 
 import '../css/Join.css';
 import Button from 'react-bootstrap/Button';
@@ -10,9 +9,55 @@ import Button from 'react-bootstrap/Button';
 const Join = () => {
 	return (
 		<div className="join">
-			<SiteNavbar sticky="false" bg="#1c1c1c" />
+			<SiteNavbar sticky="false" bg="#000000" />
+			<br/>
+			<br/>
 			<div className="team-photo">
-				<h3>
+				<div className="midsection">
+					<img
+						src={RecruitmentGraphic}
+						alt="meta"
+						className="selectDisable"
+						style={{ height: 500 }}
+					/>
+				</div>
+				<br/>
+				<br/>
+				<div className="social-div">
+					<a
+						href="https://www.linkedin.com/company/formulaelectricberkeley/"
+						target="_blank"
+						rel="noopener noreferrer"
+						className="social-link"
+						>
+						<i className="fa fa-linkedin"></i>
+					</a>
+					<a
+						href="https://www.instagram.com/formulaelectricberkeley/"
+						target="_blank"
+						rel="noopener noreferrer"
+						className="social-link"
+						>
+								<i className="fa fa-instagram"></i>
+							</a>
+							<a
+								href="https://www.facebook.com/formulaelectricberkeley/"
+								target="_blank"
+								rel="noopener noreferrer"
+								className="social-link"
+							>
+								<i className="fa fa-facebook"></i>
+							</a>
+						</div>
+						<br/>
+				<br/>
+				<a href="https://forms.gle/7tX7KAipHSqSLrye9">
+					<Button className="button join-button fade-in">
+						<p className="button-text">Interest Form</p>
+					</Button>
+				</a>
+				
+				{/*<h3>
 					WE ARE CURRENTLY NOT RECURITING
 				</h3>
 				<h5>
@@ -25,9 +70,8 @@ const Join = () => {
 					<Button className="button join-button fade-in">
 						<p className="button-text">Linktree</p>
 					</Button>
-				</a>
+				</a>*/}
 				{/*<h4>Recruitment Timeline </h4>
-=======
 				<h4>
 					CHECK OUR SOCIALS FOR FUTURE UPDATES !
 				</h4>
@@ -40,8 +84,7 @@ const Join = () => {
 							</Button>
 					</a>
 				<h4>Recruitment Timeline </h4>
->>>>>>> 271241a5247cbf0e2a88247b2437bd000738960b
-				
+
 				<div className="midsection">
 					<img
 						src={RecruitmentGraphic}

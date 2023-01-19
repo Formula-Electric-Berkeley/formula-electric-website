@@ -17,7 +17,7 @@ import '../css/Sponsors.css';
 const Sponsors = () => {
 	return (
 		<div className="sponsors">
-			<SiteNavbar sticky="top" bg="#1c1c1c" />
+			<SiteNavbar sticky="top" bg="#000000" />
 			<img
 				src={HeaderSponsors}
 				alt="header sponsors"

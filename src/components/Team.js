@@ -75,7 +75,7 @@ const Team = () => {
 	});
 	return (
 		<div className="team">
-			<SiteNavbar sticky="top" bg="#1c1c1c" />
+			<SiteNavbar sticky="top" bg="#000000" />
 			<img
 				src={HeaderTeam}
 				alt="header team"
@@ -199,7 +199,7 @@ const Team = () => {
 							name="Sarah Cheng"
 							role="Internal PM"
 							major="Business"
-							bio="Hi, I'm Sarah!"
+							bio="Hi! I'm Sarah, a third-year studying Business Administration at UC Berkeley Haas with a passion for sustainability, community, and innovation. In my free time, I love snowboarding, baking, taking pictures with my new film camera, and spending time with my family and friends."
 						/>
 					</Col>
 				</Row>
