@@ -72,19 +72,19 @@ const Landing = () => {
 						<div className="text-container">
 							<p className="text fade-in">
 								Create a{' '}
-								<b className="yellow">community of diverse individuals</b> that
+								<b className="bold">community of diverse individuals</b> that
 								focuses on learning and skill development.
 							</p>
 							<p className="text fade-in">
 								Research, design, manufacture, and test{' '}
-								<b className="blue">
+								<b className="bold">
 									efficient, sustainable transportation technology
 								</b>{' '}
 								at UC Berkeley.
 							</p>
 							<p className="text fade-in">
 								Compete in the annual{' '}
-								<b className="yellow">Formula SAE Electric Competition</b> to
+								<b className="bold">Formula SAE Electric Competition</b> to
 								demonstrate our technology at a global scale.
 							</p>
 						</div>

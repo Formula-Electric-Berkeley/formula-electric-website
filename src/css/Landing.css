@@ -22,14 +22,16 @@
 .landing hr2 {
 	border-bottom: 2px solid #ffffff;
 	width: 30%;
-	/*margin-left: 20%;*/
-	/*margin-right: 30%;*/
 	margin-bottom: 4%;
+	border-color: #918978;
+	filter: blur(1px);
 }
 .landing hr {
 	border-bottom: 2px solid #ffffff;
 	width: 70%;
 	margin-right: 30%;
+	border-color: #918978;
+	filter: blur(1px);
 }
 .landing .header {
 	width: 100%;
@@ -136,7 +138,9 @@
 .landing .yellow {
 	color: #fdb515;
 }
-
+.landing .bold {
+	font-weight: bold;
+}
 .landing .fade-in {
 	opacity: 0;
 }
@@ -165,6 +169,7 @@
 		margin-top: 0.5rem;
 		width: 80%;
 		margin-right: 10%;
+		border-color: #918978;
 	}
 	.landing hr2 {
 		border-bottom: 2px solid #ffffff;
