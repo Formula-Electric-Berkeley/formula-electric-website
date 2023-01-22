@@ -41,12 +41,12 @@ const SiteNavbar = (props) => {
 			<Navbar.Collapse id="basic-navbar-nav">
 				<Nav className="ml-auto"> 
 					<a href="/about">
-						<p style={style.NavText}>About</p>
+						<p style={style.NavText}>ABOUT</p>
 					</a>
 	
 				<NavDropdown
 					id="nav-dropdown"
-					title={<p style={style.NavText}>Team</p>}
+					title={<p style={style.NavText}>TEAM</p>}
 					variant="primary"
 					menuVariant="dark"
 					className="justify-content-center"
@@ -69,13 +69,10 @@ const SiteNavbar = (props) => {
 						<p style={style.NavText}>Blog</p>
 					</a>*/}
 					<a href="/sponsors">
-						<p style={style.NavText}>Sponsors</p>
+						<p style={style.NavText}>SPONSORS</p>
 					</a>
 					<a href="/join">
-						<p style={style.NavText}>Join Us</p>
-					</a>
-					<a href="mailto: berkeleyformulae@gmail.com">
-						<p style={style.NavText}>Contact</p>
+						<p style={style.NavText}>JOIN US</p>
 					</a>
 					<a href="https://give.berkeley.edu/egiving/index.cfm?fund=FU1349000">
 						<p style={style.NavText}>Donate</p>
@@ -88,12 +85,12 @@ const SiteNavbar = (props) => {
 
 const style = {
 	NavText: {
-		fontFamily: 'Overpass',
+		fontFamily: 'Titillium Web',
 		margin: '0 2rem',
 		fontSize: '22px',
 	},
 	NavDropdownText: {
-		fontFamily: 'Overpass',
+		fontFamily: 'Titillium Web',
 		margin: '0 2rem',
 		fontSize: '20px',
 		

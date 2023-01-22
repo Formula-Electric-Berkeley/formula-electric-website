@@ -9,6 +9,8 @@ import Col from 'react-bootstrap/Col';
 
 import HeaderAboutUs from '../img/header-about.png';
 import HeaderAboutUsMobile from '../img/mobile/header-about-mobile.png';
+import OurCar from '../img/our-car.png';
+import Inclusivity from '../img/inclusivity.png';
 
 import '../css/About.css';
 
@@ -58,6 +60,7 @@ const About = () => {
 				<Row className="justify-content-center fade-in">
 					<Col xs={12} className="text-center">
 						<h3>Founded in january 2020</h3>
+						<br />
 						<hr />
 					</Col>
 				</Row>
@@ -66,7 +69,7 @@ const About = () => {
 
 						<p>
 							We are a tight-knit group of students who participate in the yearly {' '}
-							<b><a href="https://www.sae.org/attend/student-events/formula-sae-california/about" >FSAE EV Competition</a></b> 
+							<a href="https://www.sae.org/attend/student-events/formula-sae-california/about" >FSAE EV Competition</a>
 							{' '}which takes place in Michigan. 
 							The competition involves building, testing, and racing a formula-style 
 							electric vehicle as well as completing a consulting-style analysis 
@@ -76,7 +79,7 @@ const About = () => {
 						<p>
 							Members of our team specialize in engineering, business, marketing, 
 							and more! Our focus is on providing an opportunity for students to 
-							apply their knowledge in a <b>hands-on collaborative environment</b>, providing 
+							apply their knowledge in a hands-on collaborative environment, providing 
 							them valuable career skills.
 						</p>
 					</Col>
@@ -84,22 +87,25 @@ const About = () => {
 				<Row className="justify-content-center">
 					<Col xs={4} md={3} className="text-center">
 						<div className="credential-container" style={{ textAlign: 'left' }}>
-							<h4 className="fade-in">40 students</h4>
-							<p className="fade-in">Berkeley Haas</p>
-							<p className="fade-in">Berkeley EECS</p>
+							<h4 className="fade-in">50+ students</h4>
+							<p className="fade-in">Berkeley Haas School of Business</p>
 							<p className="fade-in">Berkeley Mechanical Engineering</p>
 							<p className="fade-in">Jacobs Inst. for Design Innovation</p>
+							<p className="fade-in">Berkeley College of Engineering</p>
 						</div>
 					</Col>
 					<Col xs={4} md={3} className="text-center">
 						<div className="credential-container">
 							<h4 className="fade-in">100+ Alumni</h4>
-							<p className="fade-in">Tesla</p>
 							<p className="fade-in">Apple</p>
 							<p className="fade-in">SpaceX</p>
-							<p className="fade-in">Blue Origin</p>
-							<p className="fade-in">Schlumburger</p>
-							<p className="fade-in">Northrop Grumman</p>
+							<p className="fade-in">Tesla</p>
+							<p className="fade-in">Lucid</p>
+							<p className="fade-in">Rivian</p>
+							<p className="fade-in">Ford Motors</p>
+							<p className="fade-in">Microsoft</p>
+							
+
 						</div>
 					</Col>
 					<Col xs={4} md={3} className="text-center">
@@ -108,12 +114,12 @@ const About = () => {
 							style={{ textAlign: 'right' }}
 						>
 							<h4 className="fade-in">10+ Partners</h4>
-							<p className="fade-in">Ford</p>
-							<p className="fade-in">Modus</p>
-							<p className="fade-in">Boeing</p>
-							<p className="fade-in">Autodesk</p>
+							<p className="fade-in">Fictiv</p>
+							<p className="fade-in">Protolabs</p>
+							<p className="fade-in">Tesla</p>
 							<p className="fade-in">General Motors</p>
-							<p className="fade-in">National Instruments</p>
+							<p className="fade-in">Altium</p>
+							<p className="fade-in">Bay Area Circuits</p>
 						</div>
 					</Col>
 				</Row>
@@ -126,10 +132,43 @@ const About = () => {
 				<Row className="justify-content-center fade-in mb-5">
 					<Col xs={12} sm={10} md={7} className="text-center">
 						<p>
-							Our team of engineers designs and builds a space-frame steel
-							chassis to contain lithium-ion batteries, AC motors, and
-							high-performance suspension systems.
+						Our team of engineers designs and builds a space-frame steel chassis 
+						to contain lithium-ion batteries, AC motors, and high-performance suspension systems.
 						</p>
+					</Col>
+				</Row>
+				<Row className="justify-content-center fade-in mb-5">
+					<Col xs={12} sm={10} md={7} className="text-center">
+					<img
+						src={OurCar}
+						alt="meta"
+						className="selectDisable recruitImage"
+					/>
+					</Col>
+				</Row>
+				<Row className="justify-content-center fade-in">
+					<Col xs={12} className="text-center">
+						<h3>Inclusivity</h3>
+						<hr />
+					</Col>
+				</Row>
+				<Row className="justify-content-center fade-in mb-5">
+					<Col xs={12} sm={10} md={7} className="text-center">
+						<p>
+						We are committed to creating opportunities open to students of 
+						ALL backgrounds, ages, and majors & seek to build a community 
+						that is a safe and empowering for ALL perspectives, experiences, 
+						and identities.
+						</p>
+					</Col>
+				</Row>
+				<Row className="justify-content-center fade-in mb-5">
+					<Col xs={12} sm={10} md={7} className="text-center">
+					<img
+						src={Inclusivity}
+						alt="meta"
+						className="selectDisable recruitImage"
+					/>
 					</Col>
 				</Row>
 

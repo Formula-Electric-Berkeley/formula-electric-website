@@ -5,11 +5,10 @@ import SiteNavbar from './SiteNavbar';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import { Link } from 'react-router-dom';
 
 import HeaderSponsors from '../img/header-sponsors.png';
 import HeaderSponsorsMobile from '../img/mobile/header-sponsors-mobile.png';
-import SponsorPhotos from '../img/Group 35.png';
+import SponsorPhotos from '../img/sponsor.png';
 import SponsorPhotosMobile from '../img/mobile/Group 36.png';
 
 import '../css/Sponsors.css';

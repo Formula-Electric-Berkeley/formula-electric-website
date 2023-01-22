@@ -4,13 +4,14 @@
 }
 .about h3 {
 	font-size: 36px;
-	color: #fdb515;
+	color: white;
 	text-transform: uppercase;
 	margin-top: 5rem;
+	font-family: 'Titillium Web';
 }
 .about h4 {
 	font-size: 24px;
-	color: #fdb515;
+	color: #FAE0A5;
 	text-transform: uppercase;
 	margin-top: 3.5rem;
 }
@@ -25,6 +26,7 @@
 	width: 45%;
 	margin-top: 0.2rem;
 	margin-bottom: 1.5rem;
+	border-color: #FAE0A5;
 }
 .about p {
 	font-size: 20px;
@@ -61,6 +63,24 @@
 .about .fade-in {
 	opacity: 0;
 }
+
+.about .recruitImage {
+	max-width: 100%;
+	margin-left: auto;
+  	margin-right: auto;
+}
+
+a:link {
+	color: white;
+	background-color: transparent;
+	text-decoration: none;
+  }
+a:hover {
+	color: #FAE0A5;
+	background-color: transparent;
+	text-decoration: none;
+  }
+
 
 @media (max-width: 500px) {
 	.about h3 {
