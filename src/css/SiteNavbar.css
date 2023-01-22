@@ -37,6 +37,10 @@ div.dropdown-menu.show {
   text-align: center;
 }
 
+.navbaricon {
+  margin: auto;
+}
+
 @media (min-width: 768px) {
   .dropdown-menu {
       width: 15rem; /* JUST FOR STYLING PURPOSE OF DROPDOWN */

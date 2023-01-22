@@ -9,10 +9,7 @@ import Col from 'react-bootstrap/Col';
 
 import HeaderSubteam from '../img/subteam-headers/header-b&o.png';
 import HeaderSubteamMobile from '../img/mobile/header-about-mobile.png';
-import GalleryRectangle from '../img/gallary-rectangles.png';
 import SubteamGroup from '../img/subteam-photos/b&o_crop.png';
-
-
 
 const Bizops = () => {
 	$(document).ready(function () {
@@ -64,50 +61,27 @@ const Bizops = () => {
 				</Row>
 				<Row className="justify-content-center text-center">
 					<Col xs={12} sm={6} className="text-center">
-					<img
-						src={SubteamGroup}
-						alt="subteam photo"
-						className="header selectDisable large-screen"
-						id="subteam"
-					/>
+						<img
+							src={SubteamGroup}
+							alt="subteam photo"
+							className="header selectDisable large-screen"
+							id="subteam"
+						/>
 					</Col>
 					<Col xs={12} sm={5} className="text-center blue">
-						
-						<br/>
-						<br/>
-						<br/>
-						<br/>
-						<br/>
-						<br/>
-						<br/>
-						<br/>
-						
-						<p>
-							Business swag
-						</p>
-							
-						
+						<br />
+						<br />
+						<br />
+						<br />
+						<br />
+						<br />
+						<br />
+						<br />
+
+						<p>Business swag</p>
 					</Col>
 				</Row>
-				<Row className="justify-content-center">
-					
-				</Row>
-				<Row className="justify-content-center fade-in">
-					<Col xs={12} className="text-center">
-						<h3>More Photos</h3>
-						<hr />
-					</Col>
-				</Row>
-				<Row className="justify-content-center fade-in mb-5">
-					<Col xs={12} sm={10} md={7} className="text-center">
-					<img
-						src={GalleryRectangle}
-						alt="gallery"
-						className="header selectDisable large-screen"
-						id="gallery"
-					/>
-					</Col>
-				</Row>
+				<Row className="justify-content-center"></Row>
 			</Container>
 		</div>
 	);

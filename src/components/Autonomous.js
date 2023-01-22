@@ -64,51 +64,32 @@ const Autonomous = () => {
 				</Row>
 				<Row className="justify-content-center text-center">
 					<Col xs={12} sm={6} className="text-center">
-					<img
-						src={SubteamGroup}
-						alt="subteam photo"
-						className="header selectDisable large-screen"
-						id="subteam"
-					/>
+						<img
+							src={SubteamGroup}
+							alt="subteam photo"
+							className="header selectDisable large-screen"
+							id="subteam"
+						/>
 					</Col>
 					<Col xs={12} sm={5} className="text-center blue">
-						
-						<br/>
-						
-						
-				
+						<br />
+
 						<p>
-						The Autonomous Driving R&D Team at FEB aims to develop advanced autonomous driving solutions 
-						that can be implemented on our first-generation electric formula race car for formula student driverless 
-						competitions. We will have a high-resolution, low-latency LiDAR+Camera sensor setup for our perception 
-						pipeline, fast and efficient SLAM algorithms for real-time vehicle localization and mapping, an offline 
-						lap-time optimization trajectory planner, and an online N-MPC path follower for accurate vehicle planning 
-						and control. Our goal is to prepare our engineers 
-						for a sustainable and autonomous future of transportation via hands-on projects in autonomous racing. 
+							The Autonomous Driving R&D Team at FEB aims to develop advanced
+							autonomous driving solutions that can be implemented on our
+							first-generation electric formula race car for formula student
+							driverless competitions. We will have a high-resolution,
+							low-latency LiDAR+Camera sensor setup for our perception pipeline,
+							fast and efficient SLAM algorithms for real-time vehicle
+							localization and mapping, an offline lap-time optimization
+							trajectory planner, and an online N-MPC path follower for accurate
+							vehicle planning and control. Our goal is to prepare our engineers
+							for a sustainable and autonomous future of transportation via
+							hands-on projects in autonomous racing.
 						</p>
-							
-						
 					</Col>
 				</Row>
-				<Row className="justify-content-center">
-					
-				</Row>
-				<Row className="justify-content-center fade-in">
-					<Col xs={12} className="text-center">
-						<h3>More Photos</h3>
-						<hr />
-					</Col>
-				</Row>
-				<Row className="justify-content-center fade-in mb-5">
-					<Col xs={12} sm={10} md={7} className="text-center">
-					<img
-						src={GalleryRectangle}
-						alt="gallery"
-						className="header selectDisable large-screen"
-						id="gallery"
-					/>
-					</Col>
-				</Row>
+				<Row className="justify-content-center"></Row>
 			</Container>
 		</div>
 	);

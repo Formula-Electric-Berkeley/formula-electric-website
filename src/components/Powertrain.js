@@ -64,50 +64,33 @@ const Powertrain = () => {
 				</Row>
 				<Row className="justify-content-center text-center">
 					<Col xs={12} sm={6} className="text-center">
-					<img
-						src={SubteamGroup}
-						alt="subteam photo"
-						className="header selectDisable large-screen"
-						id="subteam"
-					/>
+						<img
+							src={SubteamGroup}
+							alt="subteam photo"
+							className="header selectDisable large-screen"
+							id="subteam"
+						/>
 					</Col>
 					<Col xs={12} sm={5} className="text-center blue">
-		
 						<p>
-						The Powertrain of the electric formula car transfers raw power, torque, and speed to the 
-						wheels. It all starts with the electric motors of the car, which convert the 
-						electrical/chemical energy from the accumulator to rotational kinetic energy at the 
-						motor shaft. This energy is transmitted through the drivetrain and wheel hubs to spin 
-						the wheels and tires, which propel the car forward. There are various drivetrain designs, 
-						ranging from the gearbox to chain drive. Lap simulations and energy usage calculations are
-						performed to make design decisions that are best suited for the car to do well at the final
-						 Formula Society of Automotive Engineers (FSAE) competition. In addition to the powertrain, 
-						 this subteam is responsible for the cooling system that ensures the components are all 
-						 performing at optimal temperatures and efficiencies.
+							The Powertrain of the electric formula car transfers raw power,
+							torque, and speed to the wheels. It all starts with the electric
+							motors of the car, which convert the electrical/chemical energy
+							from the accumulator to rotational kinetic energy at the motor
+							shaft. This energy is transmitted through the drivetrain and wheel
+							hubs to spin the wheels and tires, which propel the car forward.
+							There are various drivetrain designs, ranging from the gearbox to
+							chain drive. Lap simulations and energy usage calculations are
+							performed to make design decisions that are best suited for the
+							car to do well at the final Formula Society of Automotive
+							Engineers (FSAE) competition. In addition to the powertrain, this
+							subteam is responsible for the cooling system that ensures the
+							components are all performing at optimal temperatures and
+							efficiencies.
 						</p>
-							
-						
 					</Col>
 				</Row>
-				<Row className="justify-content-center">
-					
-				</Row>
-				<Row className="justify-content-center fade-in">
-					<Col xs={12} className="text-center">
-						<h3>More Photos</h3>
-						<hr />
-					</Col>
-				</Row>
-				<Row className="justify-content-center fade-in mb-5">
-					<Col xs={12} sm={10} md={7} className="text-center">
-					<img
-						src={GalleryRectangle}
-						alt="gallery"
-						className="header selectDisable large-screen"
-						id="gallery"
-					/>
-					</Col>
-				</Row>
+				<Row className="justify-content-center"></Row>
 			</Container>
 		</div>
 	);

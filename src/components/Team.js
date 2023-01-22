@@ -87,46 +87,46 @@ const Team = () => {
 						</a>
 					</Col>
 					<Col xs={12} md={4} className="text-center">
-						<a href="/autonomous" target="_self" rel="noopener noreferrer">
+						<a href="/business" target="_self" rel="noopener noreferrer">
 							<TeamMember image={Team2} name="Business" />
 						</a>
 					</Col>
 					<Col xs={12} md={4} className="text-center">
-						<a href="/autonomous" target="_self" rel="noopener noreferrer">
+						<a href="/chassis" target="_self" rel="noopener noreferrer">
 							<TeamMember image={Team3} name="Chassis" />
 						</a>
 					</Col>
 				</Row>
 				<Row className="justify-content-around member-row">
 					<Col xs={12} md={4} className="text-center">
-						<a href="/autonomous" target="_self" rel="noopener noreferrer">
+						<a href="/dynamics" target="_self" rel="noopener noreferrer">
 							<TeamMember image={Team4} name="Dynamics" />
 						</a>
 					</Col>
 					<Col xs={12} md={4} className="text-center">
-						<a href="/autonomous" target="_self" rel="noopener noreferrer">
+						<a href="/eecs" target="_self" rel="noopener noreferrer">
 							<TeamMember image={Team5} name="EECS" />
 						</a>
 					</Col>
 					<Col xs={12} md={4} className="text-center">
-						<a href="/autonomous" target="_self" rel="noopener noreferrer">
+						<a href="/powertrain" target="_self" rel="noopener noreferrer">
 							<TeamMember image={Team6} name="Powertrain" />
 						</a>
 					</Col>
 				</Row>
 				<Row className="justify-content-around member-row">
 					<Col xs={12} md={4} className="text-center">
-						<a href="/autonomous" target="_self" rel="noopener noreferrer">
+						<a href="/teamleads" target="_self" rel="noopener noreferrer">
 							<TeamMember image={Team7} name="Leadership" />
 						</a>
 					</Col>
 					<Col xs={12} md={4} className="text-center">
-						<a href="/autonomous" target="_self" rel="noopener noreferrer">
+						<a href="/worksessions" target="_self" rel="noopener noreferrer">
 							<TeamMember image={Team8} name="Work Sessions" />
 						</a>
 					</Col>
 					<Col xs={12} md={4} className="text-center">
-						<a href="/autonomous" target="_self" rel="noopener noreferrer">
+						<a href="/socials" target="_self" rel="noopener noreferrer">
 							<TeamMember image={Team9} name="Socials" />
 						</a>
 					</Col>

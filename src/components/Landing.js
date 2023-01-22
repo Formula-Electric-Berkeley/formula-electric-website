@@ -8,7 +8,6 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
-import LandingLogo from '../img/logo.png';
 import LandingDescriptionPhoto from '../img/landing-description-photo.png';
 import MetaImage from '../img/meta-image.png';
 import RecruitmentGraphic from '../img/RecruitmentTimeline.png';

@@ -64,52 +64,31 @@ const Dynamics = () => {
 				</Row>
 				<Row className="justify-content-center text-center">
 					<Col xs={12} sm={6} className="text-center">
-					<img
-						src={SubteamGroup}
-						alt="subteam photo"
-						className="header selectDisable large-screen"
-						id="subteam"
-					/>
+						<img
+							src={SubteamGroup}
+							alt="subteam photo"
+							className="header selectDisable large-screen"
+							id="subteam"
+						/>
 					</Col>
 					<Col xs={12} sm={5} className="text-center blue">
-						
-						<br/>
-						<br/>
-						<br/>
-						<br/>
-					
-						
-						
+						<br />
+						<br />
+						<br />
+						<br />
+
 						<p>
-						The Dynamics Subteam is responsible for designing, manufacturing, and implementing data acquisition 
-						of the suspension and steering systems of FEB’s electric formula race car. We are also aiming to develop 
-						an in-house rigid body vehicle dynamics simulation model to better inform our design decisions and optimize 
-						member geometry through calculated member forces. 
-						This model should also be able to be used by the Autonomous and Chassis teams.
+							The Dynamics Subteam is responsible for designing, manufacturing,
+							and implementing data acquisition of the suspension and steering
+							systems of FEB’s electric formula race car. We are also aiming to
+							develop an in-house rigid body vehicle dynamics simulation model
+							to better inform our design decisions and optimize member geometry
+							through calculated member forces. This model should also be able
+							to be used by the Autonomous and Chassis teams.
 						</p>
-							
-						
 					</Col>
 				</Row>
-				<Row className="justify-content-center">
-					
-				</Row>
-				<Row className="justify-content-center fade-in">
-					<Col xs={12} className="text-center">
-						<h3>More Photos</h3>
-						<hr />
-					</Col>
-				</Row>
-				<Row className="justify-content-center fade-in mb-5">
-					<Col xs={12} sm={10} md={7} className="text-center">
-					<img
-						src={GalleryRectangle}
-						alt="gallery"
-						className="header selectDisable large-screen"
-						id="gallery"
-					/>
-					</Col>
-				</Row>
+				<Row className="justify-content-center"></Row>
 			</Container>
 		</div>
 	);

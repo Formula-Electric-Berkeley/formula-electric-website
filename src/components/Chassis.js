@@ -64,48 +64,30 @@ const Chassis = () => {
 				</Row>
 				<Row className="justify-content-center text-center">
 					<Col xs={12} sm={6} className="text-center">
-					<img
-						src={SubteamGroup}
-						alt="subteam photo"
-						className="header selectDisable large-screen"
-						id="subteam"
-					/>
+						<img
+							src={SubteamGroup}
+							alt="subteam photo"
+							className="header selectDisable large-screen"
+							id="subteam"
+						/>
 					</Col>
 					<Col xs={12} sm={5} className="text-center blue">
-						
-						<br/>
-						<br/>
-			
+						<br />
+						<br />
+
 						<p>
-						The Chassis Team works on a wide variety of components on the car, ranging from the design and 
-						development of our spaceframe to our braking system and bodywork. We are also responsible for battery 
-						packaging to ensure that our accumulator is safely secured in the event of a collision. Lastly, we work 
-						on optimizing cockpit ergonomics so our driver is as safe and comfortable as possible. 
-						We are also building towards deploying an aero package on our car for the 2023-24 competition season. 
+							The Chassis Team works on a wide variety of components on the car,
+							ranging from the design and development of our spaceframe to our
+							braking system and bodywork. We are also responsible for battery
+							packaging to ensure that our accumulator is safely secured in the
+							event of a collision. Lastly, we work on optimizing cockpit
+							ergonomics so our driver is as safe and comfortable as possible.
+							We are also building towards deploying an aero package on our car
+							for the 2023-24 competition season.
 						</p>
-							
-						
 					</Col>
 				</Row>
-				<Row className="justify-content-center">
-					
-				</Row>
-				<Row className="justify-content-center fade-in">
-					<Col xs={12} className="text-center">
-						<h3>More Photos</h3>
-						<hr />
-					</Col>
-				</Row>
-				<Row className="justify-content-center fade-in mb-5">
-					<Col xs={12} sm={10} md={7} className="text-center">
-					<img
-						src={GalleryRectangle}
-						alt="gallery"
-						className="header selectDisable large-screen"
-						id="gallery"
-					/>
-					</Col>
-				</Row>
+				<Row className="justify-content-center"></Row>
 			</Container>
 		</div>
 	);

@@ -15,9 +15,9 @@ import SubteamGroup from '../img/subteam-photos/eecs_crop.png';
 import '../css/Team.css';
 import '../css/Subteam.css';
 
-import TeamMember from "./TeamMember";
-import Member1 from "../img/team-members/1.jpg";
-import Member2 from "../img/team-members/2.jpg";
+import TeamMember from './TeamMember';
+import Member1 from '../img/team-members/1.jpg';
+import Member2 from '../img/team-members/2.jpg';
 
 const EECS = () => {
 	$(document).ready(function () {
@@ -69,46 +69,28 @@ const EECS = () => {
 				</Row>
 				<Row className="justify-content-center text-center">
 					<Col xs={12} sm={6} className="text-center">
-					<img
-						src={SubteamGroup}
-						alt="subteam photo"
-						className="header selectDisable large-screen"
-						id="subteam"
-					/>
+						<img
+							src={SubteamGroup}
+							alt="subteam photo"
+							className="header selectDisable large-screen"
+							id="subteam"
+						/>
 					</Col>
 					<Col xs={12} sm={5} className="text-center blue">
-						
-						<br/>
-						<br/>
-						
-						<p>
-						The EECS Subteam is responsible for designing High-voltage and Low-voltage electrical 
-						systems. The HV system consists of battery pack electrical systems and battery management 
-						systems. The LV system consists of CAN bus communication, sensor data acquisition,  
-						LV power distribution, driver interface, firmware, software, and much more. We aim to 
-						build a HV system with maximum efficiency and reliability, a LV electrical system embedded 
-						with microcontrollers and sensors that will help us control and monitor the car more 
-						effectively in a data-driven approach. 
-						</p>
-							
-						
-					</Col>
-				</Row>
+						<br />
+						<br />
 
-				<Row className="justify-content-center fade-in">
-					<Col xs={12} className="text-center">
-						<h3>More Photos</h3>
-						<hr />
-					</Col>
-				</Row>
-				<Row className="justify-content-center fade-in mb-5">
-					<Col xs={12} sm={10} md={7} className="text-center">
-					<img
-						src={GalleryRectangle}
-						alt="gallery"
-						className="header selectDisable large-screen"
-						id="gallery"
-					/>
+						<p>
+							The EECS Subteam is responsible for designing High-voltage and
+							Low-voltage electrical systems. The HV system consists of battery
+							pack electrical systems and battery management systems. The LV
+							system consists of CAN bus communication, sensor data acquisition,
+							LV power distribution, driver interface, firmware, software, and
+							much more. We aim to build a HV system with maximum efficiency and
+							reliability, a LV electrical system embedded with microcontrollers
+							and sensors that will help us control and monitor the car more
+							effectively in a data-driven approach.
+						</p>
 					</Col>
 				</Row>
 			</Container>

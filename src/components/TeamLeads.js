@@ -8,8 +8,9 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
-import HeaderTeam from '../img/header-team.png';
+import HeaderTeam from '../img/header-teamleads.png';
 import HeaderTeamMobile from '../img/mobile/header-team-mobile.png';
+import PMQuirky from '../img/pm-quirky.png';
 import Member1 from '../img/team-members/1.jpg';
 import Member2 from '../img/team-members/2.jpg';
 import Member3 from '../img/team-members/3.jpg';
@@ -242,6 +243,13 @@ const TeamLeads = () => {
 							bio="Hi, I'm Weston a senior studying mechanical engineering. I'm excited about anything electric car related and to build one with FEB! In my free time I enjoy rock climbing and rendering with Blender."
 						/>
 					</Col>
+				</Row>
+				<Row className="justify-content-around member-row">
+				<img
+							src={PMQuirky}
+							alt="landing description"
+							className="member-photo selectDisable"
+						/>
 				</Row>
 			</Container>
 		</div>

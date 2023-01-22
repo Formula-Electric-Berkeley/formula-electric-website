@@ -88,25 +88,29 @@ const Sponsors = () => {
 					</Col>
 				</Row>
 				<div class="image-link">
-						<Row className="justify-content-center">
-							<img
-								src={SponsorPhotos}
-								alt="sponsors"
-								className="sponsor-photos selectDisable"
-								useMap="#image-map"
-							/>
-							<map name="image-map">
-								<area target="_self" alt="Sanyo Denki" title="Sanyo Denki"
-									  href="https://www.sanyodenki.com/taiwan/index.html" coords="580,250,820,3910"
-									  shape="rect">
-								</area>
-							</map>
-							<img
-								src={SponsorPhotosMobile}
-								alt="sponsors"
-								className="sponsor-photos-mobile selectDisable"
-							/>
-						</Row>
+					<Row className="justify-content-center">
+						<img
+							src={SponsorPhotos}
+							alt="sponsors"
+							className="sponsor-photos selectDisable"
+							useMap="#image-map"
+						/>
+						<map name="image-map">
+							<area
+								target="_self"
+								alt="Sanyo Denki"
+								title="Sanyo Denki"
+								href="https://www.sanyodenki.com/taiwan/index.html"
+								coords="580,250,820,3910"
+								shape="rect"
+							></area>
+						</map>
+						<img
+							src={SponsorPhotosMobile}
+							alt="sponsors"
+							className="sponsor-photos-mobile selectDisable"
+						/>
+					</Row>
 				</div>
 			</Container>
 		</div>
