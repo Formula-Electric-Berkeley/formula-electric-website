@@ -15,6 +15,7 @@ import Chassis from './components/Chassis';
 import Dynamics from './components/Dynamics';
 import EECS from './components/EECS';
 import Powertrain from './components/Powertrain';
+import TeamLeads  from './components/TeamLeads';
 
 import './css/App.css';
 
@@ -28,6 +29,9 @@ function App() {
 					</Route>
 					<Route path="/team">
 						<Team />
+					</Route>
+					<Route path="/teamleads">
+						<TeamLeads />
 					</Route>
 					<Route path="/sponsors">
 						<Sponsors />
