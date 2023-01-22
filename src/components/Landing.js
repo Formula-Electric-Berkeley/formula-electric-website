@@ -111,8 +111,7 @@ const Landing = () => {
 					<img
 						src={RecruitmentGraphic}
 						alt="meta"
-						className="selectDisable"
-						style={{ height: 500 }}
+						className="selectDisable recruitImage"
 					/>
 				</div>
 			{/* <div className= "video">

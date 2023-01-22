@@ -17,8 +17,7 @@ const Join = () => {
 					<img
 						src={RecruitmentGraphic}
 						alt="meta"
-						className="selectDisable"
-						style={{ height: 500 }}
+						className="selectDisable recruitImage"
 					/>
 				</div>
 				<br/>
@@ -51,7 +50,7 @@ const Join = () => {
 						</div>
 						<br/>
 				<br/>
-				<a href="https://forms.gle/7tX7KAipHSqSLrye9">
+				<a href="https://forms.gle/W6P6dyh1r1fKUf3R8">
 					<Button className="button join-button fade-in">
 						<p className="button-text">Interest Form</p>
 					</Button>

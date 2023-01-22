@@ -94,6 +94,10 @@
 	transition: 0.2s ease; /* Amount of time for hover effect to take place */
 }
 
+.join .recruitImage {
+	max-width: 100%;
+}
+
 @media (max-width: 500px) {
 	.join h3 {
 		font-size: 32px;
@@ -112,8 +116,7 @@
 	}
 
 	.join .team-photo {
-		height: 80vh;
-		background-image: url('../img/mobile/apply-background-mobile.jpg');
+		height: 110vh;
 	}
 	.join .recruitvideo {
 		display: flex;
@@ -149,5 +152,9 @@
 		max-height: 100%;
 		max-width: 90%;
 		margin-top: 3rem;
+	}
+	.join .recruitImage {
+		max-width: 100%;
+		padding-left: 5%;
 	}
 }
