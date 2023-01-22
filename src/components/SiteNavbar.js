@@ -75,7 +75,7 @@ const SiteNavbar = (props) => {
 						<p style={style.NavText}>JOIN US</p>
 					</a>
 					<a href="https://give.berkeley.edu/egiving/index.cfm?fund=FU1349000">
-						<p style={style.NavText}>Donate</p>
+						<p style={style.NavText}>DONATE</p>
 					</a>
 				</Nav>
 			</Navbar.Collapse>

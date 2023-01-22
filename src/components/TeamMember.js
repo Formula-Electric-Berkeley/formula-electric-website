@@ -3,6 +3,7 @@ import React from 'react';
 import '../css/Team.css';
 
 const TeamMember = (props) => {
+	const overlay = (props.bio == null) ? null: "overlay"
 	return (
 		<div>
 			<div className="individual-container">
@@ -11,7 +12,7 @@ const TeamMember = (props) => {
 					alt={props.name}
 					className="member-photo fade-in-image selectDisable"
 				/>
-				<div className="overlay">
+				<div className={overlay}>
 					<div className="overlay-text">{props.bio}</div>
 				</div>
 			</div>
