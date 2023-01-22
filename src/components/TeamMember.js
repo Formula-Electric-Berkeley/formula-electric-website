@@ -3,7 +3,7 @@ import React from 'react';
 import '../css/Team.css';
 
 const TeamMember = (props) => {
-	const overlay = (props.bio == null) ? null: "overlay"
+	const overlay = props.bio == null ? null : 'overlay';
 	return (
 		<div>
 			<div className="individual-container">

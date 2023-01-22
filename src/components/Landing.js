@@ -58,7 +58,7 @@ const Landing = () => {
 					className="landing-logo selectDisable"
 				/>*/}
 				<h2>UC Berkeley's Formula SAE Electric Vehicle Team</h2>
-				<a href="/about">		
+				<a href="/about">
 					<Button className="button landing-button">
 						<p className="button-text">Learn More</p>
 					</Button>
@@ -103,18 +103,19 @@ const Landing = () => {
 					</Col>
 				</Row>
 			</Container>
-			{<div className= "landingmiddle">
-			<h4>Recruitment</h4>
-			<hr2/>
-			<Row noGutters="true">
-				<div className="midsection">
-					<img
-						src={RecruitmentGraphic}
-						alt="meta"
-						className="selectDisable recruitImage"
-					/>
-				</div>
-			{/* <div className= "video">
+			{
+				<div className="landingmiddle">
+					<h4>Recruitment</h4>
+					<hr2 />
+					<Row noGutters="true">
+						<div className="midsection">
+							<img
+								src={RecruitmentGraphic}
+								alt="meta"
+								className="selectDisable recruitImage"
+							/>
+						</div>
+						{/* <div className= "video">
 			<iframe
 				title="sponsorship"
 				class="responsive-iframe"
@@ -126,18 +127,18 @@ const Landing = () => {
 				gyroscope; picture-in-picture" allowfullscreen>
 			</iframe>
 			</div> */}
-			</Row>
-			<div>
-			<br/>
-			<br/>
-			 <a href= "/join">
-			<Button className="button join-button fade-in">
-				<p className="button-text">Join the Team</p>
-			</Button>
-			</a> 
-			</div>
-			</div>}
-			
+					</Row>
+					<div>
+						<br />
+						<br />
+						<a href="/join">
+							<Button className="button join-button fade-in">
+								<p className="button-text">Join the Team</p>
+							</Button>
+						</a>
+					</div>
+				</div>
+			}
 		</div>
 	);
 };

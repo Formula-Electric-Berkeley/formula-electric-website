@@ -82,62 +82,53 @@ const Team = () => {
 			<Container fluid className="member-container">
 				<Row className="justify-content-around member-row">
 					<Col xs={12} md={4} className="text-center">
-						<TeamMember
-							image={Team1}
-							name="Autonomous"
-						/>
+						<a href="/autonomous" target="_self" rel="noopener noreferrer">
+							<TeamMember image={Team1} name="Autonomous" />
+						</a>
 					</Col>
 					<Col xs={12} md={4} className="text-center">
-						<TeamMember
-					  		image={Team2}
-							name="Business"
-							/>
+						<a href="/autonomous" target="_self" rel="noopener noreferrer">
+							<TeamMember image={Team2} name="Business" />
+						</a>
 					</Col>
 					<Col xs={12} md={4} className="text-center">
-						<TeamMember
-							image={Team3}
-							name="Chassis"
-							/>
+						<a href="/autonomous" target="_self" rel="noopener noreferrer">
+							<TeamMember image={Team3} name="Chassis" />
+						</a>
 					</Col>
 				</Row>
 				<Row className="justify-content-around member-row">
 					<Col xs={12} md={4} className="text-center">
-						<TeamMember
-							image={Team4}
-							name="Dynamics"
-							/>
+						<a href="/autonomous" target="_self" rel="noopener noreferrer">
+							<TeamMember image={Team4} name="Dynamics" />
+						</a>
 					</Col>
 					<Col xs={12} md={4} className="text-center">
-						<TeamMember
-							image={Team5}
-							name="EECS"
-							/>
+						<a href="/autonomous" target="_self" rel="noopener noreferrer">
+							<TeamMember image={Team5} name="EECS" />
+						</a>
 					</Col>
 					<Col xs={12} md={4} className="text-center">
-						<TeamMember
-							image={Team6}
-							name="Powertrain"
-							/>
+						<a href="/autonomous" target="_self" rel="noopener noreferrer">
+							<TeamMember image={Team6} name="Powertrain" />
+						</a>
 					</Col>
 				</Row>
 				<Row className="justify-content-around member-row">
 					<Col xs={12} md={4} className="text-center">
-						<TeamMember
-							image={Team7}
-							name="Leadership"
-							/>
+						<a href="/autonomous" target="_self" rel="noopener noreferrer">
+							<TeamMember image={Team7} name="Leadership" />
+						</a>
 					</Col>
 					<Col xs={12} md={4} className="text-center">
-						<TeamMember
-							image={Team8}
-							name="Work Sessions"
-							/>
+						<a href="/autonomous" target="_self" rel="noopener noreferrer">
+							<TeamMember image={Team8} name="Work Sessions" />
+						</a>
 					</Col>
 					<Col xs={12} md={4} className="text-center">
-						<TeamMember
-							image={Team9}
-							name="Socials"
-							/>
+						<a href="/autonomous" target="_self" rel="noopener noreferrer">
+							<TeamMember image={Team9} name="Socials" />
+						</a>
 					</Col>
 				</Row>
 			</Container>

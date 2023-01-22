@@ -99,7 +99,7 @@ const TeamLeads = () => {
 					</Col>
 					<Col xs={12} md={4} className="text-center">
 						<TeamMember
-					  		image={Member2}
+							image={Member2}
 							name="Chris Leafstrand"
 							role="Chief ME"
 							major="Mechanical Engineering"

@@ -10,8 +10,8 @@ const Join = () => {
 	return (
 		<div className="join">
 			<SiteNavbar sticky="false" bg="#000000" />
-			<br/>
-			<br/>
+			<br />
+			<br />
 			<div className="team-photo">
 				<div className="midsection">
 					<img
@@ -20,15 +20,15 @@ const Join = () => {
 						className="selectDisable recruitImage"
 					/>
 				</div>
-				<br/>
-				<br/>
+				<br />
+				<br />
 				<div className="social-div">
 					<a
 						href="https://www.linkedin.com/company/formulaelectricberkeley/"
 						target="_blank"
 						rel="noopener noreferrer"
 						className="social-link"
-						>
+					>
 						<i className="fa fa-linkedin"></i>
 					</a>
 					<a
@@ -36,26 +36,26 @@ const Join = () => {
 						target="_blank"
 						rel="noopener noreferrer"
 						className="social-link"
-						>
-								<i className="fa fa-instagram"></i>
-							</a>
-							<a
-								href="https://www.facebook.com/formulaelectricberkeley/"
-								target="_blank"
-								rel="noopener noreferrer"
-								className="social-link"
-							>
-								<i className="fa fa-facebook"></i>
-							</a>
-						</div>
-						<br/>
-				<br/>
+					>
+						<i className="fa fa-instagram"></i>
+					</a>
+					<a
+						href="https://www.facebook.com/formulaelectricberkeley/"
+						target="_blank"
+						rel="noopener noreferrer"
+						className="social-link"
+					>
+						<i className="fa fa-facebook"></i>
+					</a>
+				</div>
+				<br />
+				<br />
 				<a href="https://forms.gle/W6P6dyh1r1fKUf3R8">
 					<Button className="button join-button fade-in">
 						<p className="button-text">Interest Form</p>
 					</Button>
 				</a>
-				
+
 				{/*<h3>
 					WE ARE CURRENTLY NOT RECURITING
 				</h3>
@@ -107,7 +107,6 @@ const Join = () => {
 				<br/>
 				
 				<br/>*/}
-
 			</div>
 		</div>
 	);
