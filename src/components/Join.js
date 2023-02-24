@@ -14,14 +14,21 @@ const Join = () => {
 			<br />
 			<div className="team-photo">
 				<div className="midsection">
-					<img
+					{/*<img
 						src={RecruitmentGraphic}
 						alt="meta"
 						className="selectDisable recruitImage"
-					/>
+					/>*/}
 				</div>
 				<br />
 				<br />
+				<h3>
+					WE ARE CURRENTLY NOT RECRUITING
+				</h3>
+				<h5>
+					Check out our socials!
+				</h5>
+				
 				<div className="social-div">
 					<a
 						href="https://www.linkedin.com/company/formulaelectricberkeley/"
@@ -48,16 +55,22 @@ const Join = () => {
 						<i className="fa fa-facebook"></i>
 					</a>
 				</div>
+				<br/>
+				<a href="https://linktr.ee/feberkeley">
+					<Button className="button join-button fade-in">
+						<p className="button-text">Linktree</p>
+					</Button>
+				</a>
 				<br />
 				<br />
-				<a href="https://forms.gle/W6P6dyh1r1fKUf3R8">
+				{/*<a href="https://forms.gle/W6P6dyh1r1fKUf3R8">
 					<Button className="button join-button fade-in">
 						<p className="button-text">Interest Form</p>
 					</Button>
-				</a>
+				</a>*/}
 
 				{/*<h3>
-					WE ARE CURRENTLY NOT RECURITING
+					WE ARE CURRENTLY NOT RECRUITING
 				</h3>
 				<h5>
 					Check out our socials!
