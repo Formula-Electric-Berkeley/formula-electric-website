@@ -1,0 +1,84 @@
+.big-give {
+    height: 100vh;
+    width: 100%;
+    background-color: white !important;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    
+}
+
+
+.big-give .center-horz {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: row;
+}
+
+.big-give .join-button {
+	min-width: 50%;
+	text-transform: uppercase;
+	background: #fdb515;
+	border: none;
+	font-size: 22px;
+	padding: 0.3rem 3rem;
+	border-radius: 9px;
+}
+.big-give .button:hover {
+	background: #003262;
+}
+.big-give .button-text {
+	display: inline-block;
+	position: relative;
+	transition: 0.5s;
+}
+.big-give .button-text:after {
+	content: '\00bb';
+	position: absolute;
+	opacity: 0;
+	top: 0;
+	right: -20px;
+	transition: 0.5s;
+}
+.big-give .button:hover .button-text {
+	padding-right: 25px;
+}
+.big-give .button:hover .button-text:after {
+	opacity: 1;
+	right: 0;
+}
+
+
+@media (max-width: 500px) {
+	.about h3 {
+		font-size: 24px;
+		margin-top: 2.8rem;
+	}
+	.about h4 {
+		font-size: 20px;
+		margin-top: 2.3rem;
+	}
+	.about h5 {
+		font-size: 21px;
+		margin-top: 1rem;
+	}
+	.about hr {
+		width: 80%;
+		margin-top: 0.2rem;
+		margin-bottom: 1rem;
+	}
+	.about p {
+		font-size: 17px;
+	}
+	.body {
+		padding: 0 7%;
+	}
+	.about .credential-container p {
+		margin-bottom: 0.5rem;
+	}
+	.about .team-text {
+		margin-top: 0.2rem;
+	}
+}

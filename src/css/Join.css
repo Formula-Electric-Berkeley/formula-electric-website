@@ -80,6 +80,8 @@
 }
 
 .join .fa {
+	/*separate padding of icons between on the page and navbar (fa is referenced in navbar,
+	so have the icons on "Join Us" reference fa1 in css.*/
 	padding: 50px;
 	font-size: 50px;
 	width: 50px;
