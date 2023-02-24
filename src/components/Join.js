@@ -9,7 +9,7 @@ import Button from 'react-bootstrap/Button';
 const Join = () => {
 	return (
 		<div className="join">
-			<SiteNavbar sticky="false" bg="#000000" />
+			<SiteNavbar bg="#000000" />
 			<br />
 			<br />
 			<div className="team-photo">
