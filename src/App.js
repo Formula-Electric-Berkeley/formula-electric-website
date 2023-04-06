@@ -15,7 +15,7 @@ import Chassis from './components/Chassis';
 import Dynamics from './components/Dynamics';
 import EECS from './components/EECS';
 import Powertrain from './components/Powertrain';
-import TeamLeads  from './components/TeamLeads';
+import TeamLeads from './components/TeamLeads';
 import BigGive from './components/BigGive';
 
 import './css/App.css';
@@ -61,13 +61,12 @@ function App() {
 					<Route path="/powertrain">
 						<Powertrain />
 					</Route>
-					<Route path="/landing">
-						<Landing />
-					</Route>
-					<Route path="/">
+					<Route path="/biggive">
 						<BigGive />
 					</Route>
-					
+					<Route path="/">
+						<Landing />
+					</Route>
 					<Route default>
 						<Error />
 					</Route>

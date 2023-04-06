@@ -38,6 +38,12 @@ const Sponsors = () => {
 						</h4>
 						<hr />
 					</Col>
+					<Col>
+						<h3>
+							Our team of engineers designs and builds a space-frame steel chassis to 
+							contain lithium-ion batteries, AC motors, and high-performance suspension systems.
+						</h3>
+					</Col>
 				</Row>
 				<Row className="justify-content-center">
 					<Col xs={12} sm={6} className="text-center">
