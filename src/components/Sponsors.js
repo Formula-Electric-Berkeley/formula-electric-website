@@ -9,7 +9,7 @@ import Col from 'react-bootstrap/Col';
 import HeaderSponsors from '../img/header-sponsors.png';
 import HeaderSponsorsMobile from '../img/mobile/header-sponsors-mobile.png';
 import SponsorPhotos from '../img/sponsoropaque.png';
-import SponsorPhotosMobile from '../img/mobile/Group 36.png';
+import SponsorPhotosMobile from '../img/mobile/sponsors-mobile-051723.png';
 
 import '../css/Sponsors.css';
 
