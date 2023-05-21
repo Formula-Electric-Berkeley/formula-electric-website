@@ -10,7 +10,8 @@ import Col from 'react-bootstrap/Col';
 import HeaderSubteam from '../img/subteam-headers/header-eecs.png';
 import HeaderSubteamMobile from '../img/mobile/header-about-mobile.png';
 import GalleryRectangle from '../img/gallary-rectangles.png';
-import SubteamGroup from '../img/subteam-photos/eecs_crop.png';
+import SubteamGroup from '../img/subteam-photos/eecs_crop_052123.png';
+import EecsParts from '../img/subteam-photos/eecs_parts_052123.png';
 
 import '../css/Team.css';
 import '../css/Subteam.css';
@@ -67,20 +68,38 @@ const EECS = () => {
 						<hr />
 					</Col>
 				</Row>
-				<Row className="justify-content-center text-center">
-					<Col xs={12} sm={6} className="text-center">
+				<br />
+				<br />
+				<br />
+				<Row className="justify-content-center fade-in">
+					<div  style={{width: "80%"}}>
 						<img
 							src={SubteamGroup}
 							alt="subteam photo"
 							className="header selectDisable large-screen"
 							id="subteam"
 						/>
+					</div>	
+				</Row>
+				<Row className="justify-content-center text-center">
+					<Col xs={12} sm={6} className="text-center">
+						<div style={{width: "75%", marginLeft: "120px", position: "relative", top: "-20px"}}>
+							<img
+								src={EecsParts}
+								alt="subteam photo"
+								className="header selectDisable large-screen"
+								id="subteam"
+							/>
+						</div>
 					</Col>
 					<Col xs={12} sm={5} className="text-center blue">
 						<br />
 						<br />
+						<br />
+						<br />
+						<br />
 
-						<p>
+						<p style={{textTransform: "uppercase", marginLeft: "-10px", fontSize: "15px", width: "90%"}}>
 							The EECS Subteam is responsible for designing High-voltage and
 							Low-voltage electrical systems. The HV system consists of battery
 							pack electrical systems and battery management systems. The LV
