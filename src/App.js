@@ -66,12 +66,12 @@ function App() {
 					<Route path="/biggive">
 						<BigGive />
 					</Route>
-					{/*<Route path="/socials">
+					<Route path="/socials">
 						<Socials />
 					</Route>
 					<Route path="/worksessions">
 						<WorkSessions />
-	</Route>*/}
+					</Route>
 					<Route path="/">
 						<Landing />
 					</Route>
