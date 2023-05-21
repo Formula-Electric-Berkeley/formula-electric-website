@@ -66,7 +66,6 @@ const Chassis = () => {
 				<br />
 				<br />
 				<br />
-				<br />
 				<Row className="justify-content-center fade-in">
 					<div  style={{width: "80%"}}>
 						<img
@@ -80,8 +79,6 @@ const Chassis = () => {
 				
 				<Row className="justify-content-center text-center">
 					<Col xs={12} sm={6} className="text-center">
-						<br />
-						<br />
 						<div  style={{width: "80%", marginLeft: "50px"}} >
 							<img
 								src={ChassisParts}
@@ -92,8 +89,6 @@ const Chassis = () => {
 						</div>
 					</Col>
 					<Col xs={12} sm={5} className="text-center blue">
-						<br />
-						<br />
 						<br />
 						<br />
 						<br />
