@@ -17,6 +17,8 @@ import EECS from './components/EECS';
 import Powertrain from './components/Powertrain';
 import TeamLeads from './components/TeamLeads';
 import BigGive from './components/BigGive';
+import WorkSessions from './components/WorkSessions';
+import Socials from './components/Socials';
 
 import './css/App.css';
 
@@ -64,6 +66,12 @@ function App() {
 					<Route path="/biggive">
 						<BigGive />
 					</Route>
+					{/*<Route path="/socials">
+						<Socials />
+					</Route>
+					<Route path="/worksessions">
+						<WorkSessions />
+	</Route>*/}
 					<Route path="/">
 						<Landing />
 					</Route>

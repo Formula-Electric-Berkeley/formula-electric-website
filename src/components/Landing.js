@@ -102,9 +102,8 @@ const Landing = () => {
 					</Col>
 				</Row>
 			</Container>
-			{
 				<div className="landingmiddle">
-					<h4>Recruitment</h4>
+					{/*<h4>Recruitment</h4>
 					<hr2 />
 					<Row noGutters="true">
 						<div className="midsection">
@@ -114,7 +113,7 @@ const Landing = () => {
 								className="selectDisable recruitImage"
 							/>
 						</div>
-						{/* <div className= "video">
+						<div className= "video">
 			<iframe
 				title="sponsorship"
 				class="responsive-iframe"
@@ -125,7 +124,7 @@ const Landing = () => {
 				allow="accelerometer; autoplay; encrypted-media;
 				gyroscope; picture-in-picture" allowfullscreen>
 			</iframe>
-			</div> */}
+			</div>
 					</Row>
 					<div>
 						<br />
@@ -135,9 +134,8 @@ const Landing = () => {
 								<p className="button-text">Join the Team</p>
 							</Button>
 						</a>
-					</div>
+					</div>*/}
 				</div>
-			}
 		</div>
 	);
 };
