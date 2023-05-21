@@ -11,6 +11,7 @@ import HeaderSubteam from '../img/subteam-headers/header-chassis.png';
 import HeaderSubteamMobile from '../img/mobile/header-about-mobile.png';
 import GalleryRectangle from '../img/gallary-rectangles.png';
 import SubteamGroup from '../img/subteam-photos/chassis_crop_051923.png';
+import ChassisParts from '../img/subteam-photos/chassis_parts_052123.png';
 
 import '../css/Subteam.css';
 
@@ -62,30 +63,41 @@ const Chassis = () => {
 						<hr />
 					</Col>
 				</Row>
+				<br />
+				<br />
+				<br />
+				<br />
 				<Row className="justify-content-center fade-in">
-				<Col xs={12} sm={6} className="text-center">
+					<div  style={{width: "80%"}}>
 						<img
 							src={SubteamGroup}
 							alt="subteam photo"
 							className="header selectDisable large-screen"
 							id="subteam"
 						/>
-					</Col>
+					</div>	
 				</Row>
+				
 				<Row className="justify-content-center text-center">
 					<Col xs={12} sm={6} className="text-center">
-						<img
-							src={SubteamGroup}
-							alt="subteam photo"
-							className="header selectDisable large-screen"
-							id="subteam"
-						/>
+						<br />
+						<br />
+						<div  style={{width: "80%", marginLeft: "50px"}} >
+							<img
+								src={ChassisParts}
+								alt="subteam photo"
+								className="header selectDisable large-screen"
+								id="subteam"
+							/>
+						</div>
 					</Col>
 					<Col xs={12} sm={5} className="text-center blue">
 						<br />
 						<br />
-
-						<p style={{textTransform: "uppercase",}}>
+						<br />
+						<br />
+						<br />
+						<p style={{textTransform: "uppercase", marginRight: "60px", fontSize: "15px"}}>
 							The Chassis Team works on a wide variety of components on the car,
 							ranging from the design and development of our spaceframe to our
 							braking system and bodywork. We are also responsible for battery
@@ -98,6 +110,11 @@ const Chassis = () => {
 					</Col>
 				</Row>
 				<Row className="justify-content-center"></Row>
+				<br />
+				<br />
+				<br />
+				<br />
+				<br />
 			</Container>
 		</div>
 	);
