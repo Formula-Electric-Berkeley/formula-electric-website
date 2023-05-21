@@ -10,7 +10,8 @@ import Col from 'react-bootstrap/Col';
 import HeaderSubteam from '../img/subteam-headers/header-powertrain.png';
 import HeaderSubteamMobile from '../img/mobile/header-about-mobile.png';
 import GalleryRectangle from '../img/gallary-rectangles.png';
-import SubteamGroup from '../img/subteam-photos/powertrain_crop.png';
+import SubteamGroup from '../img/subteam-photos/powertrain_crop_052123.png';
+import PowertrainParts from '../img/subteam-photos/powertrain_parts_052123.png';
 
 import '../css/Subteam.css';
 
@@ -62,17 +63,36 @@ const Powertrain = () => {
 						<hr />
 					</Col>
 				</Row>
-				<Row className="justify-content-center text-center">
-					<Col xs={12} sm={6} className="text-center">
+				<br />
+				<br />
+				<br />
+				<Row className="justify-content-center fade-in">
+					<div  style={{width: "80%"}}>
 						<img
 							src={SubteamGroup}
 							alt="subteam photo"
 							className="header selectDisable large-screen"
 							id="subteam"
 						/>
+					</div>	
+				</Row>
+				<br />
+				<br />
+				<br />
+				<Row className="justify-content-center text-center">
+					<Col xs={12} sm={6} className="text-center">
+						<div style={{width: "75%", marginLeft: "120px", position: "relative", top: "-90px"}}>
+							<img
+								src={PowertrainParts}
+								alt="subteam photo"
+								className="header selectDisable large-screen"
+								id="subteam"
+							/>
+						</div>
 					</Col>
+					
 					<Col xs={12} sm={5} className="text-center blue">
-						<p>
+						<p style={{textTransform: "uppercase", marginLeft: "-5px", fontSize: "15px", width: "88%"}}>
 							The Powertrain of the electric formula car transfers raw power,
 							torque, and speed to the wheels. It all starts with the electric
 							motors of the car, which convert the electrical/chemical energy
