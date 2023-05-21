@@ -107,6 +107,16 @@ const Dynamics = () => {
 				</Row>
 				<Row className="justify-content-center"></Row>
 			</Container>
+			<br />
+            <br />
+            <br />
+            <br />
+            <br />
+			<br />
+            <br />
+            <br />
+            <br />
+            <br />
 		</div>
 	);
 };
