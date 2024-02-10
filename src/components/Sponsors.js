@@ -8,7 +8,7 @@ import Col from 'react-bootstrap/Col';
 
 import HeaderSponsors from '../img/header-sponsors.png';
 import HeaderSponsorsMobile from '../img/mobile/header-sponsors-mobile.png';
-import SponsorPhotos from '../img/sponsors-web-062823.png';
+import SponsorPhotos from '../img/sponsor.png';
 import SponsorPhotosMobile from '../img/mobile/sponsors-mobile-062823.png';
 
 import '../css/Sponsors.css';
