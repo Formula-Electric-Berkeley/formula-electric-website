@@ -16,9 +16,7 @@ import EecsParts from '../img/subteam-photos/eecs_parts_052123.png';
 import '../css/Team.css';
 import '../css/Subteam.css';
 
-import TeamMember from './TeamMember';
-import Member1 from '../img/team-members/1.jpg';
-import Member2 from '../img/team-members/2.jpg';
+
 
 const EECS = () => {
 	$(document).ready(function () {
