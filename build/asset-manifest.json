@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.069d1170.chunk.css",
-    "main.js": "/static/js/main.9fa64258.chunk.js",
-    "main.js.map": "/static/js/main.9fa64258.chunk.js.map",
+    "main.css": "/static/css/main.6b9175d2.chunk.css",
+    "main.js": "/static/js/main.4b64612b.chunk.js",
+    "main.js.map": "/static/js/main.4b64612b.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.24453138.js",
     "runtime-main.js.map": "/static/js/runtime-main.24453138.js.map",
     "static/js/2.a0d41fe9.chunk.js": "/static/js/2.a0d41fe9.chunk.js",
     "static/js/2.a0d41fe9.chunk.js.map": "/static/js/2.a0d41fe9.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.54d91a70018f3a7a39c9f2fc4d4e3857.js": "/precache-manifest.54d91a70018f3a7a39c9f2fc4d4e3857.js",
+    "precache-manifest.8040f4e41e1f85de35157df7f48417cc.js": "/precache-manifest.8040f4e41e1f85de35157df7f48417cc.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.069d1170.chunk.css.map": "/static/css/main.069d1170.chunk.css.map",
+    "static/css/main.6b9175d2.chunk.css.map": "/static/css/main.6b9175d2.chunk.css.map",
     "static/js/2.a0d41fe9.chunk.js.LICENSE.txt": "/static/js/2.a0d41fe9.chunk.js.LICENSE.txt",
     "static/media/Akshat.jpeg": "/static/media/Akshat.ff5c4992.jpeg",
     "static/media/Alex Lu.JPG": "/static/media/Alex Lu.f633bb77.JPG",
@@ -20,7 +20,6 @@
     "static/media/Caroline Johnson.JPG": "/static/media/Caroline Johnson.0d742722.JPG",
     "static/media/Chris.jpg": "/static/media/Chris.3a064fe2.jpg",
     "static/media/Daniel Pack.jpg": "/static/media/Daniel Pack.7248cacd.jpg",
-    "static/media/Landing.css": "/static/media/header-landing-mobile.a0611957.png",
     "static/media/Leo Jiang.jpg": "/static/media/Leo Jiang.d8c9e388.jpg",
     "static/media/Ming Chin.jpg": "/static/media/Ming Chin.1c5b8ea5.jpg",
     "static/media/RecruitmentTimeline.png": "/static/media/RecruitmentTimeline.f73e7a3f.png",
@@ -55,6 +54,7 @@
     "static/media/header-chassis.png": "/static/media/header-chassis.2987839d.png",
     "static/media/header-dynamics.png": "/static/media/header-dynamics.119c2651.png",
     "static/media/header-eecs.png": "/static/media/header-eecs.fd4f033f.png",
+    "static/media/Landing.css": "/static/media/meta-image.8336e84c.png",
     "static/media/header-powertrain.png": "/static/media/header-powertrain.c927a910.png",
     "static/media/header-socials-052123.png": "/static/media/header-socials-052123.085058a9.png",
     "static/media/header-sponsors-mobile.png": "/static/media/header-sponsors-mobile.ae8261d1.png",
@@ -67,7 +67,6 @@
     "static/media/inclusivity.png": "/static/media/inclusivity.4a7de6db.png",
     "static/media/landing-description-photo.png": "/static/media/landing-description-photo.9c2a1354.png",
     "static/media/leadership.png": "/static/media/leadership.35375466.png",
-    "static/media/meta-image.png": "/static/media/meta-image.651d2f16.png",
     "static/media/nikhil.jpg": "/static/media/nikhil.6c37e5b0.jpg",
     "static/media/our-car.png": "/static/media/our-car.1e680ebe.png",
     "static/media/pm-quirky.png": "/static/media/pm-quirky.c689ffa0.png",
@@ -85,7 +84,7 @@
   "entrypoints": [
     "static/js/runtime-main.24453138.js",
     "static/js/2.a0d41fe9.chunk.js",
-    "static/css/main.069d1170.chunk.css",
-    "static/js/main.9fa64258.chunk.js"
+    "static/css/main.6b9175d2.chunk.css",
+    "static/js/main.4b64612b.chunk.js"
   ]
 }
