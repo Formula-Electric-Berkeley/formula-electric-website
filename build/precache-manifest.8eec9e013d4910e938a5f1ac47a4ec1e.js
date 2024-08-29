@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1ae0eb816726628570b25b74b84516aa",
+    "revision": "55bbc07ba20a96b273200c776e85ab8c",
     "url": "/index.html"
   },
   {
-    "revision": "31bf3d09bfd9a3223fb8",
+    "revision": "04dbd5ef766c611216da",
     "url": "/static/css/main.6b9175d2.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.a0d41fe9.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "31bf3d09bfd9a3223fb8",
-    "url": "/static/js/main.4b64612b.chunk.js"
+    "revision": "04dbd5ef766c611216da",
+    "url": "/static/js/main.5e4ac2fd.chunk.js"
   },
   {
     "revision": "c1020dea322798db15f3",
@@ -84,8 +84,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Smit Malde.4c254f69.jpg"
   },
   {
-    "revision": "a7100a06d337713b5f085f9ad85a234b",
-    "url": "/static/media/Toshko.a7100a06.jpg"
+    "revision": "efc662848261d7355d432b983bfbce32",
+    "url": "/static/media/Toshko.efc66284.jpg"
   },
   {
     "revision": "24a354d58996e86bf6474764b5adab70",

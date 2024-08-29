@@ -3,6 +3,7 @@ import $ from 'jquery';
 
 import SiteNavbar from './SiteNavbar';
 import RecruitmentGraphic from '../img/RecruitmentTimeline.png';
+import RecruitmentGraphicFa24 from '../img/RecruitmentTimelineFall24.png';
 
 import '../css/Join.css';
 import Button from 'react-bootstrap/Button';
@@ -41,19 +42,19 @@ const Join = () => {
 			<br />
 			<div className="team-photo">
 				<div className="midsection">
-					{/*<img
-						src={RecruitmentGraphic}
+					{<img
+						src={RecruitmentGraphicFa24}
 						alt="meta"
 						className="selectDisable recruitImage"
-					/>*/}
+	/>}
 				</div>
 				<br />
 				<br />
-				<h3>
+				{/*<h3>
 					WE ARE CURRENTLY NOT RECRUITING
-				</h3>
+					</h3>*/}
 				<h5>
-					Check out our socials!
+				Follow our instagram @/formulaelectricberkeley for more updates!
 				</h5>
 				
 				<div className="social-div">
