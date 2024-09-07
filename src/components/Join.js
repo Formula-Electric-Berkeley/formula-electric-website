@@ -3,7 +3,7 @@ import $ from 'jquery';
 
 import SiteNavbar from './SiteNavbar';
 import RecruitmentGraphic from '../img/RecruitmentTimeline.png';
-import RecruitmentGraphicFa24 from '../img/RecruitmentTimelineFall24.png';
+import RecruitmentGraphicFa24 from '../img/RecruitmentTimelineFall24WithDates.jpg';
 
 import '../css/Join.css';
 import Button from 'react-bootstrap/Button';
@@ -40,7 +40,11 @@ const Join = () => {
 			<SiteNavbar bg="#000000" />
 			<br />
 			<br />
+	
 			<div className="team-photo">
+			<h3>
+					FALL 24 RECRUITING!!!
+			</h3>
 				<div className="midsection">
 					{<img
 						src={RecruitmentGraphicFa24}
