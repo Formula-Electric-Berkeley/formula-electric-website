@@ -42,7 +42,7 @@ const Join = () => {
 			<br />
 	
 			<div className="team-photo">
-			<h3>
+			{/*<h3>
 					FALL 24 RECRUITING!!!
 			</h3>
 				<div className="midsection">
@@ -54,9 +54,11 @@ const Join = () => {
 				</div>
 				<br />
 				<br />
-				{/*<h3>
-					WE ARE CURRENTLY NOT RECRUITING
-					</h3>*/}
+					*/}
+				<h3 style={{textAlign:"center"}}>
+					We are currently not recruiting. Please check back Spring 2025!
+					</h3>
+				
 				<h5>
 				Follow our instagram @/formulaelectricberkeley for more updates!
 				</h5>
