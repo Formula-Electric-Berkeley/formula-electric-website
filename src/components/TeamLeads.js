@@ -12,7 +12,7 @@ import HeaderTeam from '../img/header-teamleads.png';
 import HeaderTeamMobile from '../img/mobile/header-team-mobile.png';
 import PMQuirky from '../img/pm-quirky.png';
 import Member1 from '../img/team-members/Weston White.jpeg';
-import Member2 from '../img/team-members/Toshko.jpg';
+import Member2 from '../img/team-members/Toshko Headshot.jpg';
 import Member3 from '../img/team-members/Chris.jpg';
 import Member4 from '../img/team-members/Smit Malde.jpg';
 import Member5 from '../img/team-members/Sarah Cheng.JPG';
