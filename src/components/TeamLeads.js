@@ -11,24 +11,27 @@ import Col from 'react-bootstrap/Col';
 import HeaderTeam from '../img/header-teamleads.png';
 import HeaderTeamMobile from '../img/mobile/header-team-mobile.png';
 import PMQuirky from '../img/pm-quirky.png';
-import Member1 from '../img/team-members/Weston White.jpeg';
+import Member1 from '../img/team-members/Caroline Johnson.jpeg';
 import Member2 from '../img/team-members/Toshko Headshot.jpg';
-import Member3 from '../img/team-members/Chris.jpg';
+import Member3 from '../img/team-members/Mia Headshot.jpg';
 import Member4 from '../img/team-members/Smit Malde.jpg';
-import Member5 from '../img/team-members/Sarah Cheng.JPG';
-import Member6 from '../img/team-members/Leo Jiang.jpg';
-import Member7 from '../img/team-members/Amal Malde.jpg';
-import Member8 from '../img/team-members/Alex Lu.JPG';
+import Member5 from '../img/team-members/Greta Headshot.JPG';
+import Member6 from '../img/team-members/Sri Headshot.jpg';
+import Member7 from '../img/team-members/Kimberly Headshot.jpg';
+import Member8 from '../img/team-members/Kavin Headshot.JPG';
 import Member9 from '../img/team-members/nikhil.jpg';
 import Member10 from '../img/team-members/Daniel Pack.jpg';
-import Member11 from '../img/team-members/Caroline Johnson.JPG';
-import Member12 from '../img/team-members/Ming Chin.jpg';
-import Member13 from '../img/team-members/Can Aydin.JPG';
-import Member14 from '../img/team-members/Akshat.jpeg';
+import Member11 from '../img/team-members/Bailey Headshot.JPG';
+import Member12 from '../img/team-members/Allen Headshot.jpg';
+import Member13 from '../img/team-members/Duncan Headshot.JPG';
+import Member14 from '../img/team-members/Arnav Headshot.jpeg';
 import Member15 from '../img/team-members/Ben Kao.jpg';
 import Member16 from '../img/team-members/Rohan.jpg';
-import Member17 from '../img/team-members/Valerie He.jpg';
+import Member17 from '../img/team-members/Daniel Headshot.jpg';
 import Member18 from '../img/team-members/Santiago Hopkins.jpg';
+import Member19 from '../img/team-members/Frances Headshot.jpg';
+import Member20 from '../img/team-members/Valerie Headshot.jpg';
+import Member21 from '../img/team-members/Santiago Hopkins.jpg';
 
 import '../css/Team.css';
 
@@ -94,9 +97,9 @@ const TeamLeads = () => {
 					<Col xs={12} md={4} className="text-center">
 						<TeamMember
 							image={Member1}
-							name="Weston White"
-							role="President"
-							major="Mechanical Engineering"
+							name="Caroline Johnson"
+							role="Chief Mechanical Engineer"
+							major="Chemical Engineering and Mechanical Engineering"
 						/>
 					</Col>
 					<Col xs={12} md={4} className="text-center">
@@ -104,15 +107,15 @@ const TeamLeads = () => {
 							image={Member2}
 							name="Toshko Andreev"
 							role="President"
-							major="Mechanical Engineering & EECS Minor"
+							major="Mechanical Engineering"
 						/>
 					</Col>
 					<Col xs={12} md={4} className="text-center">
 						<TeamMember
 							image={Member3}
-							name="Chris Leafstrand"
-							role="Chief Mechanical Engineer"
-							major="Mechanical Engineering & EECS Minor"
+							name="Mia Galatis"
+							role="Vice President"
+							major="Mechanical Engineering"
 						/>
 					</Col>
 				</Row>
@@ -128,17 +131,17 @@ const TeamLeads = () => {
 					<Col xs={12} md={4} className="text-center">
 						<TeamMember
 							image={Member5}
-							name="Sarah Cheng"
+							name="Greta Mixon"
 							role="Business and Operations Lead"
-							major="Business Administration"
+							major="Data Science"
 						/>
 					</Col>
 					<Col xs={12} md={4} className="text-center">
 						<TeamMember
 							image={Member6}
-							name="Leo Jiang"
+							name="Sricharan Guddanti"
 							role="Autonomous Lead"
-							major="Computer Science"
+							major="Electrical Engineering and Computer Science"
 						/>
 					</Col>
 				</Row>
@@ -146,7 +149,7 @@ const TeamLeads = () => {
 					<Col xs={12} md={4} className="text-center">
 						<TeamMember
 							image={Member7}
-							name="Amal Malde"
+							name="Kimberly Duong"
 							role="Electrical Engineering Lead"
 							major="Electrical Engineering and Computer Science"
 						/>
@@ -154,15 +157,15 @@ const TeamLeads = () => {
 					<Col xs={12} md={4} className="text-center">
 						<TeamMember
 							image={Member8}
-							name="Alex Lu"
+							name="Kavin Vasudevan"
 							role="Computer Science Lead"
-							major="Computer Science"
+							major="Computer Science and Data Science"
 						/>
 					</Col>
 					<Col xs={12} md={4} className="text-center">
 						<TeamMember
 							image={Member9}
-							name="Nikhil Ograin"
+							name="Rick Huang"
 							role="Accumulator EE Lead"
 							major="Electrical Engineering and Computer Science"
 						/>
@@ -172,25 +175,25 @@ const TeamLeads = () => {
 					<Col xs={12} md={4} className="text-center">
 						<TeamMember
 							image={Member10}
-							name="Daniel Pack"
+							name="Adrita Chakraborty"
 							role="Accumulator Mechanical Lead"
-							major="Mechanical Engineering and Business Administration"
+							major="Mechanical Engineering"
 						/>
 					</Col>
 					<Col xs={12} md={4} className="text-center">
 						<TeamMember
 							image={Member11}
-							name="Caroline Johnson"
+							name="Bailey Monti"
 							role="Manufacturing PM"
-							major="Chemical Engineering"
+							major="Mechanical Engineering"
 						/>
 					</Col>
 					<Col xs={12} md={4} className="text-center">
 						<TeamMember
 							image={Member12}
-							name="Ming Chin"
+							name="Alan Yang"
 							role="Aerodynamics Lead"
-							major="Mechanical Engineering"
+							major="Aerospace Engineering"
 						/>
 					</Col>
 				</Row>
@@ -198,25 +201,25 @@ const TeamLeads = () => {
 					<Col xs={12} md={4} className="text-center">
 						<TeamMember
 							image={Member13}
-							name="Can Aydin"
+							name="Duncan Ritchie"
 							role="Powertrain Lead"
-							major="Mechanical Engineering"
+							major="Materials Science and Engineering"
 						/>
 					</Col>
 					<Col xs={12} md={4} className="text-center">
 						<TeamMember
 							image={Member14}
-							name="Akshat Kumar"
+							name="Arnav Patel"
 							role="Chassis Lead"
-							major="Mechanical Engineering"
+							major="Mechanical Engineering and Eletrical Engineering and Computer Science"
 						/>
 					</Col>
 					<Col xs={12} md={4} className="text-center">
 						<TeamMember
 							image={Member15}
-							name="Benjamin Kao"
+							name="Nick Lenoff"
 							role="Simulations PM"
-							major="Mechanical Engineering and Material Science and Engineering"
+							major="Data Science"
 						/>
 					</Col>
 				</Row>
@@ -224,14 +227,40 @@ const TeamLeads = () => {
 					<Col xs={12} md={4} className="text-center">
 						<TeamMember
 							image={Member16}
-							name="Rohan Aggarwal"
+							name="Athul Krishnan"
 							role="Dynamics PM"
-							major="Mechanical Engineering"
+							major="Mechanical Engineering and Electrical Engineering and Computer Science"
 						/>
 					</Col>
 					<Col xs={12} md={4} className="text-center">
 						<TeamMember
 							image={Member17}
+							name="Daniel Municio"
+							role="Autonomous Software PM"
+							major="Applied Math"
+						/>
+					</Col>
+					<Col xs={12} md={4} className="text-center">
+						<TeamMember
+							image={Member18}
+							name="Reid Dye"
+							role="Autonomous Mechanical Systems PM"
+							major="Mechanical Engineering and Electrical Engineering and Computer Science minor"	
+						/>
+					</Col>
+				</Row>
+				<Row className="justify-content-around member-row">
+					<Col xs={12} md={4} className="text-center">
+						<TeamMember
+							image={Member19}
+							name="Frances Wong"
+							role="Finance PM"
+							major="Political Economy"
+						/>
+					</Col>
+					<Col xs={12} md={4} className="text-center">
+						<TeamMember
+							image={Member20}
 							name="Valerie He"
 							role="Outreach PM"
 							major="Electrical Engineering and Computer Science"
@@ -239,10 +268,10 @@ const TeamLeads = () => {
 					</Col>
 					<Col xs={12} md={4} className="text-center">
 						<TeamMember
-							image={Member18}
-							name="Santiago Hopkins"
-							role="Autonomous Mechanical Systems PM"
-							major="Mechanical Engineering and City Planning"
+							image={Member21}
+							name="Zoe Flemate"
+							role="Operation PM"
+							major="Geography"
 						/>
 					</Col>
 				</Row>
